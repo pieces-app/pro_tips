@@ -1,4 +1,4 @@
-# Navigating with the Power Menu
+# Navigating the Desktop App UI with the Power Menu
 
 ## What is the Power Menu?
 
