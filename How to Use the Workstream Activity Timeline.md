@@ -1,4 +1,4 @@
-# How to Use Workstream Activity
+# How to Use the Workstream Activity Timeline
 
 ## What is Workstream Activity?
 
