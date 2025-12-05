@@ -33,6 +33,10 @@ The best way to get what you need from LTM is to combine these elements in your 
 
 The more of these you include, the better your results will be. But don't overthink it—start with what you remember, and Pieces will help you find the rest.
 
+> **Important:** For any given chat, you must activate the **"LTM Context"** or **"Long-Term Memory Context"** button in the chat interface to access LTM context. Without activating this button, Pieces Copilot won't be able to search your Long-Term Memory, even if you use the perfect query structure.
+
+![](https://storage.googleapis.com/pieces_static_resources/pro_tips/ltm_context_button.png)
+
 ---
 
 ## 1. Time References

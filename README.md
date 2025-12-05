@@ -1,6 +1,6 @@
-# Pro Tips: Mastering Long-Term Memory in Pieces
+# Pro Tips: Mastering Pieces
 
-A collection of pro tips for mastering Long-Term Memory (LTM) in Pieces Copilot—unlock smarter workflows, richer context, and more powerful AI assistance.
+A collection of pro tips for mastering Pieces—unlock smarter workflows, richer context, and more powerful AI assistance with Long-Term Memory, Workstream Activity, and efficient navigation.
 
 ## What is Long-Term Memory?
 
@@ -10,7 +10,7 @@ Think of it like having a perfect memory of everything you've worked on, researc
 
 ## What's in This Repository
 
-This repository contains practical guides and examples to help you master LTM queries and get the most out of Pieces Copilot:
+This repository contains practical guides and examples to help you master LTM queries, Workstream Activity, and navigation in Pieces:
 
 ### 📚 [Getting the Most out of LTM in Pieces Copilot](./Getting%20the%20Most%20out%20of%20LTM%20in%20Pieces%20Copilot.md)
 
@@ -30,11 +30,31 @@ Tested, practical examples organized by use case:
 - **Query construction patterns** and best practices
 - **Usage recommendations** for integrating LTM into your workflow
 
+### 📊 [Getting the Most out of Workstream Activity](./Getting%20the%20Most%20out%20of%20Workstream%20Activity.md)
+
+A guide to your automatic work journal:
+- **How Workstream Activity works**: Event capture and 20-minute summary generation
+- **Timeline view**: Browse, search, and interact with your work history
+- **Interactive summaries**: View, search, start chats, and share
+- **Pro tips** for maximizing value from your workstream summaries
+- **Common workflows** for context restoration and daily planning
+
+### 🚀 [Navigating with the Power Menu](./Navigating%20with%20the%20Power%20Menu.md)
+
+Master navigation in Pieces:
+- **What the Power Menu is** and how to access it
+- **Quick navigation** between Workstream Activity and Pieces Copilot
+- **Keyboard shortcuts** and search tips
+- **Common workflows** for seamless context switching
+- **Pro tips** for staying in the flow
+
 ## Quick Start
 
 1. **New to LTM?** Start with the comprehensive guide to understand the fundamentals
 2. **Ready to practice?** Jump to the 10 example queries and try them yourself
-3. **Want to master it?** Experiment with combining different query elements and refine your approach
+3. **Want to master Workstream Activity?** Learn how your automatic work journal captures and summarizes your work
+4. **Need to navigate faster?** Master the Power Menu to jump between views seamlessly
+5. **Want to master it all?** Experiment with combining different query elements and refine your approach
 
 ## Key Principles
 
@@ -66,4 +86,4 @@ For questions or support, reach out to your Pieces administrator or check out th
 
 ---
 
-*Unlock the full potential of your work history with Pieces Long-Term Memory.*
+*Unlock the full potential of your work with Pieces—master LTM queries, Workstream Activity, and efficient navigation.*
