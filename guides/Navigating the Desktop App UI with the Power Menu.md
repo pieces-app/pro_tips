@@ -104,7 +104,7 @@ The Power Menu is your fast track to navigating Pieces. Whether you're jumping b
 - **Keyboard Shortcuts** — Learn the hotkey for even faster access
 - **Workflow Integration** — Seamlessly connect Workstream Activity and Copilot
 
-Master the Power Menu, and you'll navigate Pieces like a pro.
+Learn the Power Menu, and you'll navigate Pieces like a pro.
 
 ---
 
