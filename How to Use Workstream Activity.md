@@ -1,4 +1,4 @@
-# Getting the Most out of Workstream Activity
+# How to Use Workstream Activity
 
 ## What is Workstream Activity?
 

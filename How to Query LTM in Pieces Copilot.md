@@ -1,4 +1,4 @@
-# Getting the Most out of LTM in Pieces Copilot
+# How to Query LTM in Pieces Copilot
 
 ## What is Long-Term Memory?
 

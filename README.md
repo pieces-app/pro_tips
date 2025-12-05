@@ -12,7 +12,7 @@ Think of it like having a perfect memory of everything you've worked on, researc
 
 This repository contains practical guides and examples to help you master LTM queries, Workstream Activity, and navigation in Pieces:
 
-### 📚 [Getting the Most out of LTM in Pieces Copilot](./Getting%20the%20Most%20out%20of%20LTM%20in%20Pieces%20Copilot.md)
+### 📚 [How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md)
 
 A comprehensive guide covering:
 - **The 5 Keys to Great LTM Queries**: Time, Source, Gestures, Topic, and People
@@ -30,7 +30,7 @@ Tested, practical examples organized by use case:
 - **Query construction patterns** and best practices
 - **Usage recommendations** for integrating LTM into your workflow
 
-### 📊 [Getting the Most out of Workstream Activity](./Getting%20the%20Most%20out%20of%20Workstream%20Activity.md)
+### 📊 [How to Use Workstream Activity](./How%20to%20Use%20Workstream%20Activity.md)
 
 A guide to your automatic work journal:
 - **How Workstream Activity works**: Event capture and 20-minute summary generation
