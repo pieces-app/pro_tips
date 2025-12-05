@@ -1,4 +1,4 @@
-# The Day After \- 10 Example Pieces LTM Queries
+# 10 Queries to Ask Pieces LTM after 24-48 Hour of Background Memory Formations
 
 These queries have been tested with real LTM data to demonstrate practical usage patterns after 24 hours of memory formation.
 
