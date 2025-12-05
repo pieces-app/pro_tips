@@ -12,7 +12,7 @@ Think of it like having a perfect memory of everything you've worked on, researc
 
 This repository contains practical guides and examples to help you master LTM queries, Workstream Activity, and navigation in Pieces:
 
-### 📚 [How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md)
+### 📚 [How to Query LTM in Pieces Copilot](./guides/How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md)
 
 A comprehensive guide covering:
 - **The 5 Keys to Great LTM Queries**: Time, Source, Gestures, Topic, and People
@@ -21,7 +21,7 @@ A comprehensive guide covering:
 - **Troubleshooting tips** when queries don't return what you need
 - **Quick reference** cheat sheets for common patterns
 
-### 🎯 [The Day After - 10 Example Pieces LTM Queries](./The%20Day%20After%20-%2010%20Example%20Pieces%20LTM%20Queries.md)
+### 🎯 [The Day After - 10 Example Pieces LTM Queries](./guides/The%20Day%20After%20-%2010%20Example%20Pieces%20LTM%20Queries.md)
 
 Tested, practical examples organized by use case:
 - **5 Daily Work Queries**: Standup generators, command line power user patterns, context restoration
@@ -30,7 +30,7 @@ Tested, practical examples organized by use case:
 - **Query construction patterns** and best practices
 - **Usage recommendations** for integrating LTM into your workflow
 
-### 📊 [How to Use Workstream Activity](./How%20to%20Use%20Workstream%20Activity.md)
+### 📊 [How to Use the Workstream Activity Timeline](./guides/How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md)
 
 A guide to your automatic work journal:
 - **How Workstream Activity works**: Event capture and 20-minute summary generation
@@ -39,7 +39,7 @@ A guide to your automatic work journal:
 - **Pro tips** for maximizing value from your workstream summaries
 - **Common workflows** for context restoration and daily planning
 
-### 🚀 [Navigating with the Power Menu](./Navigating%20with%20the%20Power%20Menu.md)
+### 🚀 [Navigating the Desktop App UI with the Power Menu](./guides/Navigating%20the%20Desktop%20App%20UI%20with%20the%20Power%20Menu.md)
 
 Master navigation in Pieces:
 - **What the Power Menu is** and how to access it
