@@ -12,15 +12,6 @@ Think of it like having a perfect memory of everything you've worked on, researc
 
 This repository contains practical guides and examples to help you get the most out of LTM queries, Workstream Activity, and navigation in Pieces:
 
-### 📚 [How to Query LTM in Pieces Copilot](./guides/How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md)
-
-A comprehensive guide covering:
-- **The 5 Keys to Great LTM Queries**: Time, Source, Gestures, Topic, and People
-- **Detailed strategies** for each query element with real-world examples
-- **Combining strategies** for maximum effectiveness
-- **Troubleshooting tips** when queries don't return what you need
-- **Quick reference** cheat sheets for common patterns
-
 ### 🎯 [10 Queries To Ask Pieces LTM after 24-48 Hours of Background Memory Formation](./guides/10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md)
 
 Tested, practical examples organized by use case:
@@ -29,6 +20,15 @@ Tested, practical examples organized by use case:
 - **2 Analytical Queries**: Time efficiency audits, code pattern identification
 - **Query construction patterns** and best practices
 - **Usage recommendations** for integrating LTM into your workflow
+
+### 📚 [How to Query LTM in Pieces Copilot](./guides/How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md)
+
+A comprehensive guide covering:
+- **The 5 Keys to Great LTM Queries**: Time, Source, Gestures, Topic, and People
+- **Detailed strategies** for each query element with real-world examples
+- **Combining strategies** for maximum effectiveness
+- **Troubleshooting tips** when queries don't return what you need
+- **Quick reference** cheat sheets for common patterns
 
 ### 📊 [How to Use the Workstream Activity Timeline](./guides/How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md)
 
@@ -50,8 +50,8 @@ Navigate efficiently in Pieces:
 
 ## Quick Start
 
-1. **New to LTM?** Start with the comprehensive guide to understand the fundamentals
-2. **Ready to practice?** Jump to the 10 example queries and try them yourself
+1. **Ready to practice?** Start with the 10 example queries and try them yourself
+2. **New to LTM?** Dive into the comprehensive guide to understand the fundamentals
 3. **Want to get the most out of Workstream Activity?** Learn how your automatic work journal captures and summarizes your work
 4. **Need to navigate faster?** Learn the Power Menu to jump between views seamlessly
 5. **Want to become a power user?** Experiment with combining different query elements and refine your approach
