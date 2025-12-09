@@ -10,7 +10,13 @@ Snap is a universal package management system for Linux that makes it easy to in
 
 ---
 
+> **Important:** Before updating either package, make sure **both** the Pieces Desktop App and PiecesOS are completely shut down. This ensures a clean update process and prevents conflicts.
+
+---
+
 ## Updating pieces-for-developers (Pieces Desktop App)
+
+> **Shutdown Order:** Always quit the Pieces Desktop App **first**, then quit PiecesOS. This order is important to prevent issues during the update process.
 
 ### 1. Quit the Application
 
@@ -75,7 +81,11 @@ You should now see the latest version listed as installed.
 
 ### 5. Launch the Application
 
-Open the Pieces Desktop App to start using the updated version:
+> **Launch Order:** After updating, always launch PiecesOS **first**, then launch the Desktop App. The Desktop App may try to auto-launch PiecesOS during bootup, which can cause issues. Launching PiecesOS manually first ensures proper initialization.
+
+**Do not launch the Desktop App yet.** First, update and launch PiecesOS (see the next section), then come back to launch the Desktop App.
+
+To launch the Pieces Desktop App after PiecesOS is running:
 
 ```bash
 pieces-for-developers
@@ -150,6 +160,8 @@ You should see the latest version now installed.
 
 ### 5. Start PiecesOS
 
+> **Launch Order:** Always start PiecesOS **first** before launching the Desktop App. This ensures PiecesOS is properly initialized and prevents the Desktop App from encountering issues when it tries to connect.
+
 Start the PiecesOS service with the updated version:
 
 ```bash
@@ -158,15 +170,19 @@ pieces-os
 
 The service will now be running with the latest version.
 
+**After PiecesOS is running, you can now launch the Pieces Desktop App** (see step 5 in the "Updating pieces-for-developers" section above).
+
 ---
 
 ## Updating Both Packages Together
 
-Before updating both packages, make sure to:
-1. **Quit the Pieces Desktop App** - Close the window using the "X" button (GUI) or use the command line method
-2. **Quit PiecesOS** - Use the GUI (right-click system tray icon and select "Quit") or command line method
+> **Important:** When updating both packages, always ensure both are completely shut down before updating, and always launch PiecesOS first, then the Desktop App.
 
-Then you can update both Pieces packages at once using either method:
+Before updating both packages, make sure to quit both applications in this order:
+1. **Quit the Pieces Desktop App first** - Close the window using the "X" button (GUI) or use the command line method
+2. **Then quit PiecesOS** - Use the GUI (right-click system tray icon and select "Quit") or command line method
+
+Wait a moment after quitting both to ensure they're fully shut down, then you can update both Pieces packages at once using either method:
 
 ### Option 1: Update Both Specifically
 
@@ -183,6 +199,24 @@ sudo snap refresh
 ```
 
 This will update all Snap packages that have available updates.
+
+### After Updating Both Packages
+
+After the update completes, launch the applications in this order:
+
+1. **Start PiecesOS first:**
+   ```bash
+   pieces-os
+   ```
+
+2. **Wait a moment** for PiecesOS to fully initialize
+
+3. **Then launch the Desktop App:**
+   ```bash
+   pieces-for-developers
+   ```
+
+> **Remember:** Always launch PiecesOS before the Desktop App to prevent auto-launch conflicts.
 
 ---
 
@@ -240,12 +274,12 @@ If an update fails, try:
 
 Updating Pieces Snap packages is straightforward:
 
-- **Quit/Stop first**: Quit the Pieces Desktop App and stop PiecesOS
+- **Quit/Stop first**: Always quit the Pieces Desktop App **first**, then quit PiecesOS. Ensure both are completely shut down.
 - **Check versions**: `snap info pieces-for-developers` and `snap info pieces-os`
 - **Update individually**: `sudo snap refresh pieces-for-developers` or `sudo snap refresh pieces-os`
 - **Update both**: `sudo snap refresh pieces-for-developers pieces-os`
 - **Update everything**: `sudo snap refresh`
-- **Start/Launch**: Start PiecesOS (`pieces-os`) and launch the Desktop App (`pieces-for-developers`) after updates
+- **Start/Launch**: Always start PiecesOS (`pieces-os`) **first**, wait for it to initialize, then launch the Desktop App (`pieces-for-developers`)
 
 Keeping both Pieces Desktop App and PiecesOS updated ensures you have access to the latest features and improvements.
 
