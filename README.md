@@ -48,14 +48,14 @@ Navigate efficiently in Pieces:
 - **Common workflows** for seamless context switching
 - **Pro tips** for staying in the flow
 
-### 🔄 [How to Update Pieces Snap Packages](./guides/How%20to%20Update%20Pieces%20Snap%20Packages.md)
+### 🔄 [Quick Update Guide: Pieces for Developers (Linux/Snap)](./guides/How%20to%20Update%20Pieces%20Snap%20Packages.md)
 
-Keep Pieces up to date on Linux:
-- **Updating pieces-for-developers** (Pieces Desktop App)
-- **Updating PiecesOS** (background service)
-- **Updating both packages together**
-- **Checking for updates** and troubleshooting
-- **Best practices** for maintaining your installation
+A simple 4-step process to update Pieces on Linux:
+- **Step 1 - Shutdown**: Gracefully quit both Desktop App and PiecesOS
+- **Step 2 - Check Versions**: Compare installed versions (optional)
+- **Step 3 - Update**: Refresh Snap packages
+- **Step 4 - Launch**: Restart PiecesOS, then Desktop App
+- **Troubleshooting** tips for common issues
 
 ## Quick Start
 
