@@ -14,7 +14,19 @@ Snap is a universal package management system for Linux that makes it easy to in
 
 ### 1. Quit the Application
 
-Before updating, make sure to quit the Pieces Desktop App completely. Close all windows and ensure the application is not running in the background.
+Before updating, make sure to quit the Pieces Desktop App completely. You can do this in two ways:
+
+#### Option 1: Using the GUI (Recommended)
+
+The easiest way is to simply close the application window:
+1. Click the "X" button in the top-right corner of the Pieces Desktop App window
+2. Make sure all windows are closed and the application is not running in the background
+
+**Note:** Wait a moment after closing the window to ensure the application fully and gracefully shuts down before proceeding with the update.
+
+#### Option 2: Using the Command Line
+
+Alternatively, you can quit the Pieces Desktop App from the command line:
 
 ```bash
 [ -n "$(pgrep -f pieces_for_x)" ] && xdg-open pieces-for-developers://quit
@@ -22,7 +34,7 @@ Before updating, make sure to quit the Pieces Desktop App completely. Close all 
 
 **Note:** Wait a moment after running this command to ensure the application fully and gracefully shuts down before proceeding with the update.
 
-**Fallback:** If the application doesn't quit gracefully, you can force terminate it:
+**Fallback:** If the application doesn't quit gracefully with either method, you can force terminate it:
 
 ```bash
 pkill pieces_for_x
@@ -77,7 +89,22 @@ PiecesOS is the background service that powers Pieces' Long-Term Memory and acti
 
 ### 1. Stop PiecesOS
 
-Before updating, quit the PiecesOS service:
+Before updating, quit the PiecesOS service. You can do this in two ways:
+
+#### Option 1: Using the GUI (Recommended)
+
+The easiest way is to use the PiecesOS system tray icon:
+1. Look for the PiecesOS icon in your system tray (usually in the top-right or bottom-right corner)
+2. Right-click on the PiecesOS icon
+3. Select "Quit" from the menu
+
+![](https://storage.googleapis.com/pieces_static_resources/pro_tips/pieces_os_quit_linux.png)
+
+**Note:** Wait a moment after quitting to ensure PiecesOS fully and gracefully shuts down before proceeding with the update.
+
+#### Option 2: Using the Command Line
+
+Alternatively, you can quit PiecesOS from the command line:
 
 ```bash
 [ -n "$(pgrep -f os_server)" ] && xdg-open pieces://quit
@@ -85,7 +112,7 @@ Before updating, quit the PiecesOS service:
 
 **Note:** Wait a moment after running this command to ensure PiecesOS fully and gracefully shuts down before proceeding with the update. This ensures a clean update process.
 
-**Fallback:** If PiecesOS doesn't quit gracefully, you can force terminate it:
+**Fallback:** If PiecesOS doesn't quit gracefully with either method, you can force terminate it:
 
 ```bash
 pkill os_server
@@ -136,8 +163,8 @@ The service will now be running with the latest version.
 ## Updating Both Packages Together
 
 Before updating both packages, make sure to:
-1. **Quit the Pieces Desktop App**
-2. **Stop PiecesOS**
+1. **Quit the Pieces Desktop App** - Close the window using the "X" button (GUI) or use the command line method
+2. **Quit PiecesOS** - Use the GUI (right-click system tray icon and select "Quit") or command line method
 
 Then you can update both Pieces packages at once using either method:
 
