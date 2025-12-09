@@ -48,6 +48,15 @@ Navigate efficiently in Pieces:
 - **Common workflows** for seamless context switching
 - **Pro tips** for staying in the flow
 
+### 🔄 [How to Update Pieces Snap Packages](./guides/How%20to%20Update%20Pieces%20Snap%20Packages.md)
+
+Keep Pieces up to date on Linux:
+- **Updating pieces-for-developers** (Pieces Desktop App)
+- **Updating PiecesOS** (background service)
+- **Updating both packages together**
+- **Checking for updates** and troubleshooting
+- **Best practices** for maintaining your installation
+
 ## Quick Start
 
 1. **Ready to practice?** Start with the 10 example queries and try them yourself
