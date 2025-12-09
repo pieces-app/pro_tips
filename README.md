@@ -48,6 +48,15 @@ Navigate efficiently in Pieces:
 - **Common workflows** for seamless context switching
 - **Pro tips** for staying in the flow
 
+### 🔄 [Quick Update Guide: Pieces for Developers (Linux/Snap)](./guides/How%20to%20Update%20Pieces%20Snap%20Packages.md)
+
+A simple 4-step process to update Pieces on Linux:
+- **Step 1 - Shutdown**: Gracefully quit both Desktop App and PiecesOS
+- **Step 2 - Check Versions**: Compare installed versions (optional)
+- **Step 3 - Update**: Refresh Snap packages
+- **Step 4 - Launch**: Restart PiecesOS, then Desktop App
+- **Troubleshooting** tips for common issues
+
 ## Quick Start
 
 1. **Ready to practice?** Start with the 10 example queries and try them yourself
