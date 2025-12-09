@@ -78,7 +78,3 @@ pkill os_server
 - Updates require `sudo` privileges
 - Wait times between steps ensure proper shutdown/startup
 
-## Alternative: All-in-One Script
-
-If you'd prefer to run all steps together, you can combine them into a single script. Let me know if you'd like me to create an `update_pieces.sh` file for that purpose!
-
