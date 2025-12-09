@@ -16,6 +16,18 @@ Snap is a universal package management system for Linux that makes it easy to in
 
 Before updating, make sure to quit the Pieces Desktop App completely. Close all windows and ensure the application is not running in the background.
 
+```bash
+[ -n "$(pgrep -f pieces_for_x)" ] && xdg-open pieces-for-developers://quit
+```
+
+**Note:** Wait a moment after running this command to ensure the application fully and gracefully shuts down before proceeding with the update.
+
+**Fallback:** If the application doesn't quit gracefully, you can force terminate it:
+
+```bash
+pkill pieces_for_x
+```
+
 ### 2. Check the Currently Installed Version
 
 Check what version you currently have installed:
@@ -51,7 +63,11 @@ You should now see the latest version listed as installed.
 
 ### 5. Launch the Application
 
-Open the Pieces Desktop App to start using the updated version.
+Open the Pieces Desktop App to start using the updated version:
+
+```bash
+pieces-for-developers
+```
 
 ---
 
@@ -61,13 +77,19 @@ PiecesOS is the background service that powers Pieces' Long-Term Memory and acti
 
 ### 1. Stop PiecesOS
 
-Before updating, stop the PiecesOS service:
+Before updating, quit the PiecesOS service:
 
 ```bash
-sudo snap stop pieces-os
+[ -n "$(pgrep -f os_server)" ] && xdg-open pieces://quit
 ```
 
-This ensures a clean update process.
+**Note:** Wait a moment after running this command to ensure PiecesOS fully and gracefully shuts down before proceeding with the update. This ensures a clean update process.
+
+**Fallback:** If PiecesOS doesn't quit gracefully, you can force terminate it:
+
+```bash
+pkill os_server
+```
 
 ### 2. Check the Currently Installed Version
 
@@ -104,7 +126,7 @@ You should see the latest version now installed.
 Start the PiecesOS service with the updated version:
 
 ```bash
-sudo snap start pieces-os
+pieces-os
 ```
 
 The service will now be running with the latest version.
@@ -114,8 +136,8 @@ The service will now be running with the latest version.
 ## Updating Both Packages Together
 
 Before updating both packages, make sure to:
-1. **Quit the Pieces Desktop App** - Close all windows and ensure it's not running
-2. **Stop PiecesOS** - Run `sudo snap stop pieces-os`
+1. **Quit the Pieces Desktop App**
+2. **Stop PiecesOS**
 
 Then you can update both Pieces packages at once using either method:
 
@@ -176,18 +198,6 @@ If an update fails, try:
    sudo systemctl restart snapd
    ```
 
-### Application Not Working After Update?
-
-1. **Restart the application** - Close and reopen Pieces Desktop App
-2. **Restart PiecesOS**:
-   ```bash
-   sudo snap restart pieces-os
-   ```
-3. **Check service status**:
-   ```bash
-   snap services pieces-os
-   ```
-
 ---
 
 ## Best Practices
@@ -203,12 +213,12 @@ If an update fails, try:
 
 Updating Pieces Snap packages is straightforward:
 
-- **Quit/Stop first**: Quit the Pieces Desktop App and stop PiecesOS (`sudo snap stop pieces-os`) before updating
+- **Quit/Stop first**: Quit the Pieces Desktop App and stop PiecesOS
 - **Check versions**: `snap info pieces-for-developers` and `snap info pieces-os`
 - **Update individually**: `sudo snap refresh pieces-for-developers` or `sudo snap refresh pieces-os`
 - **Update both**: `sudo snap refresh pieces-for-developers pieces-os`
 - **Update everything**: `sudo snap refresh`
-- **Start/Launch**: Start PiecesOS (`sudo snap start pieces-os`) and launch the Desktop App after updates
+- **Start/Launch**: Start PiecesOS (`pieces-os`) and launch the Desktop App (`pieces-for-developers`) after updates
 
 Keeping both Pieces Desktop App and PiecesOS updated ensures you have access to the latest features and improvements.
 
