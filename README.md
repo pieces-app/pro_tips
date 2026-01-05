@@ -8,6 +8,21 @@ Pieces Copilot uses Long-Term Memory (LTM) to remember your work throughout the 
 
 Think of it like having a perfect memory of everything you've worked on, researched, or discussed—ready to help you find exactly what you need, when you need it.
 
+## 🎉 Latest Release
+
+### [What's New in Pieces 5.0.0](./releases/Whats%20New%20in%20Pieces%205.0.0.md)
+
+**Released:** December 23, 2025 | **Desktop:** 5.0.0 | **PiecesOS:** 12.3.4
+
+Our most significant update yet! Discover the new features:
+- 🏡 **A New Home Base** — Unified navigation and consistent UI experience
+- 🔍 **Browse, Converse, Generate** — Powerful in-place filtering without leaving your flow
+- 👤 **Personalization & Disambiguation** — Smarter understanding of your work and team dynamics
+- ☀️ **Single-Click Summaries** — Morning Brief, Day Recap, Standup, and more
+- ⚙️ **Behind the Scenes** — Core engine improvements for better performance and accuracy
+
+[Read the full release notes →](./releases/Whats%20New%20in%20Pieces%205.0.0.md)
+
 ## What's in This Repository
 
 This repository contains practical guides and examples to help you get the most out of LTM queries, Workstream Activity, and navigation in Pieces:
