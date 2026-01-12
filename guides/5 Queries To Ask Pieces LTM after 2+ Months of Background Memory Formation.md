@@ -2,8 +2,6 @@
 
 These queries have been tested with real LTM data to demonstrate practical usage patterns after 2+ months of memory formation. At this stage, Pieces has accumulated substantial context about your work patterns, project evolution, and collaboration habits—enabling deeper insights, strategic analysis, and powerful search capabilities to resurface forgotten information.
 
-Tailored for senior professionals managing multiple projects, teams, and strategic initiatives. These queries focus on efficiency, strategic planning, performance management, and collaboration—essential for leadership roles.
-
 ---
 
 ## 2 Practical Search Queries
