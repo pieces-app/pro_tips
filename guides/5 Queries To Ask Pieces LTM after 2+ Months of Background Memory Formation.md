@@ -205,7 +205,8 @@ These 5 queries demonstrate how to access practical search capabilities, strateg
 ### When to Use 24-48 Hour Queries:
 - Daily standups and immediate context restoration  
 - Recent follow-ups and action items  
-- Yesterday's work and today's planning
+- Yesterday's work and today's planning  
+- Recent clipboard history and code snippets
 
 ### When to Use 2+ Month Queries:
 - Finding past conversations and team decisions  
@@ -214,7 +215,7 @@ These 5 queries demonstrate how to access practical search capabilities, strateg
 - Identifying workflow optimization opportunities  
 - Quarterly performance reviews and reflection
 
-**Pro Tip:** Use 24-48 hour queries for daily work management, and 2+ month queries for strategic planning, performance management, and resurfacing forgotten information from your accumulated work history.
+**Pro Tip:** Use 24-48 hour queries for daily work management, and 2+ month queries for strategic planning, performance management, and resurfacing forgotten information from your accumulated work history. Both complement each other—use daily queries for immediate needs and 2+ month queries for deeper insights and strategic analysis.
 
 ---
 
