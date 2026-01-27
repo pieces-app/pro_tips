@@ -2,7 +2,7 @@
 
 **Release Date:** January 27, 2026
 **Pieces Desktop:** 5.0.1
-**PiecesOS:** 12.4.0
+**PiecesOS:** 12.3.6
 
 It's 5:47 PM. You need to submit your billable hours, but the day is a blur—client calls, code reviews, context switches. You open your calendar, scan Slack, check your browser history... and still can't account for two hours.
 
@@ -193,6 +193,32 @@ Explore each Single-Click Summary in action with our video tutorial series:
 | Collaboration Patterns | 0:38 | [Watch](https://www.youtube.com/watch?v=0jfMafBYMhU) |
 | AI Habits | 0:43 | [Watch](https://www.youtube.com/watch?v=8pic6I9YtCY) |
 | Time Breakdown | 0:48 | [Watch](https://www.youtube.com/watch?v=jksolzBdHdU) |
+
+---
+
+## ⚙️ Under the Hood — PiecesOS 12.3.6
+
+Alongside Pieces Desktop 5.0.1, we're shipping **PiecesOS 12.3.6** with significant performance improvements and platform enhancements.
+
+### Search Performance
+
+- **~21x faster search** — Full-text search across conversations, summaries, and materials now returns results in under 10ms (down from ~500ms)
+- **Smarter result limiting** — Broad searches are now capped to prevent UI hangs on large datasets
+
+### Better Context & Retrieval
+
+- **Improved semantic search** — Powers "Related Materials" and context suggestions with better accuracy
+- **Historical timestamp support** — Summaries generated retroactively now appear at the correct point in your Timeline
+
+### Platform Improvements
+
+- **Linux (X11) full support** — Clipboard and vision processing now fully supported for WPE on X11
+- **Offline mode fix** — Workstream events now correctly save when running in Local mode
+- **Enterprise local models** — Enterprise users can use downloaded local LLMs (Llama, Phi, etc.) without permission errors
+
+### Smoother Experience
+
+- **Migration progress indicator** — Large database updates now show a visual progress bar instead of the app appearing frozen during startup
 
 ---
 
