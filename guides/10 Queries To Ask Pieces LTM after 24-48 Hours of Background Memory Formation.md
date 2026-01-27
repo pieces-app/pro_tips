@@ -10,8 +10,9 @@ These queries have been tested with real LTM data to demonstrate practical usage
 
 **Query:**
 
-```
-Generate my standup update for today: what I accomplished in the past 24 hours, what I'm currently working on, and any blockers or questions I have for the team.
+```text
+Generate my standup update for today: what I accomplished in the past 24 hours,
+what I'm currently working on, and any blockers or questions I have for the team.
 ```
 
 **What This Query Does:**
@@ -30,8 +31,9 @@ Generate my standup update for today: what I accomplished in the past 24 hours, 
 
 **Query:**
 
-```
-What are my top 5 most frequently used terminal commands or bash scripts from the past week?
+```text
+What are my top 5 most frequently used terminal commands or bash scripts
+from the past week?
 ```
 
 **What This Query Does:**
@@ -51,8 +53,10 @@ What are my top 5 most frequently used terminal commands or bash scripts from th
 
 **Query:**
 
-```
-It's Monday morning - based on what I was working on Thursday and Friday, where should I jump back in to continue my work? What was my momentum and what are the logical next steps?
+```text
+It's Monday morning - based on what I was working on Thursday and Friday,
+where should I jump back in to continue my work? What was my momentum and
+what are the logical next steps?
 ```
 
 **What This Query Does:**
@@ -70,8 +74,9 @@ It's Monday morning - based on what I was working on Thursday and Friday, where 
 
 **Query:**
 
-```
-What follow-ups, action items, or reminders came up in my emails, chats, and meetings over the past 48 hours that I shouldn't forget about?
+```text
+What follow-ups, action items, or reminders came up in my emails, chats,
+and meetings over the past 48 hours that I shouldn't forget about?
 ```
 
 **What This Query Does:**
@@ -91,8 +96,9 @@ What follow-ups, action items, or reminders came up in my emails, chats, and mee
 
 **Query:**
 
-```
-Resurface something interesting or valuable that I copied, pasted, or captured in the last 48 hours that I might want to reference or remember.
+```text
+Resurface something interesting or valuable that I copied, pasted, or captured
+in the last 48 hours that I might want to reference or remember.
 ```
 
 **What This Query Does:**
@@ -114,8 +120,9 @@ Resurface something interesting or valuable that I copied, pasted, or captured i
 
 **Query:**
 
-```
-What did I accomplish this week and what's the vibe/theme of the work I've been doing? And how did my Friday turn out?
+```text
+What did I accomplish this week and what's the vibe/theme of the work I've
+been doing? And how did my Friday turn out?
 ```
 
 **What This Query Does:**
@@ -135,8 +142,9 @@ What did I accomplish this week and what's the vibe/theme of the work I've been 
 
 **Query:**
 
-```
-Tell me a fun fact about my work style based on this week. What types of projects am I naturally drawn to, and what does my day-to-day rhythm look like?
+```text
+Tell me a fun fact about my work style based on this week. What types of
+projects am I naturally drawn to, and what does my day-to-day rhythm look like?
 ```
 
 **What This Query Does:**
@@ -156,8 +164,9 @@ Tell me a fun fact about my work style based on this week. What types of project
 
 **Query:**
 
-```
-Give me a creative recap of my week - what was the vibe, what were the highlights, and any fun or unexpected moments in my work?
+```text
+Give me a creative recap of my week - what was the vibe, what were the highlights,
+and any fun or unexpected moments in my work?
 ```
 
 **What This Query Does:**
@@ -179,8 +188,10 @@ Give me a creative recap of my week - what was the vibe, what were the highlight
 
 **Query:**
 
-```
-Based on how I spent my time yesterday, what did I focus on most? Where could I have been more efficient, and what was the coolest or most interesting thing I worked on?
+```text
+Based on how I spent my time yesterday, what did I focus on most? Where could I
+have been more efficient, and what was the coolest or most interesting thing
+I worked on?
 ```
 
 **What This Query Does:**
@@ -200,8 +211,10 @@ Based on how I spent my time yesterday, what did I focus on most? Where could I 
 
 **Query:**
 
-```
-I'm looking for repeatable code patterns that I can abstract or isolate into helper functions. What are sequences of code I've been copying and pasting repeatedly over the last 48 hours?
+```text
+I'm looking for repeatable code patterns that I can abstract or isolate into
+helper functions. What are sequences of code I've been copying and pasting
+repeatedly over the last 48 hours?
 ```
 
 **What This Query Does:**
