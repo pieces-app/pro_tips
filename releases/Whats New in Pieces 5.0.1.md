@@ -263,6 +263,7 @@ We're building toward **LTM-3**—the next major evolution of Long-Term Memory t
 - **[How to Query LTM in Pieces Copilot](../guides/How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md)** — Master the art of querying your Long-Term Memory
 - **[How to Use the Workstream Activity Timeline](../guides/How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md)** — Understand your work patterns and history
 - **[10 Queries To Ask Pieces LTM](../guides/10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md)** — Get started with powerful LTM queries after 24-48 hours
+- **[5 Essential Queries for 2+ Months of LTM](../guides/5%20Queries%20To%20Ask%20Pieces%20LTM%20after%202%2B%20Months%20of%20Background%20Memory%20Formation.md)** — Strategic queries for deeper insights, collaboration analysis, and performance reflection
 
 ---
 
