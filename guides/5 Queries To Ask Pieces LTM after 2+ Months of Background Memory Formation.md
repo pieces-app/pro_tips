@@ -13,7 +13,9 @@ Quick, practical queries for finding forgotten information—essential for busy 
 **Query:**
 
 ```text
-I remember discussing [topic or decision] with my team a few weeks ago, but I can't recall the details or what we decided. Can you find that conversation and summarize what was discussed?
+I remember discussing [topic or decision] with my team a few weeks ago, but I
+can't recall the details or what we decided. Can you find that conversation
+and summarize what was discussed?
 ```
 
 **What This Query Does:**
@@ -36,7 +38,9 @@ I remember discussing [topic or decision] with my team a few weeks ago, but I ca
 **Query:**
 
 ```text
-Find me all the research I did on [topic/subject] over the past 2+ months. Show me what I read, what I learned, and any notes or documentation I created about it.
+Find me all the research I did on [topic/subject] over the past 2+ months.
+Show me what I read, what I learned, and any notes or documentation I
+created about it.
 ```
 
 **What This Query Does:**
@@ -63,7 +67,9 @@ Understanding team dynamics and optimizing workflows—critical for senior roles
 **Query:**
 
 ```text
-Over the past month, who have I been collaborating with most frequently, and what types of work do we typically do together? What are the common themes in our conversations and shared work?
+Over the past month, who have I been collaborating with most frequently,
+and what types of work do we typically do together? What are the common
+themes in our conversations and shared work?
 ```
 
 **What This Query Does:**
@@ -86,7 +92,9 @@ Over the past month, who have I been collaborating with most frequently, and wha
 **Query:**
 
 ```text
-Based on the past 2+ months of my work, what repetitive tasks or patterns do I keep doing that could be automated or streamlined? What commands, code snippets, or processes do I use frequently that might benefit from abstraction?
+Based on the past 2+ months of my work, what repetitive tasks or patterns do I
+keep doing that could be automated or streamlined? What commands, code snippets,
+or processes do I use frequently that might benefit from abstraction?
 ```
 
 **What This Query Does:**
@@ -113,7 +121,9 @@ Quarterly reflection and strategic planning—critical for senior professionals 
 **Query:**
 
 ```text
-Based on my work over the past quarter, give me a comprehensive performance review. What were my major accomplishments, what challenges did I face, what skills did I develop, and how did I contribute to my team and projects?
+Based on my work over the past quarter, give me a comprehensive performance
+review. What were my major accomplishments, what challenges did I face, what
+skills did I develop, and how did I contribute to my team and projects?
 ```
 
 **What This Query Does:**

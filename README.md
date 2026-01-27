@@ -12,7 +12,7 @@ Think of it like having a perfect memory of everything you've worked on, researc
 
 ### [What's New in Pieces 5.0.1](./releases/Whats%20New%20in%20Pieces%205.0.1.md)
 
-**Released:** January 27, 2026 | **Desktop:** 5.0.1 | **PiecesOS:** 12.4.0
+**Released:** January 27, 2026 | **Desktop:** 5.0.1 | **PiecesOS:** 12.3.6
 
 Building on our 5.0.0 foundation with powerful new features:
 - ⏱️ **Time Breakdown** — Reconstruct your billable hours from captured context
