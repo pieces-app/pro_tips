@@ -23,7 +23,7 @@ Every professional who bills by the hour knows the end-of-day scramble. Studies 
 
 Think of it as your memory assistant—not a replacement for your judgment, but a way to stop starting from a blank page. The output gives you something to react to, refine, and submit with confidence.
 
-![Time Breakdown reconstructs your day from captured context](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_time_breakdown_summary_light.png?v=2)
+![Time Breakdown reconstructs your day from captured context](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_time_breakdown_summary_light.png)
 
 *A Time Breakdown output: time blocks across projects with activity descriptions to help you recall the details.*
 
@@ -65,7 +65,7 @@ Your Timeline is now searchable and filterable—so you can find exactly what yo
 
 Type a project name, topic, or phrase into the new search bar and instantly surface relevant summaries, conversations, and context. Results are grouped by date with preview snippets, so you can spot what you need at a glance.
 
-![Search your Timeline by keyword](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_timeline_search_light.png?v=2)
+![Search your Timeline by keyword](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_timeline_search_light.png)
 
 *Searching for "header animation" surfaces relevant summaries grouped by date.*
 
@@ -80,7 +80,7 @@ Remember it happened "sometime Friday afternoon"? Scope your Timeline to exactly
 
 Combine time filters with **source filters** (which apps contributed context) and **summary type filters** (Day Recap, Standup, Time Breakdown) to slice through your history.
 
-![Filter your Timeline by time, source, or type](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_timeline_time_based_filters_light.png?v=2)
+![Filter your Timeline by time, source, or type](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_timeline_time_based_filters_light.png)
 
 *Time Ranges let you scope to exactly when something happened—no more endless scrolling.*
 
@@ -96,7 +96,7 @@ Different tasks need different models. Sometimes you want Claude's nuanced reaso
 
 A clean dropdown shows your enabled models with inline descriptions. Use the quick search at the top to find the model you need instantly. See what each model is good for, pick the one you need, and keep working.
 
-![The redesigned model picker](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_enhanced_model_management_light.png?v=2)
+![The redesigned model picker](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_enhanced_model_management_light.png)
 
 *Switch models mid-conversation with a dropdown that tells you what each one does.*
 
@@ -104,7 +104,7 @@ A clean dropdown shows your enabled models with inline descriptions. Use the qui
 
 Full model management has moved to a dedicated section in Settings. You can get there directly from the model dropdown—just click **"Manage Models"** at the bottom of the list. Enable or disable models by provider—OpenAI, Anthropic, Google, AWS Bedrock, and more. Search across 85+ available models. Organize your lineup without cluttering the main interface.
 
-![Model management in Settings](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_refreshed_settings_ux_light.png?v=2)
+![Model management in Settings](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_refreshed_settings_ux_light.png)
 
 *85+ models organized by provider. Enable what you use, disable what you don't.*
 
@@ -125,7 +125,7 @@ For organizations using AWS Bedrock, we now support **Inference Profiles** direc
 - **Full model coverage** — Claude Haiku 3.5, Claude Haiku 4.5, Claude Opus 4, and more
 - **Manage from the Pieces Portal** — configure profiles under Settings → API Keys
 
-![AWS Bedrock Inference Profiles in the Pieces Portal](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_aws_bedrock_inference_profiles_support.png?v=2)
+![AWS Bedrock Inference Profiles in the Pieces Portal](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_aws_bedrock_inference_profiles_support.png)
 
 *Manage AWS Bedrock Inference Profiles per team—full control over who can access which models.*
 
@@ -141,7 +141,7 @@ You generated a Day Recap. It mentions a debugging session you'd forgotten about
 
 The new **"Start Related Chat"** button—in the bottom right of any open summary—turns it into a conversation.
 
-![Start a chat from any summary](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_improved_summary_to_chat_experience_light.png?v=2)
+![Start a chat from any summary](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_improved_summary_to_chat_experience_light.png)
 
 *One tap loads the summary and all its context into a new chat—ready for follow-up questions.*
 
@@ -162,7 +162,7 @@ Not sure what a summary does? When to use Morning Brief vs. Day Recap? Whether T
 
 Every **Single-Click Summary** now has a **"See it in action"** link. Hover over it to watch a quick preview video—so you can see exactly what you'll get before you generate.
 
-![Preview videos for every summary type](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_single_click_summary_preview_videos_light.png?v=2)
+![Preview videos for every summary type](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_1_single_click_summary_preview_videos_light.png)
 
 *Hover over "See it in action" to watch a quick preview before you generate.*
 
