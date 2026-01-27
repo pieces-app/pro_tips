@@ -10,6 +10,20 @@ Think of it like having a perfect memory of everything you've worked on, researc
 
 ## 🎉 Latest Release
 
+### [What's New in Pieces 5.0.1](./releases/Whats%20New%20in%20Pieces%205.0.1.md)
+
+**Released:** January 27, 2026 | **Desktop:** 5.0.1 | **PiecesOS:** 12.4.0
+
+Building on our 5.0.0 foundation with powerful new features:
+- ⏱️ **Time Breakdown** — Reconstruct your billable hours from captured context
+- 🔍 **Timeline Search & Filters** — Find anything in your history instantly
+- 🎛️ **Enhanced Model Selection** — Pick the right model fast with inline descriptions
+- 🔐 **AWS Bedrock Inference Profiles** — Enterprise-grade model management
+- 💬 **Summary to Chat** — Go deeper with one tap from any summary
+- 🎬 **Single-Click Summary Previews** — Watch video tutorials before you generate
+
+**[Watch Single-Click Summary Video Tutorials](https://www.youtube.com/playlist?list=PL3ufX1Aqkp177sE-m_JwzB_bbb-aD9moq)** | [Read the full release notes →](./releases/Whats%20New%20in%20Pieces%205.0.1.md)
+
 ### [What's New in Pieces 5.0.0](./releases/Whats%20New%20in%20Pieces%205.0.0.md)
 
 **Released:** December 23, 2025 | **Desktop:** 5.0.0 | **PiecesOS:** 12.3.4

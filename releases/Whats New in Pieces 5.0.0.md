@@ -159,6 +159,8 @@ These summaries are designed to be quick to scan, easy to share, and consistent 
 
 You shouldn't need to remember the perfect prompt or spend time crafting the right question. These summaries give you professional, consistent output that becomes part of your daily routine. Start your morning with clarity about what matters today. End your day with a clean recap you can share. Update your team without rewriting the same information. It's the easiest way to stay organized and communicate effectively.
 
+**Want to see each summary in action?** Check out the [Single-Click Summaries video playlist](https://www.youtube.com/playlist?list=PL3ufX1Aqkp177sE-m_JwzB_bbb-aD9moq).
+
 ---
 
 ## ⚙️ Behind the Scenes with PiecesOS
