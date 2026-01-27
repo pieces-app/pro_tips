@@ -36,6 +36,15 @@ Tested, practical examples organized by use case:
 - **Query construction patterns** and best practices
 - **Usage recommendations** for integrating LTM into your workflow
 
+### 🎯 [5 Essential Queries To Ask Pieces LTM after 2+ Months of Background Memory Formation](./guides/5%20Queries%20To%20Ask%20Pieces%20LTM%20after%202%2B%20Months%20of%20Background%20Memory%20Formation.md)
+
+Strategic queries for senior professionals with accumulated work history:
+- **2 Practical Search Queries**: Finding past conversations and research on topics
+- **2 Collaboration & Efficiency Queries**: Team dynamics analysis and workflow optimization
+- **1 Strategic Planning Query**: Quarterly performance reflection
+- **Query best practices** and usage recommendations
+- **Transition guidance** from 24-48 hour to 2+ month queries
+
 ### 📚 [How to Query LTM in Pieces Copilot](./guides/How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md)
 
 A comprehensive guide covering:
@@ -74,11 +83,12 @@ A simple 4-step process to update Pieces on Linux:
 
 ## Quick Start
 
-1. **Ready to practice?** Start with the 10 example queries and try them yourself
-2. **New to LTM?** Dive into the comprehensive guide to understand the fundamentals
-3. **Want to get the most out of Workstream Activity?** Learn how your automatic work journal captures and summarizes your work
-4. **Need to navigate faster?** Learn the Power Menu to jump between views seamlessly
-5. **Want to become a power user?** Experiment with combining different query elements and refine your approach
+1. **Ready to practice?** Start with the 10 example queries for 24-48 hours and try them yourself
+2. **Been using Pieces for 2+ months?** Explore the 5 strategic queries for deeper insights and performance management
+3. **New to LTM?** Dive into the comprehensive guide to understand the fundamentals
+4. **Want to get the most out of Workstream Activity?** Learn how your automatic work journal captures and summarizes your work
+5. **Need to navigate faster?** Learn the Power Menu to jump between views seamlessly
+6. **Want to become a power user?** Experiment with combining different query elements and refine your approach
 
 ## Key Principles
 
