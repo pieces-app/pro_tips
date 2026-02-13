@@ -10,6 +10,20 @@ Think of it like having a perfect memory of everything you've worked on, researc
 
 ## 🎉 Latest Release
 
+### [What's New in Pieces 5.0.3](./releases/Whats%20New%20in%20Pieces%205.0.3.md)
+
+**Released:** February 2026 | **Desktop:** 5.0.3 | **PiecesOS:** 12.3.7
+
+Powerful new capabilities for enhanced control and deeper integration:
+- 🎤 **LTM Audio (Preview)** — Capture microphone & system audio to enrich your memories
+- 🎯 **Enhanced Custom Summaries** — Scope by time, websites, projects & apps for precise summaries
+- 📋 **Custom Summary Templates** — Create and save your own templates for one-click generation
+- 🔌 **Expanded MCP Server** — Richer Long-Term Memory access in Cursor, Claude Code & more
+- ⏱️ **Time Breakdown Time Ranges** — Pick your own time range for flexible reporting
+- 📐 **LaTeX Rendering** — Mathematical expressions render correctly in summaries & chats
+
+[Read the full release notes →](./releases/Whats%20New%20in%20Pieces%205.0.3.md)
+
 ### [What's New in Pieces 5.0.1](./releases/Whats%20New%20in%20Pieces%205.0.1.md)
 
 **Released:** January 27, 2026 | **Desktop:** 5.0.1 | **PiecesOS:** 12.3.6
