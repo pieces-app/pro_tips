@@ -1,10 +1,12 @@
 # What's New in Pieces 5.0.3
 
-**Release Date:** February 2026  
-**Pieces Desktop:** 5.0.3  
+**Release Date:** February 2026
+**Pieces Desktop:** 5.0.3
 **PiecesOS:** 12.3.8
 
-Pieces 5.0.3 brings powerful new capabilities that give you unprecedented control over your summaries, deeper access to your memories through MCP integrations, and enhanced support for technical workflows. This release focuses on making Pieces more flexible, more powerful, and more integrated into your existing tools.
+You're in a technical discussion during a pair programming session. Decisions are made, approaches debated, context shared. Two hours later, you can't remember exactly what you decided—or why.
+
+Pieces 5.0.3 fixes that. This release introduces **LTM Audio** in preview, letting you capture audio context from meetings and calls to enrich your memories. Beyond audio, you get unprecedented control over your summaries, deeper MCP integrations, and enhanced support for technical workflows—making Pieces more flexible, more powerful, and more integrated into the tools you already use.
 
 ---
 
@@ -26,27 +28,21 @@ This is particularly useful for capturing context from meetings, pair programmin
 - Include context from online meetings and training sessions
 - Process audio from screen recordings and tutorials
 
-**Local Processing**
-- All audio processing happens locally on your machine
-- Privacy-first approach — your audio never leaves your device
-- Efficient processing that doesn't slow down your workflow
-
 **Context Integration**
 - Audio context flows into your Long-Term Memory automatically
 - Enriches summaries with discussion points and decisions
 - Makes Copilot conversations more context-aware
 
-<!-- TODO: Add image placeholder for LTM audio preview -->
 ![LTM Audio captures microphone and system audio to enrich your Long-Term Memory](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_ltm_audio_preview.png)
+
 *Capture context from meetings, calls, and sessions to make your memories richer and more complete.*
 
 ### How to Enable
 
-1. **Open Settings** — Navigate to Settings → Long-Term Memory
-2. **Find LTM Audio** — Look for the "Audio Capture" section
-3. **Enable Preview** — Toggle on microphone and/or system audio capture
-4. **Start Capturing** — Audio context will begin flowing into your memory formation
-5. **Review Privacy Settings** — Configure which applications can capture audio
+1. **Via User Profile Menu**—Click your User Profile menu and select "Enable LTM Audio"
+2. **Via PiecesOS Toolbar**—Open the PiecesOS Toolbar application and look for the "Enable LTM Audio" button
+3. **Grant Permissions (macOS)**—On macOS, you'll need to enable two new system permissions for LTM Audio to function properly
+4. **Start Capturing**—Audio context will begin flowing into your memory formation
 
 ### Use Cases
 
@@ -77,11 +73,6 @@ This is particularly useful for capturing context from meetings, pair programmin
 - Your feedback helps us improve accuracy and performance
 - Some edge cases may still be optimized
 
-**Privacy & Control**
-- All processing happens locally on your device
-- You control which applications can capture audio
-- Audio data is processed and stored according to your privacy settings
-
 **What's Coming**
 - Enhanced transcription accuracy
 - Better speaker identification
@@ -99,7 +90,7 @@ Whether you want a summary of your morning browser research, a specific project'
 ### What's New
 
 **Time Range Scoping**
-- Select specific time windows: last hour, last 4 hours, last day, last week, or custom ranges
+- Select specific time windows—last hour, last 4 hours, last day, last week, or custom ranges
 - Generate summaries for precise periods that match your reporting needs
 - Perfect for mid-day check-ins or end-of-week project reviews
 
@@ -123,8 +114,8 @@ Whether you want a summary of your morning browser research, a specific project'
 - Example: "Last 3 days, VS Code only, focused on the authentication project"
 - No more sifting through irrelevant context to find what matters
 
-<!-- TODO: Add image placeholder for enhanced custom summary scoping -->
 ![Enhanced custom summary scoping gives you precise control over what context goes into each summary](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_enhanced_custom_summary_scoping.png)
+
 *Combine time ranges, websites, projects, and applications to create exactly the summary you need.*
 
 ### Why It Matters
@@ -133,11 +124,11 @@ Generic summaries are useful, but targeted summaries are powerful. When you're p
 
 ### How to Use It
 
-1. **Start a Custom Summary** from Home Base or the Summaries section
-2. **Set Your Time Range** — Choose from presets or set a custom window
-3. **Add Filters** — Select websites, projects, or applications to include/exclude
-4. **Generate** — Get a focused summary scoped exactly to your needs
-5. **Share or Save** — Export, copy, or save for future reference
+1. **Start a Custom Summary**—from Home Base or the Summaries section
+2. **Set Your Time Range**—Choose from presets or set a custom window
+3. **Add Filters**—Select websites, projects, or applications to include/exclude
+4. **Generate**—Get a focused summary scoped exactly to your needs
+5. **Share or Save**—Export, copy, or save for future reference
 
 ---
 
@@ -145,7 +136,7 @@ Generic summaries are useful, but targeted summaries are powerful. When you're p
 
 Tired of re-configuring the same summary parameters over and over? You can now **save your own custom summary templates** for one-click generation whenever you need them.
 
-If your ideal summary isn't in the pre-set library, create your own: customize the name, pick a color and icon, and define exactly what it generates. Once saved, your template lives alongside the built-in options and can be triggered with a single click — just like Morning Brief or Day Recap.
+If your ideal summary isn't in the pre-set library, create your own: customize the name, pick a color and icon, and define exactly what it generates. Once saved, your template lives alongside the built-in options and can be triggered with a single click—just like Morning Brief or Day Recap.
 
 ### What's New
 
@@ -167,8 +158,8 @@ If your ideal summary isn't in the pre-set library, create your own: customize t
 - Consistent output format every time
 - Perfect for recurring workflows
 
-<!-- TODO: Add image placeholder for custom summary templates -->
 ![Create and save your own summary templates for one-click generation](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_custom_summary_templates.png)
+
 *Build it once, use it forever. Your workflow, your templates, your way.*
 
 ### Use Cases
@@ -203,7 +194,7 @@ Consistency saves time. When you find a summary format that works, you shouldn't
 
 The Pieces MCP Server has been upgraded with significantly more tools available to MCP-compatible clients like **Cursor, Claude Code, Goose, and others**.
 
-This expansion gives these tools much deeper access to your Long-Term Memory, enabling richer, more context-aware responses when you interact with Pieces through any MCP client. Ask your Cursor agent to recall what you worked on last week, pull in details from a recent meeting, or reference code changes from earlier today — all powered by a broader set of MCP capabilities.
+This expansion gives these tools much deeper access to your Long-Term Memory, enabling richer, more context-aware responses when you interact with Pieces through any MCP client. Ask your Cursor agent to recall what you worked on last week, pull in details from a recent meeting, or reference code changes from earlier today—all powered by a broader set of MCP capabilities.
 
 ### What's Expanded
 
@@ -231,8 +222,8 @@ This expansion gives these tools much deeper access to your Long-Term Memory, en
 - Compare work across different time periods
 - Track evolution and patterns over time
 
-<!-- TODO: Add image placeholder for expanded MCP server tools -->
 ![Expanded MCP Server gives Cursor, Claude Code, and other tools deeper access to your Long-Term Memory](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_expanded_mcp_server_tools.png)
+
 *Ask your Cursor agent to recall what you worked on, reference past decisions, or pull in context from recent meetings.*
 
 ### Key Improvements
@@ -261,12 +252,12 @@ This expansion gives these tools much deeper access to your Long-Term Memory, en
 ### How to Use
 
 **If You're Already Using MCP**
-- New tools are available automatically — no action needed
+- New tools are available automatically—no action needed
 - Update your MCP client to the latest version for best results
 - Check the Pieces MCP documentation for new tool capabilities
 
 **If You Haven't Connected Yet**
-- Head to our documentation to get set up — it only takes a minute
+- Head to our documentation to get set up—it only takes a minute
 - Connect Cursor, Claude Code, or any MCP-compatible client
 - Start asking questions about your work history immediately
 
@@ -288,20 +279,20 @@ Your AI assistant should know your work history. When you're coding in Cursor or
 
 ---
 
-## ⏱️ Time Breakdown: Pick Your Own Time Range
+## ⏱️ Time Breakdown — Pick Your Own Time Range
 
 Time Breakdown now supports **configurable time ranges**, so you can choose the window of activity you want to reconstruct.
 
-Previously, Time Breakdown analyzed a fixed period. Now you can choose from preset ranges — last 24 hours, last 2 days, last week, and more — so you can generate billable-hour reconstructions that match your reporting needs.
+Previously, Time Breakdown analyzed a fixed period. Now you can choose from preset ranges—last 24 hours, last 2 days, last week, and more—so you can generate billable-hour reconstructions that match your reporting needs.
 
 ### What's New
 
 **Configurable Time Ranges**
-- **Last 24 Hours** — Perfect for daily timesheet submissions
-- **Last 2 Days** — Mid-week client updates and progress reports
-- **Last Week** — Weekly billing summaries and comprehensive reviews
-- **Custom Ranges** — Any time window that fits your workflow
-- **Date Range Picker** — Select specific start and end dates
+- **Last 24 Hours**—Perfect for daily timesheet submissions
+- **Last 2 Days**—Mid-week client updates and progress reports
+- **Last Week**—Weekly billing summaries and comprehensive reviews
+- **Custom Ranges**—Any time window that fits your workflow
+- **Date Range Picker**—Select specific start and end dates
 
 **Flexible Reporting**
 - Generate breakdowns for any period you need
@@ -315,8 +306,8 @@ Previously, Time Breakdown analyzed a fixed period. Now you can choose from pres
 - Editable entries for refinement
 - Export-ready for billing systems
 
-<!-- TODO: Add image placeholder for time breakdown time range configuration -->
 ![Time Breakdown now supports configurable time ranges for flexible reporting](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_time_breakdown_time_range_configuration.png)
+
 *Select your preferred range before generating a Time Breakdown and get audit-ready time logs scoped to the period you need.*
 
 ### Use Cases
@@ -348,11 +339,11 @@ Previously, Time Breakdown analyzed a fixed period. Now you can choose from pres
 
 ### How to Use
 
-1. **Open Time Breakdown** from Home Base or Summaries
-2. **Select Your Time Range** — Choose from presets or set a custom range
-3. **Generate** — Pieces analyzes your captured workstream for that period
-4. **Review & Refine** — Edit entries, add context, adjust time blocks
-5. **Export or Submit** — Copy, export, or use as foundation for billing
+1. **Open Time Breakdown**—from Home Base or Summaries
+2. **Select Your Time Range**—Choose from presets or set a custom range
+3. **Generate**—Pieces analyzes your captured workstream for that period
+4. **Review & Refine**—Edit entries, add context, adjust time blocks
+5. **Export or Submit**—Copy, export, or use as foundation for billing
 
 ### Why It Matters
 
@@ -362,9 +353,9 @@ Time tracking shouldn't be one-size-fits-all. Different professionals have diffe
 
 ## 📐 LaTeX Rendering in Summaries & Copilot Chats
 
-Mathematical expressions and scientific notation now render correctly across Pieces. Whether it's inline equations in a Copilot response or formulas embedded in your summaries, **LaTeX content is displayed with proper formatting** instead of raw syntax.
+You're discussing an ML algorithm with Copilot. It responds with `\frac{1}{n}\sum_{i=1}^{n}x_i`—raw LaTeX syntax that's hard to parse mid-conversation.
 
-This is especially useful for developers working with ML/AI algorithms, data scientists discussing statistical methods, engineers referencing physics equations, and anyone whose workflow involves technical notation.
+Not anymore. Mathematical expressions and scientific notation now render correctly across Pieces. Whether it's inline equations in a Copilot response or formulas embedded in your summaries, **LaTeX content is displayed with proper formatting** instead of raw syntax—making technical discussions clearer and more professional.
 
 ### What's New
 
@@ -386,8 +377,8 @@ This is especially useful for developers working with ML/AI algorithms, data sci
 - Displays correctly in saved materials
 - Consistent formatting across all Pieces views
 
-<!-- TODO: Add image placeholder for LaTeX rendering support -->
 ![LaTeX rendering makes mathematical expressions readable across Pieces](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_latex_rendering_support.png)
+
 *Mathematical expressions and scientific notation now render correctly—no plugins or workarounds needed.*
 
 ### Use Cases
@@ -440,12 +431,12 @@ Technical workflows involve mathematical notation. When you're discussing algori
 
 If you're upgrading to 5.0.3, here's how to make the most of these new features:
 
-1. **Enable LTM Audio (Preview):** If you're in meetings or pair programming, enable audio capture to enrich your memories
-2. **Try Enhanced Custom Summaries:** Create a custom summary with time, website, and project scoping to see the precision in action
-3. **Build Your First Template:** Create a template for your daily standup or weekly client update
-4. **Explore MCP Integration:** If you use Cursor or Claude Code, connect the Pieces MCP Server for deeper context access
-5. **Configure Time Breakdown:** Set up Time Breakdown with your preferred time range for billing workflows
-6. **Test LaTeX Rendering:** Try asking Copilot about mathematical concepts or formulas to see LaTeX rendering in action
+1. **Enable LTM Audio (Preview)**—If you're in meetings or pair programming, enable audio capture to enrich your memories
+2. **Try Enhanced Custom Summaries**—Create a custom summary with time, website, and project scoping to see the precision in action
+3. **Build Your First Template**—Create a template for your daily standup or weekly client update
+4. **Explore MCP Integration**—If you use Cursor or Claude Code, connect the Pieces MCP Server for deeper context access
+5. **Configure Time Breakdown**—Set up Time Breakdown with your preferred time range for billing workflows
+6. **Test LaTeX Rendering**—Try asking Copilot about mathematical concepts or formulas to see LaTeX rendering in action
 
 ---
 
@@ -453,11 +444,20 @@ If you're upgrading to 5.0.3, here's how to make the most of these new features:
 
 We're continuing to build on the foundation established in 5.0.0 and enhanced in 5.0.1. Upcoming releases will bring:
 
-- **Scheduled Summary Templates** — Automatically generate summaries on a schedule
-- **Enhanced Audio Processing** — Better transcription accuracy and speaker identification
-- **Team Template Sharing** — Share custom templates with your team
-- **Advanced MCP Capabilities** — Even deeper integration with development tools
-- **Time Breakdown Exports** — Direct CSV exports for billing systems
+- **Scheduled Summary Templates**
+  - Automatically generate summaries on a schedule
+  - Have summaries delivered straight to your inbox
+  - Schedule them to run automatically on a cron job
+
+- **Enhanced Audio Processing**
+  - Better transcription accuracy
+  - Improved speaker identification
+  - More granular privacy controls
+
+- **Next-Gen Agentic Chat**
+  - Advanced AI agent that provides more accurate responses
+  - Better context understanding for copilot queries and summaries
+  - Multi-turn conversations that maintain context across interactions
 
 Thank you for being part of the Pieces community. We're excited to keep building features that make your work more efficient and your memories more powerful! 🚀
 
@@ -465,12 +465,12 @@ Thank you for being part of the Pieces community. We're excited to keep building
 
 ## Learn More
 
-- **[What's New in Pieces 5.0.0](./Whats%20New%20in%20Pieces%205.0.0.md)** — The foundation that powers these features
-- **[What's New in Pieces 5.0.1](./Whats%20New%20in%20Pieces%205.0.1.md)** — Time Breakdown and Timeline enhancements
-- **[How to Query LTM in Pieces Copilot](../guides/How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md)** — Master the art of querying your Long-Term Memory
-- **[How to Use the Workstream Activity Timeline](../guides/How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md)** — Understand your work patterns and history
-- **[10 Queries To Ask Pieces LTM after 24-48 Hours](../guides/10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md)** — Get started with powerful LTM queries
-- **[5 Essential Queries for 2+ Months of LTM](../guides/5%20Queries%20To%20Ask%20Pieces%20LTM%20after%202%2B%20Months%20of%20Background%20Memory%20Formation.md)** — Strategic queries for deeper insights and performance reflection
+- **[What's New in Pieces 5.0.0](./Whats%20New%20in%20Pieces%205.0.0.md)**—The foundation that powers these features
+- **[What's New in Pieces 5.0.1](./Whats%20New%20in%20Pieces%205.0.1.md)**—Time Breakdown and Timeline enhancements
+- **[How to Query LTM in Pieces Copilot](../guides/How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md)**—Master the art of querying your Long-Term Memory
+- **[How to Use the Workstream Activity Timeline](../guides/How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md)**—Understand your work patterns and history
+- **[10 Queries To Ask Pieces LTM after 24-48 Hours](../guides/10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md)**—Get started with powerful LTM queries
+- **[5 Essential Queries for 2+ Months of LTM](../guides/5%20Queries%20To%20Ask%20Pieces%20LTM%20after%202%2B%20Months%20of%20Background%20Memory%20Formation.md)**—Strategic queries for deeper insights and performance reflection
 
 ---
 
