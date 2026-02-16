@@ -12,7 +12,7 @@ Think of it like having a perfect memory of everything you've worked on, researc
 
 ### [What's New in Pieces 5.0.3](./releases/Whats%20New%20in%20Pieces%205.0.3.md)
 
-**Released:** February 2026 | **Desktop:** 5.0.3 | **PiecesOS:** 12.3.7
+**Released:** February 2026 | **Desktop:** 5.0.3 | **PiecesOS:** 12.3.8
 
 Powerful new capabilities for enhanced control and deeper integration:
 - 🎤 **LTM Audio (Preview)** — Capture microphone & system audio to enrich your memories
