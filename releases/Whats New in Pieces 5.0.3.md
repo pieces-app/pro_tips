@@ -158,7 +158,7 @@ If your ideal summary isn't in the pre-set library, create your own: customize t
 - Consistent output format every time
 - Perfect for recurring workflows
 
-<video src="https://drive.google.com/file/d/1ou4LNtzJ4RZ-r9rJsBPwTIW7kn-Vde4U/view?usp=drive_link" controls="controls" style="max-width: 730px">
+<video src="https://storage.googleapis.com/pieces_pro_tips_media/Custom%20Sumamry%20Part%202.mp4" controls="controls" style="max-width: 730px">
 </video>
 
 ![Create and save your own summary templates for one-click generation](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_custom_summary_templates.png)
