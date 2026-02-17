@@ -8,7 +8,8 @@ Think of it as your memory assistant for time tracking. Pieces captures context 
 
 **In this guide**, we'll walk through how to generate a Time Breakdown and configure a specific time range so you get exactly the reporting window you need.
 
-> **Watch the walkthrough:** [Video: How to Generate a Time Breakdown with a Custom Time Range]()
+<video src="https://github.com/user-attachments/assets/346c2d1e-7190-45a7-93a5-ed258bc04cfe" controls="controls" style="max-width: 730px">
+</video>
 
 ---
 

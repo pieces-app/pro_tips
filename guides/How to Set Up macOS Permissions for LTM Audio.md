@@ -23,7 +23,8 @@ Make sure you have:
 
 ## Video Walkthrough
 
-<!-- VIDEO PLACEHOLDER: Insert video walkthrough of the macOS permissions setup process here -->
+<video src="https://github.com/user-attachments/assets/971a1c28-7e44-46bf-bad2-5a5d2be00cb7" controls="controls" style="max-width: 730px">
+</video>
 
 ---
 
