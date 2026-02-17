@@ -158,6 +158,9 @@ If your ideal summary isn't in the pre-set library, create your own: customize t
 - Consistent output format every time
 - Perfect for recurring workflows
 
+<video src="https://github.com/user-attachments/assets/4fc2124c-3159-4170-af26-92d74d47e0b2" controls="controls" style="max-width: 730px">
+</video>
+
 ![Create and save your own summary templates for one-click generation](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_custom_summary_templates.png)
 
 *Build it once, use it forever. Your workflow, your templates, your way.*
