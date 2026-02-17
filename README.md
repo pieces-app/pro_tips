@@ -100,6 +100,25 @@ Navigate efficiently in Pieces:
 - **Common workflows** for seamless context switching
 - **Pro tips** for staying in the flow
 
+### ⏱️ [How to Generate a Time Breakdown with a Custom Time Range](./guides/How%20to%20Generate%20a%20Time%20Breakdown%20with%20a%20Custom%20Time%20Range.md)
+
+A video-guided walkthrough for reconstructing billable hours:
+- **What Time Breakdown is** and why configurable time ranges matter
+- **Step-by-step instructions** for generating a breakdown with a specific time range
+- **Use cases** for daily timesheets, weekly billing, sprint reviews, and more
+- **Pro tips** for matching time ranges to billing cycles and refining output
+- **Troubleshooting** for incomplete breakdowns and missing entries
+
+### 🎤 [How to Set Up macOS Permissions for LTM Audio](./guides/How%20to%20Set%20Up%20macOS%20Permissions%20for%20LTM%20Audio.md)
+
+A step-by-step guide to enabling LTM Audio on macOS:
+- **Prerequisites**: Version requirements and what to update first
+- **Enabling LTM Audio**: Two ways to activate the feature in Pieces
+- **Granting Microphone Access**: Allow PiecesOS to capture your voice and ambient audio
+- **Granting Screen & System Audio Recording**: Allow PiecesOS to capture system audio output
+- **Verification**: Confirm audio context is flowing into your Long-Term Memory
+- **Troubleshooting**: Common permission issues and how to resolve them
+
 ### 🔄 [Quick Update Guide: Pieces for Developers (Linux/Snap)](./guides/How%20to%20Update%20Pieces%20Snap%20Packages.md)
 
 A simple 4-step process to update Pieces on Linux:
