@@ -23,7 +23,7 @@ Make sure you have:
 
 ## Video Walkthrough
 
-<video src="https://github.com/user-attachments/assets/971a1c28-7e44-46bf-bad2-5a5d2be00cb7" controls="controls" style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/971a1c28-7e44-46bf-bad2-5a5d2be00cb7" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
 ---

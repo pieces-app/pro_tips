@@ -24,7 +24,7 @@ With LTM Audio enabled, all of that verbal context becomes part of your Long-Ter
 
 The Pieces Desktop App provides a straightforward way to toggle audio capture on or off from within the app settings.
 
-<video src="https://github.com/user-attachments/assets/4322c770-fe15-4e00-9810-7ea9b77b3dcc" controls="controls" style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/4322c770-fe15-4e00-9810-7ea9b77b3dcc" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
 ### Steps
@@ -43,7 +43,7 @@ Once enabled, Pieces will begin passively capturing audio from your meetings and
 
 You can also enable LTM Audio directly from the Pieces OS toolbar icon—useful when you want to quickly toggle audio capture without opening the full Desktop App.
 
-<video src="https://github.com/user-attachments/assets/04f58d33-507a-486a-b14f-d03e3509a9b2" controls="controls" style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/04f58d33-507a-486a-b14f-d03e3509a9b2" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
 ### Steps

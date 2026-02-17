@@ -4,7 +4,7 @@
 
 Whether you're upgrading to **Pieces Pro** or **Pieces Enterprise**, applying a discount code at checkout is quick and straightforward. This guide walks you through the exact steps to make sure your discount is applied before you complete your purchase.
 
-<video src="https://github.com/user-attachments/assets/dd5e03f4-349b-4585-9d3c-43eee9c7c9ad" controls="controls" style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/dd5e03f4-349b-4585-9d3c-43eee9c7c9ad" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
 ---
