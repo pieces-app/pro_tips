@@ -21,25 +21,25 @@ Make sure you have:
 
 ## Step-by-Step: Applying a Discount Code
 
-### Step 1 — Navigate to Checkout
+### Step 1 — Click Upgrade from Within the App
 
-<!-- Describe how to get to the checkout page — from the Desktop App, website, or settings -->
+From anywhere inside the Pieces Desktop App, click the **Upgrade** button. This will open the Pieces checkout page in your default web browser — you don't need to navigate to a separate website or find a hidden settings page.
 
-### Step 2 — Select Your Plan
+### Step 2 — Enter Your Personal Information
 
-<!-- Describe choosing between Pieces Pro and Pieces Enterprise -->
+Once the checkout page loads in your browser, you'll be asked to provide a few personal details. Fill in the required fields to continue to the payment screen.
 
-### Step 3 — Enter Your Discount Code
+### Step 3 — Find the Discount Code Field
 
-<!-- Describe where the discount code field is and how to enter/apply it -->
+On the checkout screen, look for the small **green "Add discount"** text located **above the credit card fields**. It's easy to miss — it's intentionally subtle. Click on it to reveal the discount code input field.
 
-### Step 4 — Verify the Discount
+### Step 4 — Enter and Apply Your Discount Code
 
-<!-- Describe what the user should see once the code is successfully applied — updated price, confirmation message, etc. -->
+Type your discount code into the field and submit it. If the code is valid, the discount will be applied immediately — you'll see the **totals update to reflect the new discounted price**. Double-check that the updated amount matches what you expect before proceeding.
 
 ### Step 5 — Complete Your Purchase
 
-<!-- Describe finishing the checkout process after the discount is confirmed -->
+With the discount confirmed and reflected in your total, fill in your payment details and complete the checkout. Once the purchase is finalized, your plan will reflect the applied discount.
 
 ---
 
@@ -88,11 +88,21 @@ Some promotions may be combinable. If you have multiple codes, try applying each
 Applying a discount code at checkout for Pieces Pro or Pieces Enterprise takes just a few seconds — but it's important to get it right before completing your purchase.
 
 **Key Takeaways:**
-- **Navigate to checkout** from the Desktop App or website
-- **Select your plan** — Pro for individuals, Enterprise for teams
-- **Enter your code** in the discount field and click Apply
-- **Verify the discount** is reflected in your total before paying
-- **Complete checkout** — you're all set
+- **Click Upgrade** from anywhere in the Pieces Desktop App to open checkout in your browser
+- **Fill in your details** on the checkout page
+- **Look for the green "Add discount" text** above the credit card fields — it's small but it's there
+- **Enter your code** and confirm the totals update to reflect the discount
+- **Complete checkout** — your plan will have the discount applied
+
+---
+
+## Need Help?
+
+If you run into any issues or have questions, we're here to help:
+
+- **Support Portal** — Visit [pieces.app/support](https://pieces.app/support) to browse FAQs and submit a request
+- **GitHub Issues** — Report bugs or request features directly on our [GitHub Issues page](https://github.com/pieces-app/support/issues)
+- **Book a Call** — Schedule time with our team directly: [Book a Call](https://calendar.app.google/bUwL7DGvsJsAohoW7)
 
 ---
 

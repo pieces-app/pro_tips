@@ -28,21 +28,17 @@ Make sure you have:
 
 ---
 
-## Step 1: Enable LTM Audio in Pieces
+## Step 1: Open the Permissions Modal
 
-Before macOS prompts you for permissions, you need to activate LTM Audio inside Pieces. You can do this in two ways:
+1. Open the **Pieces Desktop App**
+2. Click your **Profile button** in the top center of the screen
+3. If your permissions aren't fully configured yet, you'll notice a small **warning icon** on or near your profile button
+4. Click the **warning icon** to open the dedicated **Permissions modal**
 
-**Option A — Via User Profile Menu**
-1. Open the Pieces Desktop App
-2. Click your **User Profile** menu (top-right corner)
-3. Select **"Enable LTM Audio"**
+The Permissions modal shows you exactly which permissions are currently enabled and which still need to be granted. For LTM Audio, you need two:
 
-**Option B — Via PiecesOS Toolbar**
-1. Open the **PiecesOS Toolbar** application in your macOS menu bar
-2. Look for the **"Enable LTM Audio"** button
-3. Click to enable
-
-Once you toggle LTM Audio on, macOS will prompt you to grant the necessary permissions. If it doesn't prompt you automatically, follow the manual steps below.
+- **Microphone** — for audio input (your voice, ambient audio)
+- **Screen & System Audio Recording** — for audio output (other meeting participants, system sounds)
 
 ---
 
@@ -50,22 +46,13 @@ Once you toggle LTM Audio on, macOS will prompt you to grant the necessary permi
 
 Microphone access lets PiecesOS capture your voice and ambient audio — perfect for recording your side of meetings, pair programming discussions, and verbal problem-solving.
 
-### If macOS Prompts You Automatically
+1. In the Permissions modal, click **Allow** next to the **Microphone** permission
+2. Pieces will present a **macOS system dialog** that directs you straight to **System Settings → Privacy & Security → Microphone**
+3. PiecesOS should **already be listed** as a line item in the Microphone section — simply **toggle it on**
+4. If prompted, enter your **macOS password** or use **Touch ID** to confirm
+5. macOS will ask you to **quit and reopen PiecesOS** — click **"Quit & Reopen"**
 
-1. When you enable LTM Audio, macOS may display a dialog: **"PiecesOS would like to access the microphone"**
-2. Click **"OK"** or **"Allow"** to grant access
-3. You're done — move on to Step 3
-
-### If You Need to Grant Access Manually
-
-1. Open **System Settings** (click the Apple menu  → System Settings)
-2. Navigate to **Privacy & Security** in the left sidebar
-3. Click **Microphone**
-4. Find **PiecesOS** in the list of applications
-5. Toggle the switch **on** to grant microphone access
-6. If prompted, enter your macOS password or use Touch ID to confirm
-
-> **Tip:** If PiecesOS doesn't appear in the Microphone list, try restarting PiecesOS and enabling LTM Audio again. The app needs to request access at least once before it shows up in System Settings.
+PiecesOS will restart in the background, and the Pieces Desktop App will automatically reconnect. The Permissions modal should now reflect the enabled microphone permission.
 
 ---
 
@@ -73,30 +60,34 @@ Microphone access lets PiecesOS capture your voice and ambient audio — perfect
 
 Screen & System Audio Recording permission lets PiecesOS capture audio output from your system — this is how it hears the other participants in your video calls, webinars, and presentations.
 
-### If macOS Prompts You Automatically
-
-1. macOS may display a dialog: **"PiecesOS would like to record the contents of your screen and capture audio from your system"**
-2. Click **"Allow"** to grant access
-3. If macOS asks you to **quit and reopen** PiecesOS, click **"Quit & Reopen"** to apply the permission
-
-### If You Need to Grant Access Manually
-
-1. Open **System Settings** (click the Apple menu  → System Settings)
-2. Navigate to **Privacy & Security** in the left sidebar
-3. Click **Screen & System Audio Recording**
+1. In the Permissions modal, click **Allow** next to the **Screen & System Audio Recording** permission
+2. Pieces will present a **macOS system dialog** that directs you straight to **System Settings → Privacy & Security → Screen & System Audio Recording**
    - On older macOS versions (Ventura/Sonoma), this may appear as **Screen Recording**
-4. Find **PiecesOS** in the list of applications
-5. Toggle the switch **on** to grant recording access
-6. If prompted, enter your macOS password or use Touch ID to confirm
-7. macOS will likely ask you to **quit and reopen PiecesOS** for the change to take effect — click **"Quit & Reopen"**
+3. Unlike the Microphone permission, PiecesOS will **not** be pre-listed here — you need to click the **"+" button** and **manually add PiecesOS** to the list of enabled applications
+4. If prompted, enter your **macOS password** or use **Touch ID** to confirm
+5. macOS will ask you to **quit and reopen PiecesOS** — click **"Quit & Reopen"**
 
-> **Important:** macOS requires a restart of PiecesOS after granting Screen & System Audio Recording permission. If you skip this step, system audio capture won't work until PiecesOS is relaunched.
+PiecesOS will restart in the background, and the Pieces Desktop App will automatically reconnect. The Permissions modal should now show both permissions as enabled.
+
+> **Important:** You must click **"Quit & Reopen"** when prompted. If you skip this step, the permission won't take effect until PiecesOS is manually relaunched.
 
 ---
 
-## Step 4: Verify Everything is Working
+## Step 4: Activate LTM Audio
 
-After granting both permissions, confirm that LTM Audio is active and capturing:
+Once both permissions are enabled and reflected in the Permissions modal, you're ready to turn on LTM Audio:
+
+1. **Confirm both permissions show as enabled** in the Permissions modal
+2. **Enable LTM Audio** — you can now activate it from the User Profile menu or PiecesOS Toolbar
+3. LTM Audio will begin capturing audio context from your meetings and conversations immediately
+
+> **Good news:** This is a **one-time setup**. Once you've granted both permissions, you won't need to go through this process again — the permissions persist across app updates and restarts.
+
+---
+
+## Step 5: Verify Everything is Working
+
+After activating LTM Audio, confirm that audio context is flowing:
 
 1. **Check the LTM Audio indicator** — In the Pieces Desktop App or PiecesOS Toolbar, confirm that LTM Audio shows as **enabled**
 2. **Generate some audio activity** — Join a quick call, play a video, or simply talk near your microphone for a minute
@@ -146,15 +137,12 @@ After granting both permissions, confirm that LTM Audio is active and capturing:
 | **Microphone** | Your voice, ambient audio, your side of conversations | System Settings → Privacy & Security → Microphone |
 | **Screen & System Audio Recording** | System audio output, other participants in calls, video/webinar audio | System Settings → Privacy & Security → Screen & System Audio Recording |
 
-### Permission Checklist
+### Before You Enable
 
-- [ ] Pieces Desktop App updated to 5.0.3+
-- [ ] PiecesOS updated to 12.3.8+
-- [ ] LTM Audio enabled in Pieces (User Profile menu or PiecesOS Toolbar)
-- [ ] Microphone access granted to PiecesOS
-- [ ] Screen & System Audio Recording granted to PiecesOS
-- [ ] PiecesOS restarted after granting Screen & System Audio Recording
-- [ ] Audio context appearing in Workstream Activity / Copilot
+- **Pieces Desktop App** is updated to **5.0.3** or later
+- **PiecesOS** is updated to **12.3.8** or later
+- PiecesOS is **running** in the background
+- You have your **macOS password** or **Touch ID** ready — you'll need it to confirm permission changes
 
 ---
 
@@ -180,6 +168,16 @@ Once LTM Audio is enabled and permissions are set, audio context will automatica
 - **Combine with LTM queries** — Reference audio context alongside your code, browser, and communication activity for a complete picture of your work
 
 For more on querying your Long-Term Memory, check out the [How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md) guide.
+
+---
+
+## Need Help?
+
+If you run into any issues or have questions, we're here to help:
+
+- **Support Portal** — Visit [pieces.app/support](https://pieces.app/support) to browse FAQs and submit a request
+- **GitHub Issues** — Report bugs or request features directly on our [GitHub Issues page](https://github.com/pieces-app/support/issues)
+- **Book a Call** — Schedule time with our team directly: [Book a Call](https://calendar.app.google/bUwL7DGvsJsAohoW7)
 
 ---
 

@@ -26,17 +26,23 @@ Configurable time ranges let you scope your Time Breakdown to the exact period y
 
 ---
 
-## Step-by-Step: Generating a Time Breakdown
+## Step-by-Step: Generating a Time Breakdown with a Preset Time Range
 
-### Step 1 — Open Time Breakdown
+### Step 1 — Open Discover More
 
-From the Pieces Desktop App, navigate to **Home Base** or **Summaries**. Look for the **Time Breakdown** option among the available single-click summaries.
+From your **Home Dashboard** in the Pieces Desktop App, tap **Discover More** to view all of the available single-click summary options.
 
-<!-- ![](https://storage.googleapis.com/pieces_static_resources/pro_tips/time_breakdown_guide_open.png) -->
+<!-- ![](https://storage.googleapis.com/pieces_static_resources/pro_tips/time_breakdown_guide_discover_more.png) -->
 
-### Step 2 — Select Your Time Range
+### Step 2 — Select Time Breakdown
 
-Before generating, you'll see options to configure your time range. Choose from the available presets:
+In the list of single-click summaries, find and tap **Time Breakdown**. This will open a new modal with a set of preset time range options to choose from.
+
+<!-- ![](https://storage.googleapis.com/pieces_static_resources/pro_tips/time_breakdown_guide_select.png) -->
+
+### Step 3 — Choose a Preset Time Range
+
+Select the preset that matches your reporting needs:
 
 - **Last 24 Hours** — Perfect for daily timesheet submissions
 - **Last 2 Days** — Great for catching up on a missed day
@@ -44,35 +50,26 @@ Before generating, you'll see options to configure your time range. Choose from 
 - **Last 2 Weeks** — Useful for bi-weekly invoicing or longer reporting periods
 - **Last 30 Days** — For monthly reviews or end-of-month billing
 
-Select the range that matches your reporting needs.
-
 <!-- ![Time Breakdown now supports configurable time ranges for flexible reporting](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_time_breakdown_time_range_configuration.png) -->
 
-### Step 3 — Generate
+### Step 4 — Generate Time Breakdown
 
-Click **Generate**. Pieces will analyze all the workstream context captured during your selected time range and produce a structured breakdown.
+Once you've selected a time range, tap **Generate Time Breakdown**. Pieces will analyze all the workstream context captured during that period and produce a structured breakdown.
 
 This includes:
 - **Approximate time blocks** showing when you worked on what
 - **Project and client groupings** to organize your billing
 - **Activity descriptions** that jog your memory on the details
 
-### Step 4 — Review and Refine
+### Step 5 — View, Edit, and Use Your Time Breakdown
 
-Once your Time Breakdown is generated, review the output. Each entry is **editable**, so you can:
+Once the Time Breakdown is generated, you have several options:
 
-- Adjust time blocks if something doesn't look right
-- Add context or notes for specific entries
-- Merge or split activities as needed
-- Fill in any gaps that Pieces may not have captured
-
-### Step 5 — Export or Submit
-
-When you're satisfied with your Time Breakdown, you can:
-
-- **Copy** the breakdown to paste into your billing system
+- **View** the full breakdown to review your time blocks and activity summaries
+- **Edit** any entries directly—adjust time blocks, add notes, merge or split activities, and fill in any gaps
+- **Copy** the breakdown to paste into your billing system or timesheet
 - **Export** for use in spreadsheets, legal billing tools, or PSA platforms
-- **Use as a foundation** for more detailed time entries
+- **Use as context for a conversation** — start a chat from your Time Breakdown to ask Pieces Copilot follow-up questions or get more detail on specific time blocks
 
 ---
 
@@ -155,13 +152,24 @@ If a time block seems incomplete or you want more context, start a chat from the
 Time Breakdown turns your captured workstream context into structured, billable time entries—and configurable time ranges let you scope that breakdown to exactly the period you need.
 
 **Key Takeaways:**
-- **One click** — Generate a Time Breakdown from Home Base or Summaries
-- **Pick your range** — Choose from last 24 hours, 2 days, 1 week, 2 weeks, or 30 days
+- **Discover More** — Tap Discover More from your Home Dashboard to find Time Breakdown
+- **Preset time ranges** — Choose from last 24 hours, 2 days, 1 week, 2 weeks, or 30 days
+- **One tap to generate** — Select your range and tap Generate Time Breakdown
 - **Structured output** — Time blocks organized by project with activity descriptions
-- **Fully editable** — Review, refine, and adjust before submitting
+- **Fully editable** — View, edit, copy, export, or use as context for a conversation
 - **Works with your cycle** — Match the time range to your billing schedule
 
 Stop starting from a blank page. Let Time Breakdown give you the foundation, then apply your judgment to finalize.
+
+---
+
+## Need Help?
+
+If you run into any issues or have questions, we're here to help:
+
+- **Support Portal** — Visit [pieces.app/support](https://pieces.app/support) to browse FAQs and submit a request
+- **GitHub Issues** — Report bugs or request features directly on our [GitHub Issues page](https://github.com/pieces-app/support/issues)
+- **Book a Call** — Schedule time with our team directly: [Book a Call](https://calendar.app.google/bUwL7DGvsJsAohoW7)
 
 ---
 

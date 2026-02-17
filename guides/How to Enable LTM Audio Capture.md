@@ -20,6 +20,16 @@ With LTM Audio enabled, all of that verbal context becomes part of your Long-Ter
 
 ---
 
+## macOS Users: Set Up Permissions First
+
+> **If you're on macOS**, you must grant microphone and system audio permissions before enabling LTM Audio. Without these permissions, audio capture won't work even if the toggle is turned on.
+>
+> Follow our dedicated guide to get your permissions configured: **[How to Set Up macOS Permissions for LTM Audio](./How%20to%20Set%20Up%20macOS%20Permissions%20for%20LTM%20Audio.md)**
+>
+> **Windows and Linux users** — no additional permissions setup is needed. You can jump straight to enabling LTM Audio below.
+
+---
+
 ## How to Enable LTM Audio from the Pieces Desktop App
 
 The Pieces Desktop App provides a straightforward way to toggle audio capture on or off from within the app settings.
@@ -30,29 +40,31 @@ The Pieces Desktop App provides a straightforward way to toggle audio capture on
 ### Steps
 
 1. **Open the Pieces Desktop App**
-2. **Navigate to Settings** — Click the gear icon or use the Power Menu to go to Settings
-3. **Find the LTM Audio setting** — Look for the "Audio Capture" or "LTM Audio" toggle under the Long-Term Memory section
-4. **Enable the toggle** — Switch it on to start capturing audio context
-5. **Grant microphone permissions** — If prompted, allow Pieces access to your microphone. This is required for audio capture to work
+2. **Tap your User Profile button** in the top center of the screen
+3. **Find and tap "Enable LTM Audio"**
+4. **Accept the Terms & Conditions** — If this is your first time enabling LTM Audio, you'll be prompted to review and accept a few terms and conditions before proceeding
+5. **You're all set** — Once accepted, Pieces will begin forming memories from audio
 
 Once enabled, Pieces will begin passively capturing audio from your meetings and conversations, adding that context to your Long-Term Memory.
 
 ---
 
-## How to Enable LTM Audio from the Pieces OS Toolbar
+## How to Enable LTM Audio from the PiecesOS Toolbar
 
-You can also enable LTM Audio directly from the Pieces OS toolbar icon—useful when you want to quickly toggle audio capture without opening the full Desktop App.
+You can also enable LTM Audio directly from the PiecesOS toolbar icon—useful when you want to quickly toggle audio capture without opening the full Desktop App.
 
 <video src="https://github.com/user-attachments/assets/04f58d33-507a-486a-b14f-d03e3509a9b2" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
 ### Steps
 
-1. **Locate the Pieces OS icon** — Find the Pieces OS icon in your system tray (Windows) or menu bar (macOS)
-2. **Click the Pieces OS icon** — This opens the Pieces OS toolbar menu
-3. **Find the LTM Audio option** — Look for the "Audio Capture" or "LTM Audio" toggle in the menu
-4. **Enable it** — Click to toggle audio capture on
-5. **Grant microphone permissions if needed** — If this is your first time enabling audio capture, you may be prompted to allow microphone access at the system level
+1. **Tap the PiecesOS toolbar icon**
+   - **macOS** — Located in your top menu bar
+   - **Windows** — Located in your lower-right system tray
+   - **Linux** — Located in the top-right of your toolbar
+2. **Find and tap "Enable LTM Audio"** in the dropdown menu
+3. **Accept the Terms & Conditions** — If this is your first time enabling LTM Audio, you'll be prompted to review and accept a few terms and conditions before proceeding
+4. **You're all set** — Once accepted, Pieces will begin forming memories from audio
 
 The toolbar method is especially handy when you're about to jump into a meeting and want to make sure audio capture is active without leaving your current workflow.
 
@@ -86,15 +98,15 @@ Once LTM Audio is enabled and you've had some meetings or conversations, you can
 
 ### Privacy and Control
 
-- **You're always in control** — LTM Audio can be toggled on or off at any time from either the Desktop App or the Pieces OS toolbar
-- **Local processing** — Audio is processed locally on your machine by Pieces OS
+- **You're always in control** — LTM Audio can be toggled on or off at any time from either the Desktop App or the PiecesOS toolbar
+- **Local processing** — Audio is processed locally on your machine by PiecesOS
 - **No always-on recording** — Audio context is captured and processed into memory, not stored as raw audio files
 
 ### Microphone Permissions
 
 - On **macOS**, you may need to grant microphone access in **System Settings > Privacy & Security > Microphone**
-- On **Windows**, check **Settings > Privacy > Microphone** to ensure Pieces OS has access
-- On **Linux**, ensure your audio permissions are configured for the Pieces OS process
+- On **Windows**, check **Settings > Privacy > Microphone** to ensure PiecesOS has access
+- On **Linux**, ensure your audio permissions are configured for the PiecesOS process
 
 ### Best Results
 
@@ -107,9 +119,9 @@ Once LTM Audio is enabled and you've had some meetings or conversations, you can
 ## Troubleshooting
 
 ### Audio Not Being Captured?
-- Verify that LTM Audio is enabled in either the Desktop App settings or the Pieces OS toolbar
-- Check that Pieces OS has microphone permissions at the system level
-- Make sure Pieces OS is running—audio capture requires an active Pieces OS process
+- Verify that LTM Audio is enabled in either the Desktop App settings or the PiecesOS toolbar
+- Check that PiecesOS has microphone permissions at the system level
+- Make sure PiecesOS is running—audio capture requires an active PiecesOS process
 
 ### Audio Context Not Appearing in Queries?
 - Give it some time—audio context needs to be processed and integrated into your Long-Term Memory
@@ -117,7 +129,7 @@ Once LTM Audio is enabled and you've had some meetings or conversations, you can
 - Make sure the "LTM Context" button is enabled in your Copilot chat—without it, Pieces won't search your Long-Term Memory
 
 ### Microphone Permission Issues?
-- Restart Pieces OS after granting permissions—some systems require a restart for new permissions to take effect
+- Restart PiecesOS after granting permissions—some systems require a restart for new permissions to take effect
 - Check that no other application is exclusively locking your microphone
 - On macOS, you may need to re-enable the permission after a system update
 
@@ -125,16 +137,26 @@ Once LTM Audio is enabled and you've had some meetings or conversations, you can
 
 ## Summary
 
-LTM Audio brings your spoken conversations into the same Long-Term Memory that already captures your screen activity. Enable it from the **Pieces Desktop App** settings or the **Pieces OS toolbar**—whichever is more convenient—and start building richer, more complete context from every part of your workday.
+LTM Audio brings your spoken conversations into the same Long-Term Memory that already captures your screen activity. Enable it from the **Pieces Desktop App** settings or the **PiecesOS toolbar**—whichever is more convenient—and start building richer, more complete context from every part of your workday.
 
 **Key Takeaways:**
-- **Two ways to enable** — Desktop App settings or Pieces OS toolbar
+- **Two ways to enable** — Desktop App settings or PiecesOS toolbar
 - **Captures verbal context** — Meetings, calls, pair programming, huddles
 - **Fully queryable** — Ask about what was said just like you ask about what you coded or browsed
 - **You're in control** — Toggle on or off anytime, processed locally
 - **Better together** — Combine audio context with screen context for the richest Long-Term Memory
 
 Turn on LTM Audio, and never lose track of what was said again.
+
+---
+
+## Need Help?
+
+If you run into any issues or have questions, we're here to help:
+
+- **Support Portal** — Visit [pieces.app/support](https://pieces.app/support) to browse FAQs and submit a request
+- **GitHub Issues** — Report bugs or request features directly on our [GitHub Issues page](https://github.com/pieces-app/support/issues)
+- **Book a Call** — Schedule time with our team directly: [Book a Call](https://calendar.app.google/bUwL7DGvsJsAohoW7)
 
 ---
 
