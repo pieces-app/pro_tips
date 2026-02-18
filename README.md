@@ -109,7 +109,15 @@ A video-guided walkthrough for reconstructing billable hours:
 - **Pro tips** for matching time ranges to billing cycles and refining output
 - **Troubleshooting** for incomplete breakdowns and missing entries
 
-### 🎤 [How to Set Up macOS Permissions for LTM Audio](./guides/How%20to%20Set%20Up%20macOS%20Permissions%20for%20LTM%20Audio.md)
+### 🎤 [How to Enable LTM Audio Capture](./guides/How%20to%20Enable%20LTM%20Audio%20Capture.md)
+
+A video-guided walkthrough for capturing audio context:
+- **macOS permissions callout** with link to the dedicated permissions guide
+- **Two methods to enable** — Desktop App (User Profile) and PiecesOS Toolbar with platform-specific instructions
+- **Role-specific query examples** for developers, managers, PMs, lawyers, accountants, consultants, and executives
+- **Privacy and control** — toggle on/off anytime, local processing, no raw audio storage
+
+### 🔒 [How to Set Up macOS Permissions for LTM Audio](./guides/How%20to%20Set%20Up%20macOS%20Permissions%20for%20LTM%20Audio.md)
 
 A step-by-step guide to enabling LTM Audio on macOS:
 - **Prerequisites**: Version requirements and what to update first
@@ -118,6 +126,23 @@ A step-by-step guide to enabling LTM Audio on macOS:
 - **Granting Screen & System Audio Recording**: Allow PiecesOS to capture system audio output
 - **Verification**: Confirm audio context is flowing into your Long-Term Memory
 - **Troubleshooting**: Common permission issues and how to resolve them
+
+### 📋 [How to Create and Save Custom Summary Templates](./guides/How%20to%20Create%20and%20Save%20Custom%20Summary%20Templates.md)
+
+A video-guided walkthrough for building your own single-click summaries:
+- **What Custom Summary Templates are** and why they save time
+- **Step-by-step instructions** for creating, configuring, and saving a template
+- **11 use case examples** with copyable prompts: project updates, research roundups, client reports, meeting digests, and more
+- **Pro tips** for naming, scoping, and maintaining your template library
+- **Troubleshooting** for output that's too broad, too sparse, or missing templates
+
+### 💳 [How to Apply a Discount Code at Checkout for Pieces Pro or Enterprise](./guides/How%20to%20Apply%20a%20Discount%20Code%20at%20Checkout%20for%20Pieces%20Pro%20or%20Enterprise.md)
+
+A video-guided walkthrough for applying discounts during checkout:
+- **Step-by-step instructions** for the full checkout flow from the Upgrade button to purchase completion
+- **Finding the discount field** — the green "Add discount" text above credit card fields
+- **Who Benefits from Upgrading?** — Use cases for developers, managers, consultants, lawyers, accountants, executives, and educators
+- **Troubleshooting** for invalid codes, missing discounts, and existing subscriptions
 
 ### 🔄 [Quick Update Guide: Pieces for Developers (Linux/Snap)](./guides/How%20to%20Update%20Pieces%20Snap%20Packages.md)
 
