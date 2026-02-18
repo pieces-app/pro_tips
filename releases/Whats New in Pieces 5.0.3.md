@@ -348,7 +348,8 @@ Not anymore. Mathematical expressions and scientific notation now render correct
 - Displays correctly in saved materials
 - Consistent formatting across all Pieces views
 
-![LaTeX rendering makes mathematical expressions readable across Pieces](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_latex_rendering_support.png)
+<video src="https://github.com/user-attachments/assets/aeb90181-e6f3-42bd-bea4-38eb84519c94" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 *Mathematical expressions and scientific notation now render correctly—no plugins or workarounds needed.*
 
