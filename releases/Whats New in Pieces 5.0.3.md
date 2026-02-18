@@ -355,7 +355,7 @@ Not anymore. Mathematical expressions and scientific notation now render correct
 - Displays correctly in saved materials
 - Consistent formatting across all Pieces views
 
-<video src="https://github.com/user-attachments/assets/aeb90181-e6f3-42bd-bea4-38eb84519c94" controls="controls" autoplay muted style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/d4ac0813-2e11-471d-beb1-3faf524b2e2d" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
 *Mathematical expressions and scientific notation now render correctly—no plugins or workarounds needed.*
