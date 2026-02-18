@@ -176,6 +176,7 @@ Guides for connecting AI agents to your Pieces Long-Term Memory via the Model Co
 4. **Want to get the most out of Workstream Activity?** Learn how your automatic work journal captures and summarizes your work
 5. **Need to navigate faster?** Learn the Power Menu to jump between views seamlessly
 6. **Want to become a power user?** Experiment with combining different query elements and refine your approach
+7. **Want to connect Cursor, Claude, or Goose to your memory?** Start with the [MCP Guides Index](./guides/MCP/README.md) and pick your tool
 
 ## Key Principles
 
@@ -196,6 +197,7 @@ LTM automatically captures context from:
 - Communication tools (Teams, Slack, Discord)
 - Documentation platforms (Notion, Confluence, GitHub)
 - Terminal and command line
+- **Microphone & system audio** — meetings, pair programming sessions, video calls, and presentations (enable via LTM Audio, introduced in 5.0.3)
 
 All of this becomes searchable through natural language queries—no need to remember exact details or file names.
 
