@@ -76,6 +76,7 @@ Covers: 19 tool-specific guides, transport support matrix, stdio-to-HTTP bridge 
 
 - **Security best practices for exposing MCP endpoints** -- Authentication, IP allowlists, traffic policies, and when to keep tunnels open vs. closed (planned).
 
-| | |
-|:---|---:|
-| [← Back to Guides Index](../README.md) | [Next: Pieces MCP and LTM Tools Reference →](./Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) |
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="../README.md">← Back to Guides Index</a>&nbsp;&nbsp;</td>
+<td align="right">&nbsp;&nbsp;<a href="./Pieces%20MCP%20and%20LTM%20Tools%20Reference.md">Next: Pieces MCP and LTM Tools Reference →</a>&nbsp;&nbsp;</td>
+</tr></table>

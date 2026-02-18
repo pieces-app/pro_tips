@@ -299,6 +299,7 @@ curl -s http://localhost:4040/api/tunnels | jq -r '.tunnels[0].public_url'
 
 ---
 
-| | |
-|:---|---:|
-| [← Previous: Pieces MCP and LTM Tools Reference](./Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) | [Next: Bridging Local MCP Clients with mcp-remote →](./Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md) |
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./Pieces%20MCP%20and%20LTM%20Tools%20Reference.md">← Previous: Pieces MCP and LTM Tools Reference</a>&nbsp;&nbsp;</td>
+<td align="right">&nbsp;&nbsp;<a href="./Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md">Next: Bridging Local MCP Clients with mcp-remote →</a>&nbsp;&nbsp;</td>
+</tr></table>

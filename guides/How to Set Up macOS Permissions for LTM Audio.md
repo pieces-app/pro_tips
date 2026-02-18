@@ -215,6 +215,7 @@ If you run into any issues or have questions, we're here to help:
 
 ---
 
-| | |
-|:---|---:|
-| [← Previous: How to Enable LTM Audio Capture](./How%20to%20Enable%20LTM%20Audio%20Capture.md) | [Next: How to Generate a Time Breakdown →](./How%20to%20Generate%20a%20Time%20Breakdown%20with%20a%20Custom%20Time%20Range.md) |
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./How%20to%20Enable%20LTM%20Audio%20Capture.md">← Previous: How to Enable LTM Audio Capture</a>&nbsp;&nbsp;</td>
+<td align="right">&nbsp;&nbsp;<a href="./How%20to%20Generate%20a%20Time%20Breakdown%20with%20a%20Custom%20Time%20Range.md">Next: How to Generate a Time Breakdown →</a>&nbsp;&nbsp;</td>
+</tr></table>

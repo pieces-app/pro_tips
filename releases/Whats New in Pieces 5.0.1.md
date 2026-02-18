@@ -271,6 +271,7 @@ We're building toward **LTM-3**—the next major evolution of Long-Term Memory t
 
 We'd love to hear what you think! Join our community or reach out to support.
 
-| | |
-|:---|---:|
-| [← Previous: What's New in Pieces 5.0.0](./Whats%20New%20in%20Pieces%205.0.0.md) | [Next: What's New in Pieces 5.0.3 →](./Whats%20New%20in%20Pieces%205.0.3.md) |
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./Whats%20New%20in%20Pieces%205.0.0.md">← Previous: What's New in Pieces 5.0.0</a>&nbsp;&nbsp;</td>
+<td align="right">&nbsp;&nbsp;<a href="./Whats%20New%20in%20Pieces%205.0.3.md">Next: What's New in Pieces 5.0.3 →</a>&nbsp;&nbsp;</td>
+</tr></table>

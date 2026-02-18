@@ -242,7 +242,8 @@ Thank you for being part of the Pieces community. We can't wait to show you what
 
 We'd love to hear what you think about 5.0.0! Join our community or reach out to our support team.
 
-| | |
-|:---|---:|
-| | [Next: What's New in Pieces 5.0.1 →](./Whats%20New%20in%20Pieces%205.0.1.md) |
+<table width="100%"><tr>
+<td></td>
+<td align="right">&nbsp;&nbsp;<a href="./Whats%20New%20in%20Pieces%205.0.1.md">Next: What's New in Pieces 5.0.1 →</a>&nbsp;&nbsp;</td>
+</tr></table>
 

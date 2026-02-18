@@ -227,6 +227,7 @@ If you run into any issues or have questions, we're here to help:
 
 ---
 
-| | |
-|:---|---:|
-| [← Previous: How to Generate a Time Breakdown](./How%20to%20Generate%20a%20Time%20Breakdown%20with%20a%20Custom%20Time%20Range.md) | [Next: How to Apply a Discount Code at Checkout →](./How%20to%20Apply%20a%20Discount%20Code%20at%20Checkout%20for%20Pieces%20Pro%20or%20Enterprise.md) |
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./How%20to%20Generate%20a%20Time%20Breakdown%20with%20a%20Custom%20Time%20Range.md">← Previous: How to Generate a Time Breakdown</a>&nbsp;&nbsp;</td>
+<td align="right">&nbsp;&nbsp;<a href="./How%20to%20Apply%20a%20Discount%20Code%20at%20Checkout%20for%20Pieces%20Pro%20or%20Enterprise.md">Next: How to Apply a Discount Code at Checkout →</a>&nbsp;&nbsp;</td>
+</tr></table>

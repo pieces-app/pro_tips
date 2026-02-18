@@ -163,6 +163,7 @@ mcp-proxy http://localhost:39300/model_context_protocol/2024-11-05/sse
 
 ---
 
-| | |
-|:---|---:|
-| [← Previous: Bridging Local MCP Clients with mcp-remote](../Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md) | |
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="../Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md">← Previous: Bridging Local MCP Clients with mcp-remote</a>&nbsp;&nbsp;</td>
+<td></td>
+</tr></table>

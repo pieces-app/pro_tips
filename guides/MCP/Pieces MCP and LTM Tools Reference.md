@@ -1691,6 +1691,7 @@ All 39 Pieces MCP tools were tested with minimal valid inputs to confirm they re
 
 ---
 
-| | |
-|:---|---:|
-| [← Previous: MCP Guides Index](./README.md) | [Next: Connecting to PiecesOS via Ngrok →](./Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) |
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./README.md">← Previous: MCP Guides Index</a>&nbsp;&nbsp;</td>
+<td align="right">&nbsp;&nbsp;<a href="./Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md">Next: Connecting to PiecesOS via Ngrok →</a>&nbsp;&nbsp;</td>
+</tr></table>
