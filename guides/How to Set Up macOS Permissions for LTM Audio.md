@@ -208,3 +208,9 @@ If you run into any issues or have questions, we're here to help:
 ---
 
 *Capture every conversation, decision, and insight — set up LTM Audio on macOS and let Pieces remember what you heard.*
+
+---
+
+| | |
+|:---|---:|
+| [← Previous: How to Enable LTM Audio Capture](./How%20to%20Enable%20LTM%20Audio%20Capture.md) | [Next: How to Generate a Time Breakdown →](./How%20to%20Generate%20a%20Time%20Breakdown%20with%20a%20Custom%20Time%20Range.md) |

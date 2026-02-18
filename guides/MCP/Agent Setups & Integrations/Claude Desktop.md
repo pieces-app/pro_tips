@@ -130,3 +130,7 @@ If you want remote access without needing a Pro/higher plan, use the bridge with
 - [Pieces MCP and LTM Tools Reference](../Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) — Complete reference for all 39 tools available to your agents
 - [Connecting to PiecesOS via Ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) — Expose your local Pieces server for remote access
 - [Bridging Local MCP Clients with mcp-remote](../Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md) — Connect stdio-only clients to the Pieces HTTP endpoint
+
+---
+
+[← Back to All Agent Setup Guides](./README.md)

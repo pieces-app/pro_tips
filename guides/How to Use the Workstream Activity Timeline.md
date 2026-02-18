@@ -241,3 +241,9 @@ Combine Workstream Activity's timeline view with chats and LTM queries, and you 
 
 *Turn what happened into clear summaries in one click with Workstream Activity.*
 
+---
+
+| | |
+|:---|---:|
+| [← Previous: 5 Queries To Ask Pieces LTM (2+ Months)](./5%20Queries%20To%20Ask%20Pieces%20LTM%20after%202%2B%20Months%20of%20Background%20Memory%20Formation.md) | [Next: Navigating the Desktop App UI with the Power Menu →](./Navigating%20the%20Desktop%20App%20UI%20with%20the%20Power%20Menu.md) |
+

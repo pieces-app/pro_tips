@@ -55,7 +55,7 @@ Our most significant update yet! Discover the new features:
 
 This repository contains practical guides and examples to help you get the most out of LTM queries, Workstream Activity, and navigation in Pieces.
 
-**Guides folder structure:** General guides (LTM queries, Workstream Activity, navigation, Time Breakdown, etc.) live in `guides/`. The `guides/MCP/` subfolder contains specialized guides for the **Model Context Protocol (MCP)**—connecting AI clients like Cursor, Claude Code, and Goose to your Pieces Long-Term Memory, including remote access and tool reference.
+**[→ Browse all guides](./guides/README.md)** — Full table of contents with use-case-focused overviews for every guide. General guides (LTM queries, Workstream Activity, navigation, Time Breakdown, etc.) live in `guides/`. The `guides/MCP/` subfolder contains specialized guides for the **Model Context Protocol (MCP)**—connecting AI clients like Cursor, Claude Code, and Goose to your Pieces Long-Term Memory, including remote access and tool reference.
 
 ### 🎯 [10 Queries To Ask Pieces LTM after 24-48 Hours of Background Memory Formation](./guides/10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md)
 

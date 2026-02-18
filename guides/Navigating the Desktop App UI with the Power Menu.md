@@ -110,3 +110,9 @@ Learn the Power Menu, and you'll navigate Pieces like a pro.
 
 *Stay in the flow with the Power Menu—your command center for navigating Pieces.*
 
+---
+
+| | |
+|:---|---:|
+| [← Previous: Workstream Activity Timeline](./How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md) | [Next: How to Enable LTM Audio Capture →](./How%20to%20Enable%20LTM%20Audio%20Capture.md) |
+

@@ -137,3 +137,9 @@ If you run into any issues or have questions, we're here to help:
 ---
 
 *Save on your Pieces subscription—apply your discount code at checkout and start unlocking the full power of Pieces.*
+
+---
+
+| | |
+|:---|---:|
+| [← Previous: How to Create and Save Custom Summary Templates](./How%20to%20Create%20and%20Save%20Custom%20Summary%20Templates.md) | [Next: How to Update Pieces Snap Packages →](./How%20to%20Update%20Pieces%20Snap%20Packages.md) |

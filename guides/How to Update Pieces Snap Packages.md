@@ -78,3 +78,9 @@ pkill os_server
 - Updates require `sudo` privileges
 - Wait times between steps ensure proper shutdown/startup
 
+---
+
+| | |
+|:---|---:|
+| [← Previous: How to Apply a Discount Code at Checkout](./How%20to%20Apply%20a%20Discount%20Code%20at%20Checkout%20for%20Pieces%20Pro%20or%20Enterprise.md) | |
+

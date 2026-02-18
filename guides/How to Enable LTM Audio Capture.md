@@ -229,3 +229,9 @@ If you run into any issues or have questions, we're here to help:
 ---
 
 *Give Pieces ears—enable LTM Audio and make every conversation part of your Long-Term Memory.*
+
+---
+
+| | |
+|:---|---:|
+| [← Previous: Navigating the Desktop App UI with the Power Menu](./Navigating%20the%20Desktop%20App%20UI%20with%20the%20Power%20Menu.md) | [Next: How to Set Up macOS Permissions for LTM Audio →](./How%20to%20Set%20Up%20macOS%20Permissions%20for%20LTM%20Audio.md) |

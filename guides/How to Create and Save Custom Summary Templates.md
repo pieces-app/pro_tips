@@ -211,3 +211,9 @@ If you run into any issues or have questions, we're here to help:
 ---
 
 *Your workflow, your templates, your way — create custom summary templates and generate the exact summaries you need with a single click.*
+
+---
+
+| | |
+|:---|---:|
+| [← Previous: How to Generate a Time Breakdown](./How%20to%20Generate%20a%20Time%20Breakdown%20with%20a%20Custom%20Time%20Range.md) | [Next: How to Apply a Discount Code at Checkout →](./How%20to%20Apply%20a%20Discount%20Code%20at%20Checkout%20for%20Pieces%20Pro%20or%20Enterprise.md) |

@@ -106,3 +106,7 @@ Edit `~/.aws/amazonq/default.json`, update the `url`, and restart Amazon Q or st
 - [All Agent Setup Guides](./README.md) — Transport matrix and setup guides for 19 MCP-compatible tools
 - [Pieces MCP and LTM Tools Reference](../Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) — Complete reference for all 39 tools available to your agents
 - [Connecting to PiecesOS via Ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) — Expose your local Pieces server for remote access
+
+---
+
+[← Back to All Agent Setup Guides](./README.md)
