@@ -90,22 +90,81 @@ The more sources Pieces captures from, the more complete your Time Breakdown wil
 
 ---
 
-## Use Cases
+## Use Cases: Custom Time Breakdown Queries in Copilot Chat
 
-### Daily Timesheets
-Generate a Time Breakdown scoped to the **last 24 hours** at the end of each workday. Review, refine, and submit—no more guessing what happened at 2 PM.
+The single-click Time Breakdown summary uses a preset prompt — you choose the time range and Pieces handles the rest. But if you want more control over **how** your time is broken down, you can ask for a custom Time Breakdown directly in **Pieces Copilot chat** using a freeform prompt.
 
-### Weekly Client Billing
-At the end of the week, generate a Time Breakdown for the **last 7 days**. Use the project groupings to separate billable hours by client, then export for invoicing.
+This gives you the flexibility to scope by project, client, activity type, or anything else that matters to your workflow. Here are some examples you can copy and paste straight into Copilot:
 
-### Sprint Reviews
-Scope to your sprint duration to see how time was distributed across tasks. Use this as a data point for retrospectives and capacity planning.
+### Developers & Engineers
+At the end of a sprint, generate a Time Breakdown to see how your time was distributed across features, bug fixes, and code reviews. Use it for retros and capacity planning.
 
-### Invoice Preparation
-Pull Time Breakdowns as a foundation for billing cycles. Refine the narratives, add client-specific context, then finalize.
+```
+Generate a time breakdown for the last 2 weeks showing how my time was split across projects.
+```
 
-### Memory Jogger
+### Engineering Managers
+Review your team's sprint output or prepare for 1:1s with a clear picture of where time went — across code, meetings, and documentation.
+
+```
+Break down my last week by meetings vs. coding vs. documentation time.
+```
+
+### Lawyers & Legal Professionals
+Reconstruct billable hours at the end of each day scoped to specific client matters. Export the breakdown as a starting point for your legal billing tool.
+
+```
+Generate a time breakdown for the last 24 hours organized by client matter.
+```
+
+### Accountants & Finance
+Pull a Time Breakdown during audit season to document how review time was distributed across engagements, calls, and spreadsheet work.
+
+```
+Show me a breakdown of how I spent my time on audit-related work this past week.
+```
+
+### Consultants & Freelancers
+At the end of a billing cycle, generate a Time Breakdown scoped to the client's invoicing period. Refine the entries, add project codes, and submit.
+
+```
+Generate a time breakdown for the last 2 weeks grouped by client project.
+```
+
+### Product Managers
+See how your week was split across roadmap planning, stakeholder calls, and design reviews. Use it to rebalance your time or report to leadership.
+
+```
+Break down my last week by activity type — meetings, research, and writing.
+```
+
+### Executives & Investors
+Pull a monthly Time Breakdown to review how your time was allocated across portfolio companies, board meetings, and strategic initiatives.
+
+```
+Generate a time breakdown for the last 30 days showing my time across board meetings and due diligence.
+```
+
+### Educators & Researchers
+Track how research, lecture prep, and student meetings consume your week. Use Time Breakdown to report effort allocation for grants or department reviews.
+
+```
+Show me how my time was split between research, teaching, and administrative work this past week.
+```
+
+### Daily Timesheets (Any Role)
+Generate a Time Breakdown scoped to the **last 24 hours** at the end of each workday. Review, refine, and submit — no more guessing what happened at 2 PM.
+
+```
+Generate a time breakdown for today.
+```
+
+### Memory Jogger (Any Role)
 Can't remember what you were working on Tuesday afternoon? Generate a Time Breakdown for the **last 2 days** and let the activity descriptions bring you back up to speed.
+
+```
+What was I working on yesterday afternoon between 1 PM and 5 PM?
+```
 
 ---
 

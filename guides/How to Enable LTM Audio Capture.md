@@ -72,25 +72,93 @@ The toolbar method is especially handy when you're about to jump into a meeting 
 
 ## Querying Your Audio Context
 
-Once LTM Audio is enabled and you've had some meetings or conversations, you can query that audio context just like any other LTM data. Here are some example queries:
+Once LTM Audio is enabled and you've had some meetings or conversations, you can query that audio context just like any other LTM data. Here are some example queries you can copy and paste directly into Pieces Copilot:
 
-### Meeting Recall
+### For Developers
 
-- "What was discussed in my meeting this morning?"
-- "What did Sarah say about the deployment timeline in yesterday's standup?"
-- "Summarize the architecture decisions from the team call last Thursday"
+```
+What was discussed in yesterday's standup about the blockers on the API migration?
+```
 
-### Decision Tracking
+```
+What did the team decide on the database schema changes during this morning's code review call?
+```
 
-- "What was the final decision on the database migration approach from the meeting earlier today?"
-- "What did the team agree on for the API versioning strategy last week?"
+```
+Summarize the architecture decisions from the engineering sync last Thursday.
+```
 
-### Action Items
+### For Engineering Managers
 
-- "What action items came out of yesterday's sprint planning meeting?"
-- "What did my manager ask me to follow up on in our 1:1 this morning?"
+```
+What action items came out of yesterday's sprint planning meeting?
+```
 
-> **Tip:** Combine audio context with other LTM signals for even better results. For example: "What was discussed about the authentication module in yesterday's Teams call, and what code did I write afterward in VS Code?" This lets Pieces connect what was said with what you actually did.
+```
+What did each team member report as their progress in this morning's standup?
+```
+
+```
+What concerns were raised in the 1:1 with my direct report this afternoon?
+```
+
+### For Product Managers
+
+```
+What feature requirements were discussed in the stakeholder call this morning?
+```
+
+```
+What did the design team say about the new onboarding flow in yesterday's review?
+```
+
+### For Executives & VCs
+
+```
+Summarize the key takeaways from today's board meeting.
+```
+
+```
+What metrics were discussed in the quarterly business review last week?
+```
+
+### For Lawyers & Compliance
+
+```
+What were the key points discussed in the client consultation call this morning?
+```
+
+```
+What did opposing counsel propose during the settlement discussion yesterday?
+```
+
+### For Accountants & Finance
+
+```
+What was agreed on regarding the Q4 budget allocations in the finance meeting today?
+```
+
+```
+What did the auditor flag during the review call last Wednesday?
+```
+
+### For Consultants & Freelancers
+
+```
+What deliverables did the client request during our kickoff call this morning?
+```
+
+```
+What feedback did the client give on the proposal during yesterday's walkthrough?
+```
+
+> **Tip:** Combine audio context with other LTM signals for even better results. For example:
+>
+> ```
+> What was discussed about the authentication module in yesterday's Teams call, and what code did I write afterward in VS Code?
+> ```
+>
+> This lets Pieces connect what was said with what you actually did.
 
 ---
 

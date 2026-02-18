@@ -161,11 +161,37 @@ LTM Audio gives you full control over when audio is captured:
 
 ## What's Next
 
-Once LTM Audio is enabled and permissions are set, audio context will automatically flow into your Long-Term Memory. Here's how to make the most of it:
+Once LTM Audio is enabled and permissions are set, audio context will automatically flow into your Long-Term Memory. Try some of these queries in Pieces Copilot to see it in action:
 
-- **Ask Copilot about meetings** — *"What was discussed in my standup this morning?"*
-- **Check Workstream Activity** — Look for richer summaries that include discussion points and decisions from calls
-- **Combine with LTM queries** — Reference audio context alongside your code, browser, and communication activity for a complete picture of your work
+### Recall What Was Said
+
+```
+What was discussed in my standup this morning?
+```
+
+```
+What did the team decide about the release timeline in yesterday's planning call?
+```
+
+### Track Decisions & Action Items
+
+```
+What action items came out of my 1:1 with my manager this afternoon?
+```
+
+```
+What did the client agree to during the kickoff call last Monday?
+```
+
+### Connect Audio with Screen Activity
+
+```
+What was discussed about the authentication module in yesterday's Teams call, and what code did I write afterward?
+```
+
+```
+Summarize what was said in this morning's design review and what mockups I looked at in Figma afterward.
+```
 
 For more on querying your Long-Term Memory, check out the [How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md) guide.
 

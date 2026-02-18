@@ -53,6 +53,36 @@ With the discount confirmed and reflected in your total, fill in your payment de
 
 ---
 
+## Who Benefits from Upgrading?
+
+Pieces Pro and Enterprise unlock the full power of Long-Term Memory, extended context windows, and premium model access. Here's how different professionals use it:
+
+### Developers & Engineers
+Unlock unlimited LTM queries, richer context from code editors and terminals, and premium cloud models for more accurate Copilot responses. Never lose track of a solution you found three weeks ago.
+
+### Engineering Managers & Team Leads
+Get deeper insight into team workflows, generate comprehensive summaries across longer time ranges, and use LTM Audio to capture meeting decisions automatically.
+
+### Product Managers
+Keep track of stakeholder feedback, feature discussions, and design reviews across weeks of meetings — then query it all instantly instead of digging through notes.
+
+### Consultants & Freelancers
+Track billable hours with Time Breakdown, maintain client-specific context across projects, and generate professional summaries for invoicing and reporting.
+
+### Lawyers & Legal Professionals
+Capture and recall client consultations, track case-related research across tools, and generate time entries scoped to specific matters.
+
+### Accountants & Finance Teams
+Document audit discussions, track review feedback, and maintain a searchable record of financial analysis across spreadsheets, calls, and email.
+
+### Executives & Investors
+Recall board meeting discussions, track strategic decisions over time, and maintain a searchable memory of due diligence conversations and portfolio reviews.
+
+### Educators & Researchers
+Keep a running memory of lecture discussions, research conversations, and literature reviews — then query across months of accumulated context.
+
+---
+
 ## Troubleshooting
 
 ### Discount Code Not Working?
