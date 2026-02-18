@@ -211,6 +211,13 @@ If you run into any issues or have questions, we're here to help:
 
 ---
 
+## Related Guides
+
+- [How to Enable LTM Audio Capture](./How%20to%20Enable%20LTM%20Audio%20Capture.md) — Enable audio capture in the Desktop App or PiecesOS toolbar once permissions are granted
+- [How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md) — Start asking questions about your audio memories once capture is active
+
+---
+
 [← Back to Guides Index](./README.md)
 
 ---

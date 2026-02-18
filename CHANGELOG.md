@@ -4,12 +4,13 @@ All notable changes to the `pro_tips` repository are documented here, organized 
 
 ---
 
-## [PR #11](https://github.com/pieces-app/pro_tips/pull/11) — MCP Documentation Suite (February 18, 2026 — open)
+## [PR #11](https://github.com/pieces-app/pro_tips/pull/11) — MCP Documentation Suite + Navigation System (February 18, 2026 — open)
 
-**Comprehensive Pieces MCP documentation suite** — the largest single addition to the repository since launch. Introduces 25 new files covering every aspect of connecting AI agents to Pieces Long-Term Memory via the Model Context Protocol, plus cross-linking and release attribution across all existing docs.
+**Comprehensive Pieces MCP documentation suite and repository-wide navigation overhaul** — the largest single addition to the repository since launch. Introduces 25 new files covering every aspect of connecting AI agents to Pieces Long-Term Memory via the Model Context Protocol, a new top-level guides index, a complete prev/next navigation chain across all docs, and full cross-linking with back-links and Related Guides sections throughout.
 
 ### Added
 
+- **[`guides/README.md`](./guides/README.md)** — New top-level guides folder index. Organizes all guides by category (Getting Started with LTM Queries, Daily Workflows & Summaries, Audio & Context Capture, MCP & AI Agent Integration, Setup & Administration) with "What you'll learn" descriptions for every guide and a Quick Start by Goal table. Includes back-link to root README.
 - **[`guides/MCP/README.md`](./guides/MCP/README.md)** — Index and entry point for all MCP documentation. Describes each guide with "use this when" sections, cross-links, and Pieces 5.0.3 release attribution.
 - **[`guides/MCP/Pieces MCP and LTM Tools Reference.md`](./guides/MCP/Pieces%20MCP%20and%20LTM%20Tools%20Reference.md)** — Complete reference (~1,690 lines) for all 39 tools exposed by the Pieces MCP server: `ask_pieces_ltm`, `create_pieces_memory`, 14 full-text search tools, 5 vector search tools, `material_identifiers`, `extract_temporal_range`, and 16 batch snapshot tools. Includes parameters, examples, agent instructions, and smoke test results for every tool.
 - **[`guides/MCP/Connecting to PiecesOS from the Outside World via Ngrok.md`](./guides/MCP/Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md)** — Full ngrok setup guide: installation (macOS/Windows/Linux), one-time auth, PiecesOS port discovery (39300–39333), and auto-discovery scripts for both Bash and PowerShell. Enables cloud-based agents (Claude web, ChatGPT, GitHub Actions, Zapier) to reach a local PiecesOS instance.
@@ -47,10 +48,17 @@ All notable changes to the `pro_tips` repository are documented here, organized 
 - **[`guides/MCP/Agent Setups & Integrations/README.md`](./guides/MCP/Agent%20Setups%20%26%20Integrations/README.md)** — Added [LTM Tools Reference](./guides/MCP/Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) link in intro; added Pieces 5.0.3 mention; added back-link to MCP index.
 - All 19 individual agent setup guides — Added **Related Guides** footers (3 links for HTTP-capable tools; 4 links including mcp-remote for stdio-only tools).
 - All 4 core MCP guides — Added **Related Guides** sections linking to sibling docs.
+- **Navigation system — all guides and release notes** — Added prev/next HTML table footers across all 19 documentation files (guides, MCP guides, release notes). Replaced markdown tables (`| | |` / `|:---|---:|`) that rendered a blank header row with `<table width="100%">` HTML tables using `&nbsp;` padding. Built a complete sequential navigation chain: guides/ (11 files) → guides/MCP/ (4 files) → guides/MCP/Agent Setups & Integrations. Added cross-section bridge links so users can follow Next continuously from any guide through the entire documentation.
+- **Back-links** — Added `← Back to Guides Index` back-links to all 11 individual guides in `guides/` and verified back-links on all MCP guides. Added `← Back to Pro Tips` footer to `guides/README.md`.
+- **Related Guides sections** — Added or completed Related Guides sections on all individual guide files, including `How to Enable LTM Audio Capture`, `How to Set Up macOS Permissions for LTM Audio`, `How to Apply a Discount Code at Checkout`, and `How to Update Pieces Snap Packages`.
+- **Cross-references** — Added logical cross-references between related guides: query guides link to each other and to Workstream Activity; audio guides cross-link to permissions guide; workstream/summary guides cross-link to each other.
 
 ### Fixed
 
 - **[`guides/MCP/Connecting to PiecesOS from the Outside World via Ngrok.md`](./guides/MCP/Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md)** — Fixed PowerShell `Start-Job` parameter: `-Arg` → `-ArgumentList` (invalid parameter alias; causes immediate failure on Windows).
+- **Broken anchor links** — Fixed `#-expanded-mcp-server-richer-long-term-memory-access-in-cursor-claude-code--more` (leading hyphen from emoji stripping) → `#expanded-mcp-server-richer-long-term-memory-access-in-cursor-claude-code--more` in all 4 files that referenced the Pieces 5.0.3 release notes heading.
+- **Navigation chain gaps** — Fixed 3 stranded dead-ends: Snap Packages guide now links forward to MCP README; MCP README now names its predecessor (Snap Packages) instead of a generic "Back to Guides Index"; Agent Setups & Integrations README now links back to Guides Index.
+- **Single-cell nav table rendering** — Replaced half-empty HTML tables (one populated cell, one empty `<td></td>`) on `releases/Whats New in Pieces 5.0.3.md` and `releases/Whats New in Pieces 5.0.0.md` with clean plain-text links.
 
 ---
 
