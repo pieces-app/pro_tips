@@ -33,7 +33,8 @@ This is particularly useful for capturing context from meetings, pair programmin
 - Enriches summaries with discussion points and decisions
 - Makes Copilot conversations more context-aware
 
-![LTM Audio captures microphone and system audio to enrich your Long-Term Memory](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_ltm_audio_preview.png)
+<video src="https://github.com/user-attachments/assets/52a759f6-34ae-4ae9-b566-c68b608ef0a2" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 *Capture context from meetings, calls, and sessions to make your memories richer and more complete.*
 
@@ -78,6 +79,8 @@ This is particularly useful for capturing context from meetings, pair programmin
 - Better speaker identification
 - Improved context extraction from technical discussions
 - More granular privacy controls
+
+📖 **Full Guide:** [How to Enable LTM Audio Capture](../guides/How%20to%20Enable%20LTM%20Audio%20Capture.md) | [How to Set Up macOS Permissions for LTM Audio](../guides/How%20to%20Set%20Up%20macOS%20Permissions%20for%20LTM%20Audio.md)
 
 ---
 
@@ -158,7 +161,8 @@ If your ideal summary isn't in the pre-set library, create your own: customize t
 - Consistent output format every time
 - Perfect for recurring workflows
 
-![Create and save your own summary templates for one-click generation](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_custom_summary_templates.png)
+<video src="https://github.com/user-attachments/assets/53befb7b-1163-4c5c-8a95-65643ddc4fd2" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 *Build it once, use it forever. Your workflow, your templates, your way.*
 
@@ -187,6 +191,8 @@ If your ideal summary isn't in the pre-set library, create your own: customize t
 ### Why It Matters
 
 Consistency saves time. When you find a summary format that works, you shouldn't have to recreate it every time. Custom templates let you capture your workflow preferences once and reuse them indefinitely. This is especially valuable for teams that need consistent reporting formats or professionals who want to build habits around regular reflection and communication.
+
+📖 **Full Guide:** [How to Create and Save Custom Summary Templates](../guides/How%20to%20Create%20and%20Save%20Custom%20Summary%20Templates.md)
 
 ---
 
@@ -306,7 +312,8 @@ Previously, Time Breakdown analyzed a fixed period. Now you can choose from pres
 - Editable entries for refinement
 - Export-ready for billing systems
 
-![Time Breakdown now supports configurable time ranges for flexible reporting](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_time_breakdown_time_range_configuration.png)
+<video src="https://github.com/user-attachments/assets/346c2d1e-7190-45a7-93a5-ed258bc04cfe" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 *Select your preferred range before generating a Time Breakdown and get audit-ready time logs scoped to the period you need.*
 
@@ -348,6 +355,8 @@ Previously, Time Breakdown analyzed a fixed period. Now you can choose from pres
 ### Why It Matters
 
 Time tracking shouldn't be one-size-fits-all. Different professionals have different billing cycles, reporting requirements, and workflow needs. Configurable time ranges let you generate Time Breakdowns that match your actual workflow — whether you bill daily, weekly, or on custom schedules. This flexibility makes Time Breakdown useful for more professionals and more use cases.
+
+📖 **Full Guide:** [How to Generate a Time Breakdown with a Custom Time Range](../guides/How%20to%20Generate%20a%20Time%20Breakdown%20with%20a%20Custom%20Time%20Range.md)
 
 ---
 

@@ -232,9 +232,9 @@ Thank you for being part of the Pieces community. We can't wait to show you what
 
 ## Learn More
 
-- **[How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md)** - Master the art of querying your Long-Term Memory
-- **[How to Use the Workstream Activity Timeline](./How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md)** - Understand your work patterns and history
-- **[10 Queries To Ask Pieces LTM after 24-48 Hours](./10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md)** - Get started with powerful LTM queries
+- **[How to Query LTM in Pieces Copilot](../guides/How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md)** - Master the art of querying your Long-Term Memory
+- **[How to Use the Workstream Activity Timeline](../guides/How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md)** - Understand your work patterns and history
+- **[10 Queries To Ask Pieces LTM after 24-48 Hours](../guides/10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md)** - Get started with powerful LTM queries
 
 ---
 
