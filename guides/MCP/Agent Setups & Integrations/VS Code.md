@@ -126,4 +126,7 @@ To update via Command Palette: **"MCP: Edit Server"** > select "pieces" > update
 
 ---
 
-[← Back to All Agent Setup Guides](./README.md)
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./README.md">← Back to All Agent Setup Guides</a>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;</td>
+</tr></table>

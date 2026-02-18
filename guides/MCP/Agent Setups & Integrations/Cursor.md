@@ -124,4 +124,7 @@ To update the MCP URL (e.g., after your [ngrok](../Connecting%20to%20PiecesOS%20
 
 ---
 
-[← Back to All Agent Setup Guides](./README.md)
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./README.md">← Back to All Agent Setup Guides</a>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;</td>
+</tr></table>

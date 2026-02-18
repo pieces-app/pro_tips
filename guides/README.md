@@ -94,4 +94,7 @@ Everything becomes queryable through natural language—no need to remember exac
 
 ---
 
-[← Back to Pro Tips](../README.md)
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="../README.md">← Back to Pro Tips</a>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;</td>
+</tr></table>

@@ -124,4 +124,7 @@ Edit `~/.codeium/windsurf/mcp_config.json`, update the `serverUrl`, then restart
 
 ---
 
-[← Back to All Agent Setup Guides](./README.md)
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./README.md">← Back to All Agent Setup Guides</a>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;</td>
+</tr></table>

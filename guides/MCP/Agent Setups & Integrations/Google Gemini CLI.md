@@ -124,4 +124,7 @@ Edit `~/.gemini/settings.json`, update the URL, and start a new Gemini CLI sessi
 
 ---
 
-[← Back to All Agent Setup Guides](./README.md)
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./README.md">← Back to All Agent Setup Guides</a>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;</td>
+</tr></table>

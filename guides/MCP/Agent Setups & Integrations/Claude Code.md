@@ -119,4 +119,7 @@ claude mcp add --transport http pieces https://NEW_NGROK_URL.ngrok.app/model_con
 
 ---
 
-[← Back to All Agent Setup Guides](./README.md)
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./README.md">← Back to All Agent Setup Guides</a>&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;</td>
+</tr></table>
