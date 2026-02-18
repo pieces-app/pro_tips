@@ -33,7 +33,8 @@ This is particularly useful for capturing context from meetings, pair programmin
 - Enriches summaries with discussion points and decisions
 - Makes Copilot conversations more context-aware
 
-![LTM Audio captures microphone and system audio to enrich your Long-Term Memory](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_ltm_audio_preview.png)
+<video src="https://github.com/user-attachments/assets/52a759f6-34ae-4ae9-b566-c68b608ef0a2" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 *Capture context from meetings, calls, and sessions to make your memories richer and more complete.*
 
@@ -79,66 +80,22 @@ This is particularly useful for capturing context from meetings, pair programmin
 - Improved context extraction from technical discussions
 - More granular privacy controls
 
----
-
-## 🎯 Upgraded Custom Summaries: Scope by Time, Websites, Projects & Apps
-
-Generating a custom summary just got a major upgrade. You can now scope your summary by **time range, websites, project signals, and applications** — giving you precise control over what context goes into each summary.
-
-Whether you want a summary of your morning browser research, a specific project's activity, or everything that happened in a particular app over the last few days, you now have the granularity to define it. This makes custom summaries more useful for targeted recaps, project updates, and sharing context with teammates.
-
-### What's New
-
-**Time Range Scoping**
-- Select specific time windows—last hour, last 4 hours, last day, last week, or custom ranges
-- Generate summaries for precise periods that match your reporting needs
-- Perfect for mid-day check-ins or end-of-week project reviews
-
-**Website Filtering**
-- Include or exclude specific websites from your summary
-- Focus on research from particular domains (e.g., only Stack Overflow and GitHub)
-- Filter out distracting sites to keep summaries focused
-
-**Project Signal Detection**
-- Automatically group activities by detected project signals
-- Summarize work across multiple files and tools that belong to the same project
-- Get project-specific insights without manual organization
-
-**Application-Based Scoping**
-- Generate summaries for work done in specific applications
-- Example: "Show me everything I did in VS Code yesterday"
-- Perfect for understanding tool-specific workflows
-
-**Multi-Dimensional Filtering**
-- Combine multiple scoping dimensions for ultra-precise summaries
-- Example: "Last 3 days, VS Code only, focused on the authentication project"
-- No more sifting through irrelevant context to find what matters
-
-![Enhanced custom summary scoping gives you precise control over what context goes into each summary](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_enhanced_custom_summary_scoping.png)
-
-*Combine time ranges, websites, projects, and applications to create exactly the summary you need.*
-
-### Why It Matters
-
-Generic summaries are useful, but targeted summaries are powerful. When you're preparing a client update, you don't need everything—you need what happened on their project. When you're researching a new technology, you want to see your browser activity, not your code changes. These new scoping options let you create summaries that match your actual workflow needs, making them more actionable and easier to share with the right context.
-
-### How to Use It
-
-1. **Start a Custom Summary**—from Home Base or the Summaries section
-2. **Set Your Time Range**—Choose from presets or set a custom window
-3. **Add Filters**—Select websites, projects, or applications to include/exclude
-4. **Generate**—Get a focused summary scoped exactly to your needs
-5. **Share or Save**—Export, copy, or save for future reference
+📖 **Full Guide:** [How to Enable LTM Audio Capture](../guides/How%20to%20Enable%20LTM%20Audio%20Capture.md) | [How to Set Up macOS Permissions for LTM Audio](../guides/How%20to%20Set%20Up%20macOS%20Permissions%20for%20LTM%20Audio.md)
 
 ---
 
-## 📋 Create & Save Your Own Summary Templates
+## 📋 Create & Save Your Own Custom Summary Templates
 
 Tired of re-configuring the same summary parameters over and over? You can now **save your own custom summary templates** for one-click generation whenever you need them.
 
 If your ideal summary isn't in the pre-set library, create your own: customize the name, pick a color and icon, and define exactly what it generates. Once saved, your template lives alongside the built-in options and can be triggered with a single click—just like Morning Brief or Day Recap.
 
 ### What's New
+
+**Enhanced Custom Summary Scoping**
+- Custom summaries now support scoping by **time range, websites, project signals, and applications**
+- Combine multiple dimensions for ultra-precise summaries (e.g., "Last 3 days, VS Code only, focused on the authentication project")
+- Filter by specific domains, exclude distracting sites, and target individual apps for focused output
 
 **Template Builder**
 - Create templates with custom names, colors, and icons
@@ -158,7 +115,7 @@ If your ideal summary isn't in the pre-set library, create your own: customize t
 - Consistent output format every time
 - Perfect for recurring workflows
 
-<video src="https://storage.googleapis.com/pieces_pro_tips_media/Custom%20Sumamry%20Part%202.mp4" controls="controls" style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/53befb7b-1163-4c5c-8a95-65643ddc4fd2" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
 ![Create and save your own summary templates for one-click generation](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_custom_summary_templates.png)
@@ -187,9 +144,19 @@ If your ideal summary isn't in the pre-set library, create your own: customize t
 - Track progress across multiple weeks with consistent format
 - Share updates with stakeholders without manual formatting
 
+### How to Use
+
+1. **Start a Custom Summary**—from Home Base or the Summaries section
+2. **Set Your Scoping**—Choose time range, websites, projects, or applications
+3. **Customize Your Template**—Name it, pick a color and icon
+4. **Save**—Your template appears alongside built-in summaries
+5. **Generate with One Click**—Tap your template anytime for consistent, focused output
+
 ### Why It Matters
 
-Consistency saves time. When you find a summary format that works, you shouldn't have to recreate it every time. Custom templates let you capture your workflow preferences once and reuse them indefinitely. This is especially valuable for teams that need consistent reporting formats or professionals who want to build habits around regular reflection and communication.
+Consistency saves time. When you find a summary format that works, you shouldn't have to recreate it every time. Custom templates — combined with the new scoping and filtering options — let you capture your workflow preferences once and reuse them indefinitely. This is especially valuable for teams that need consistent reporting formats or professionals who want to build habits around regular reflection and communication.
+
+📖 **Full Guide:** [How to Create and Save Custom Summary Templates](../guides/How%20to%20Create%20and%20Save%20Custom%20Summary%20Templates.md)
 
 ---
 
@@ -309,7 +276,8 @@ Previously, Time Breakdown analyzed a fixed period. Now you can choose from pres
 - Editable entries for refinement
 - Export-ready for billing systems
 
-![Time Breakdown now supports configurable time ranges for flexible reporting](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_time_breakdown_time_range_configuration.png)
+<video src="https://github.com/user-attachments/assets/346c2d1e-7190-45a7-93a5-ed258bc04cfe" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 *Select your preferred range before generating a Time Breakdown and get audit-ready time logs scoped to the period you need.*
 
@@ -352,6 +320,8 @@ Previously, Time Breakdown analyzed a fixed period. Now you can choose from pres
 
 Time tracking shouldn't be one-size-fits-all. Different professionals have different billing cycles, reporting requirements, and workflow needs. Configurable time ranges let you generate Time Breakdowns that match your actual workflow — whether you bill daily, weekly, or on custom schedules. This flexibility makes Time Breakdown useful for more professionals and more use cases.
 
+📖 **Full Guide:** [How to Generate a Time Breakdown with a Custom Time Range](../guides/How%20to%20Generate%20a%20Time%20Breakdown%20with%20a%20Custom%20Time%20Range.md)
+
 ---
 
 ## 📐 LaTeX Rendering in Summaries & Copilot Chats
@@ -380,7 +350,8 @@ Not anymore. Mathematical expressions and scientific notation now render correct
 - Displays correctly in saved materials
 - Consistent formatting across all Pieces views
 
-![LaTeX rendering makes mathematical expressions readable across Pieces](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_latex_rendering_support.png)
+<video src="https://github.com/user-attachments/assets/aeb90181-e6f3-42bd-bea4-38eb84519c94" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 *Mathematical expressions and scientific notation now render correctly—no plugins or workarounds needed.*
 
@@ -435,8 +406,7 @@ Technical workflows involve mathematical notation. When you're discussing algori
 If you're upgrading to 5.0.3, here's how to make the most of these new features:
 
 1. **Enable LTM Audio (Preview)**—If you're in meetings or pair programming, enable audio capture to enrich your memories
-2. **Try Enhanced Custom Summaries**—Create a custom summary with time, website, and project scoping to see the precision in action
-3. **Build Your First Template**—Create a template for your daily standup or weekly client update
+2. **Build Your First Custom Summary Template**—Create a template with the new scoping options for your daily standup or weekly client update
 4. **Explore MCP Integration**—If you use Cursor or Claude Code, connect the Pieces MCP Server for deeper context access
 5. **Configure Time Breakdown**—Set up Time Breakdown with your preferred time range for billing workflows
 6. **Test LaTeX Rendering**—Try asking Copilot about mathematical concepts or formulas to see LaTeX rendering in action
