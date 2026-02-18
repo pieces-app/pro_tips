@@ -53,7 +53,9 @@ Our most significant update yet! Discover the new features:
 
 ## What's in This Repository
 
-This repository contains practical guides and examples to help you get the most out of LTM queries, Workstream Activity, and navigation in Pieces:
+This repository contains practical guides and examples to help you get the most out of LTM queries, Workstream Activity, and navigation in Pieces.
+
+**Guides folder structure:** General guides (LTM queries, Workstream Activity, navigation, Time Breakdown, etc.) live in `guides/`. The `guides/MCP/` subfolder contains specialized guides for the **Model Context Protocol (MCP)**—connecting AI clients like Cursor, Claude Code, and Goose to your Pieces Long-Term Memory, including remote access and tool reference.
 
 ### 🎯 [10 Queries To Ask Pieces LTM after 24-48 Hours of Background Memory Formation](./guides/10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md)
 
@@ -152,6 +154,14 @@ A simple 4-step process to update Pieces on Linux:
 - **Step 3 - Update**: Refresh Snap packages
 - **Step 4 - Launch**: Restart PiecesOS, then Desktop App
 - **Troubleshooting** tips for common issues
+
+### MCP Guides (`guides/MCP/`)
+
+Guides for connecting AI clients to your Pieces Long-Term Memory via the Model Context Protocol:
+
+- **[Pieces MCP and LTM Tools Reference](./guides/MCP/Pieces%20MCP%20and%20LTM%20Tools%20Reference.md)** — Complete reference for all 39 Pieces MCP tools with parameters, examples, agent instructions, and use-case narratives.
+- **[Connecting to PiecesOS from the Outside World via Ngrok](./guides/MCP/Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md)** — Proxy your local PiecesOS server to the public internet over HTTPS using ngrok for remote access from Claude web, ChatGPT, GitHub Actions, Zapier, and more.
+- **[Agent Setups & Integrations](./guides/MCP/Agent%20Setups%20%26%20Integrations/)** — Step-by-step setup guides for 17 MCP-compatible tools: Cursor, Claude Desktop, Claude Code, VS Code, Windsurf, Goose, Cline, Continue.dev, JetBrains IDEs, Zed, GitHub Copilot, OpenAI Codex CLI, Google Gemini CLI, Amazon Q Developer, ChatGPT Developer Mode, Raycast, and Rovo Dev CLI. Includes transport support matrix and stdio-to-HTTP bridge instructions.
 
 ## Quick Start
 
