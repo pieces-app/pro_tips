@@ -82,6 +82,6 @@ pkill os_server
 
 <table width="100%"><tr>
 <td>&nbsp;&nbsp;<a href="./How%20to%20Apply%20a%20Discount%20Code%20at%20Checkout%20for%20Pieces%20Pro%20or%20Enterprise.md">← Previous: How to Apply a Discount Code at Checkout</a>&nbsp;&nbsp;</td>
-<td align="right">&nbsp;&nbsp;<a href="./README.md">Back to Guides Index →</a>&nbsp;&nbsp;</td>
+<td align="right">&nbsp;&nbsp;<a href="./MCP/README.md">Next: MCP &amp; Agent Integrations →</a>&nbsp;&nbsp;</td>
 </tr></table>
 
