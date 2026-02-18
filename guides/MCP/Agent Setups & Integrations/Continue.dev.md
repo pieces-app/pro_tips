@@ -94,3 +94,11 @@ Edit your `config.yaml` (or JSON file), update the `url`, and switch to agent mo
 | YAML parse error | Check indentation; YAML is whitespace-sensitive |
 | Server not connecting | Check PiecesOS port (39300-39333) and URL |
 | Type value wrong | Use `streamable-http` (with hyphen), not `streamableHttp` or `http` |
+
+---
+
+## Related Guides
+
+- [All Agent Setup Guides](./README.md) — Transport matrix and setup guides for 19 MCP-compatible tools
+- [Pieces MCP and LTM Tools Reference](../Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) — Complete reference for all 39 tools available to your agents
+- [Connecting to PiecesOS via Ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) — Expose your local Pieces server for remote access

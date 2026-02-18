@@ -225,12 +225,16 @@ This expansion gives these tools much deeper access to your Long-Term Memory, en
 **If You're Already Using MCP**
 - New tools are available automatically—no action needed
 - Update your MCP client to the latest version for best results
-- Check the Pieces MCP documentation for new tool capabilities
+- See the **[Pieces MCP and LTM Tools Reference](../guides/MCP/Pieces%20MCP%20and%20LTM%20Tools%20Reference.md)** for the complete list of 39 tools now available to your agents
 
 **If You Haven't Connected Yet**
-- Head to our documentation to get set up—it only takes a minute
-- Connect Cursor, Claude Code, or any MCP-compatible client
+- See **[Agent Setups & Integrations](../guides/MCP/Agent%20Setups%20%26%20Integrations/README.md)** — step-by-step config guides for 19 tools (Cursor, Claude Code, Goose, VS Code, Windsurf, and more) with exact JSON configs and file paths
+- Connect Cursor, Claude Code, or any MCP-compatible client in minutes
 - Start asking questions about your work history immediately
+
+**Accessing Pieces from Cloud-Based Agents or Remote Machines**
+- See **[Connecting to PiecesOS via Ngrok](../guides/MCP/Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md)** — expose your local PiecesOS over HTTPS so Claude web, ChatGPT, GitHub Actions, or any remote agent can reach your Long-Term Memory
+- See **[Bridging Local MCP Clients with mcp-remote](../guides/MCP/Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md)** — connect stdio-only clients like Claude Desktop (JSON config), Zed, and Raycast to the Pieces HTTP endpoint
 
 ### Example Queries
 

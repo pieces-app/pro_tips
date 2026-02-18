@@ -49,7 +49,7 @@ Cowork uses the same MCP configuration as Claude Desktop. You have two options:
 
 ### Option 2 — Via JSON Config with stdio Bridge (all plans, recommended for local use)
 
-> **Recommended when PiecesOS and Claude Desktop are on the same machine.** Uses the localhost URL directly. See the [stdio-to-HTTP Bridges guide](./README.md#stdio-to-http-bridges) for mcp-remote documentation.
+> **Recommended when PiecesOS and Claude Desktop are on the same machine.** Uses the localhost URL directly. See the [mcp-remote guide](../Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md) or [stdio-to-HTTP Bridges guide](./README.md#stdio-to-http-bridges) for documentation.
 
 Edit `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) or `%APPDATA%\Claude\claude_desktop_config.json` (Windows):
 
@@ -111,7 +111,7 @@ Once connected, start a Cowork session and Pieces LTM tools are available alongs
 
 ## Updating
 
-Update the ngrok URL in either Settings > Connectors or in `claude_desktop_config.json`, then restart Claude Desktop.
+Update the [ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) URL in either Settings > Connectors or in `claude_desktop_config.json`, then restart Claude Desktop.
 
 ---
 

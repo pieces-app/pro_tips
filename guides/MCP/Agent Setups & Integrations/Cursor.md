@@ -96,7 +96,7 @@ For a stdio server (local process):
 
 ## Updating
 
-To update the MCP URL (e.g., after your ngrok address changes):
+To update the MCP URL (e.g., after your [ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) address changes):
 
 1. Edit `~/.cursor/mcp.json` (or `.cursor/mcp.json`)
 2. Update the `url` value
@@ -113,3 +113,11 @@ To update the MCP URL (e.g., after your ngrok address changes):
 | SSE stopped working after upgrade | Some Cursor versions have SSE regressions; switch to Streamable HTTP endpoint (`/model_context_protocol/2025-03-26/mcp`) |
 | Project-level config not loading | Ensure the file is at `.cursor/mcp.json` (not `.cursor/config/mcp.json`) |
 | Wrong port | Probe ports 39300-39333 with `curl http://localhost:PORT/.well-known/version` |
+
+---
+
+## Related Guides
+
+- [All Agent Setup Guides](./README.md) — Transport matrix and setup guides for 19 MCP-compatible tools
+- [Pieces MCP and LTM Tools Reference](../Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) — Complete reference for all 39 tools available to your agents
+- [Connecting to PiecesOS via Ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) — Expose your local Pieces server for remote access

@@ -155,13 +155,18 @@ A simple 4-step process to update Pieces on Linux:
 - **Step 4 - Launch**: Restart PiecesOS, then Desktop App
 - **Troubleshooting** tips for common issues
 
-### MCP Guides (`guides/MCP/`)
+### 🔌 MCP Guides (`guides/MCP/`)
 
-Guides for connecting AI clients to your Pieces Long-Term Memory via the Model Context Protocol:
+Guides for connecting AI agents to your Pieces Long-Term Memory via the Model Context Protocol. The Pieces MCP server — expanded significantly in [Pieces 5.0.3](./releases/Whats%20New%20in%20Pieces%205.0.3.md#-expanded-mcp-server-richer-long-term-memory-access-in-cursor-claude-code--more) — exposes 39 tools covering full-text search, vector search, batch retrieval, temporal filtering, and cross-agent memory creation.
 
-- **[Pieces MCP and LTM Tools Reference](./guides/MCP/Pieces%20MCP%20and%20LTM%20Tools%20Reference.md)** — Complete reference for all 39 Pieces MCP tools with parameters, examples, agent instructions, and use-case narratives.
-- **[Connecting to PiecesOS from the Outside World via Ngrok](./guides/MCP/Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md)** — Proxy your local PiecesOS server to the public internet over HTTPS using ngrok for remote access from Claude web, ChatGPT, GitHub Actions, Zapier, and more.
-- **[Agent Setups & Integrations](./guides/MCP/Agent%20Setups%20%26%20Integrations/)** — Step-by-step setup guides for 17 MCP-compatible tools: Cursor, Claude Desktop, Claude Code, VS Code, Windsurf, Goose, Cline, Continue.dev, JetBrains IDEs, Zed, GitHub Copilot, OpenAI Codex CLI, Google Gemini CLI, Amazon Q Developer, ChatGPT Developer Mode, Raycast, and Rovo Dev CLI. Includes transport support matrix and stdio-to-HTTP bridge instructions.
+**[→ MCP Guides Index](./guides/MCP/README.md)** — Start here for an overview of all MCP documentation.
+
+| Guide | What it covers |
+|-------|---------------|
+| **[Pieces MCP and LTM Tools Reference](./guides/MCP/Pieces%20MCP%20and%20LTM%20Tools%20Reference.md)** | Complete reference for all 39 MCP tools: `ask_pieces_ltm`, `create_pieces_memory`, 14 full-text search tools, 5 vector search tools, `material_identifiers`, `extract_temporal_range`, and 16 batch snapshot tools — with parameters, examples, and agent instructions. |
+| **[Agent Setups & Integrations](./guides/MCP/Agent%20Setups%20%26%20Integrations/README.md)** | Step-by-step setup guides for 19 MCP-compatible tools: Cursor, Claude Desktop, Claude Code, VS Code, Windsurf, Goose, Cline, Continue.dev, JetBrains IDEs, Zed, GitHub Copilot, OpenAI Codex CLI, Google Gemini CLI, Amazon Q Developer, ChatGPT Developer Mode, Raycast, Rovo Dev CLI, and more. Includes transport support matrix (stdio / SSE / Streamable HTTP) and stdio-to-HTTP bridge instructions. |
+| **[Connecting to PiecesOS via Ngrok](./guides/MCP/Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md)** | Expose your local PiecesOS over HTTPS using ngrok so cloud-based agents (Claude web, ChatGPT, GitHub Actions, Zapier) can reach your Long-Term Memory. Includes auto-discovery scripts for Bash and PowerShell. |
+| **[Bridging Local MCP Clients with mcp-remote](./guides/MCP/Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md)** | Connect stdio-only clients (Claude Desktop JSON config, Zed, Raycast) to any remote MCP server. Covers transport strategy, OAuth 2.1, bearer token injection, and a catalog of public remote MCP servers. |
 
 ## Quick Start
 

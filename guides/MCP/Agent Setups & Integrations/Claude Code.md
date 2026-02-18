@@ -108,3 +108,11 @@ claude mcp add --transport http pieces https://NEW_NGROK_URL.ngrok.app/model_con
 | Transport error | Try switching between `--transport http` and `--transport sse` |
 | Config stored in wrong location | User scope: `~/.claude.json`; project scope: `.mcp.json` (not `~/.claude/settings.json`) |
 | VS Code extension not seeing tools | Restart VS Code after adding via CLI |
+
+---
+
+## Related Guides
+
+- [All Agent Setup Guides](./README.md) — Transport matrix and setup guides for 19 MCP-compatible tools
+- [Pieces MCP and LTM Tools Reference](../Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) — Complete reference for all 39 tools available to your agents
+- [Connecting to PiecesOS via Ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) — Expose your local Pieces server for remote access

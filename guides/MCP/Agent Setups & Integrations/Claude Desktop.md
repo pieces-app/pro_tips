@@ -108,7 +108,7 @@ If you want remote access without needing a Pro/higher plan, use the bridge with
 ## Updating
 
 - **To change the URL:** Edit the JSON config or update the Connectors entry in Settings, then restart Claude Desktop
-- **After a ngrok tunnel restart:** Your ngrok URL changes each session; update the URL and restart
+- **After a [ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) tunnel restart:** Your ngrok URL changes each session; update the URL and restart
 
 ---
 
@@ -119,5 +119,14 @@ If you want remote access without needing a Pro/higher plan, use the bridge with
 | Tools not appearing | Restart Claude Desktop; it only reads config on startup |
 | `npx: command not found` | Install Node.js and ensure `npx` is in your PATH |
 | Config file not found | Create the file (and parent directories) manually if they don't exist |
-| Remote connector fails | Verify ngrok tunnel is running and URL is accessible in a browser |
+| Remote connector fails | Verify [ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) tunnel is running and URL is accessible in a browser |
 | "Remote MCP requires Pro" | You need Pro/Max/Team/Enterprise for the Connectors UI; use Option 3 instead |
+
+---
+
+## Related Guides
+
+- [All Agent Setup Guides](./README.md) — Transport matrix and setup guides for 19 MCP-compatible tools
+- [Pieces MCP and LTM Tools Reference](../Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) — Complete reference for all 39 tools available to your agents
+- [Connecting to PiecesOS via Ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) — Expose your local Pieces server for remote access
+- [Bridging Local MCP Clients with mcp-remote](../Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md) — Connect stdio-only clients to the Pieces HTTP endpoint

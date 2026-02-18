@@ -4,7 +4,7 @@
 
 See the full index at **[Agent Setups & Integrations/README.md](./Agent%20Setups%20%26%20Integrations/README.md)**, which includes:
 
-- Transport support matrix (stdio / SSE / Streamable HTTP) for 17 tools
+- Transport support matrix (stdio / SSE / Streamable HTTP) for 19 tools
 - stdio-to-HTTP bridge instructions for tools that need them
 - Individual setup guides with config file locations, JSON examples, and troubleshooting
 
@@ -16,4 +16,8 @@ See the full index at **[Agent Setups & Integrations/README.md](./Agent%20Setups
 - [VS Code](./Agent%20Setups%20%26%20Integrations/VS%20Code.md)
 - [Goose](./Agent%20Setups%20%26%20Integrations/Goose.md)
 - [GitHub Copilot](./Agent%20Setups%20%26%20Integrations/GitHub%20Copilot.md)
-- [Full list of all 17 tools...](./Agent%20Setups%20%26%20Integrations/README.md)
+- [Full list of all 19 tools...](./Agent%20Setups%20%26%20Integrations/README.md)
+
+---
+
+[← Back to MCP Guides](./README.md)

@@ -956,3 +956,12 @@ Then inspect: `~/.mcp-auth/{hash}_debug.log`
 - [GitHub Remote MCP Server](https://github.com/github/github-mcp-server)
 - [Connecting to PiecesOS via Ngrok](./Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md)
 - [ngrok + MCP Integration Guide (ngrok docs)](https://ngrok.com/docs/using-ngrok-with/using-mcp)
+
+---
+
+## Related Guides
+
+- [MCP Guides Index](./README.md) — Overview of all Pieces MCP documentation
+- [Pieces MCP and LTM Tools Reference](./Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) — Complete reference for all 39 MCP tools your agents can use
+- [Connecting to PiecesOS via Ngrok](./Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) — Expose your local PiecesOS so mcp-remote can reach it from anywhere
+- [Agent Setups & Integrations](./Agent%20Setups%20%26%20Integrations/README.md) — Per-tool setup guides with mcp-remote config examples

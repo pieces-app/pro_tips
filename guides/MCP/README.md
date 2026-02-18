@@ -18,6 +18,8 @@ The complete reference for all 39 tools exposed by the Pieces MCP server. This i
 - **Enable cross-agent memory** -- Use `create_pieces_memory` to save context from one agent (e.g., a debugging breakthrough in Claude Code) that another agent (e.g., Cursor) can retrieve days or weeks later.
 - **Generate standups, recaps, and reports** -- Combine `extract_temporal_range`, `material_identifiers`, and `workstream_summaries_batch_snapshot` to reconstruct exactly what happened during any time period.
 
+> **Pieces 5.0.3 (PiecesOS 12.3.8)** expanded the MCP server from the original `ask_pieces_ltm` and `create_pieces_memory` tools to this full suite of 39 tools. See [What's New in Pieces 5.0.3](../../releases/Whats%20New%20in%20Pieces%205.0.3.md#-expanded-mcp-server-richer-long-term-memory-access-in-cursor-claude-code--more) for the full announcement.
+
 Covers: `ask_pieces_ltm`, `create_pieces_memory`, 14 full-text search tools, 5 vector search tools, `material_identifiers`, `extract_temporal_range`, and 16 batch snapshot tools -- with parameters, examples, agent instructions, and smoke test results for every tool.
 
 ---

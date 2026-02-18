@@ -14,7 +14,7 @@
 
 1. A supported ChatGPT plan (Pro, Plus, Business, Enterprise, or Education)
 2. PiecesOS running locally
-3. ngrok tunnel active and providing an HTTPS URL
+3. [ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) tunnel active and providing an HTTPS URL
 
 ---
 
@@ -49,7 +49,7 @@ Bearer token authentication is not fully supported in Developer Mode.
 
 ## Updating
 
-To update the ngrok URL after a tunnel restart:
+To update the [ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) URL after a tunnel restart:
 
 1. Go to **Settings > Connectors**
 2. Find "Pieces LTM" and click **Edit**
@@ -71,9 +71,17 @@ To update the ngrok URL after a tunnel restart:
 
 | Issue | Solution |
 |-------|----------|
-| Cannot use localhost URL | ChatGPT requires public HTTPS — use ngrok |
-| Connector not connecting | Ensure ngrok tunnel is running and URL is accessible in a browser |
+| Cannot use localhost URL | ChatGPT requires public HTTPS — use [ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) |
+| Connector not connecting | Ensure [ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) tunnel is running and URL is accessible in a browser |
 | "Authentication required" | Use no-auth mode; Pieces doesn't need OAuth |
 | Tools not appearing | Refresh the page after adding the connector |
 | Developer Mode not visible | Ensure you are on a supported plan (Pro/Plus/Business/Enterprise/Education) |
 | Write actions need confirmation | By default, writes require manual approval in ChatGPT |
+
+---
+
+## Related Guides
+
+- [All Agent Setup Guides](./README.md) — Transport matrix and setup guides for 19 MCP-compatible tools
+- [Pieces MCP and LTM Tools Reference](../Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) — Complete reference for all 39 tools available to your agents
+- [Connecting to PiecesOS via Ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) — Expose your local Pieces server for remote access

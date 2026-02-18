@@ -42,7 +42,7 @@ Edit `~/.openclaw/workspace/config/mcporter.json`:
 
 ### Local Setup (SSE — recommended when PiecesOS is on the same machine)
 
-> **Recommended when OpenClaw and PiecesOS are running on the same machine.** The localhost URL is fastest and needs no extra setup. Uses `mcp-remote` as a stdio bridge — see the [stdio-to-HTTP Bridges guide](./README.md#stdio-to-http-bridges) for documentation.
+> **Recommended when OpenClaw and PiecesOS are running on the same machine.** The localhost URL is fastest and needs no extra setup. Uses `mcp-remote` as a stdio bridge — see the [mcp-remote guide](../Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md) or [stdio-to-HTTP Bridges guide](./README.md#stdio-to-http-bridges) for documentation.
 
 ```json
 {
@@ -140,4 +140,12 @@ Edit `~/.openclaw/workspace/config/mcporter.json`, update the URL, and restart O
 | MCPorter config not found | Create `~/.openclaw/workspace/config/` directory manually |
 | Bridge process not starting | Install Node.js; verify `npx` is in PATH |
 | Tools not available | Restart OpenClaw after editing MCPorter config |
-| ngrok URL expired | Restart the ngrok tunnel and update the URL in MCPorter config |
+| [ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) URL expired | Restart the ngrok tunnel and update the URL in MCPorter config |
+
+---
+
+## Related Guides
+
+- [All Agent Setup Guides](./README.md) — Transport matrix and setup guides for 19 MCP-compatible tools
+- [Pieces MCP and LTM Tools Reference](../Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) — Complete reference for all 39 tools available to your agents
+- [Connecting to PiecesOS via Ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) — Expose your local Pieces server for remote access

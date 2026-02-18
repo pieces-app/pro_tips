@@ -287,3 +287,12 @@ curl -s http://localhost:4040/api/tunnels | jq -r '.tunnels[0].public_url'
 - [ngrok Local API](https://ngrok.com/docs/agent/api)
 - [Pieces MCP for Cursor](https://docs.pieces.app/products/mcp/cursor)
 - [Pieces MCP for Goose](https://docs.pieces.app/products/mcp/goose)
+
+---
+
+## Related Guides
+
+- [MCP Guides Index](./README.md) — Overview of all Pieces MCP documentation
+- [Pieces MCP and LTM Tools Reference](./Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) — Complete reference for all 39 MCP tools your agents can use
+- [Bridging Local MCP Clients with mcp-remote](./Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md) — Use mcp-remote to connect stdio clients to your ngrok-exposed endpoint
+- [Agent Setups & Integrations](./Agent%20Setups%20%26%20Integrations/README.md) — Per-tool setup guides with local and remote (ngrok) config examples
