@@ -245,10 +245,6 @@ If you run into any issues or have questions, we're here to help:
 
 ---
 
-[← Back to Guides Index](./README.md)
-
----
-
 <table width="100%"><tr>
 <td>&nbsp;&nbsp;<a href="./How%20to%20Set%20Up%20macOS%20Permissions%20for%20LTM%20Audio.md">← Previous: How to Set Up macOS Permissions for LTM Audio</a>&nbsp;&nbsp;</td>
 <td align="right">&nbsp;&nbsp;<a href="./How%20to%20Create%20and%20Save%20Custom%20Summary%20Templates.md">Next: How to Create and Save Custom Summary Templates →</a>&nbsp;&nbsp;</td>

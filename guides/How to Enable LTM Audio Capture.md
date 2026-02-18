@@ -241,10 +241,6 @@ If you run into any issues or have questions, we're here to help:
 
 ---
 
-[← Back to Guides Index](./README.md)
-
----
-
 <table width="100%"><tr>
 <td>&nbsp;&nbsp;<a href="./Navigating%20the%20Desktop%20App%20UI%20with%20the%20Power%20Menu.md">← Previous: Navigating the Desktop App UI with the Power Menu</a>&nbsp;&nbsp;</td>
 <td align="right">&nbsp;&nbsp;<a href="./How%20to%20Set%20Up%20macOS%20Permissions%20for%20LTM%20Audio.md">Next: How to Set Up macOS Permissions for LTM Audio →</a>&nbsp;&nbsp;</td>

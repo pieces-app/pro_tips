@@ -146,10 +146,6 @@ If you run into any issues or have questions, we're here to help:
 
 ---
 
-[← Back to Guides Index](./README.md)
-
----
-
 <table width="100%"><tr>
 <td>&nbsp;&nbsp;<a href="./How%20to%20Create%20and%20Save%20Custom%20Summary%20Templates.md">← Previous: How to Create and Save Custom Summary Templates</a>&nbsp;&nbsp;</td>
 <td align="right">&nbsp;&nbsp;<a href="./How%20to%20Update%20Pieces%20Snap%20Packages.md">Next: How to Update Pieces Snap Packages →</a>&nbsp;&nbsp;</td>
