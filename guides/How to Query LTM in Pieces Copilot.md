@@ -302,8 +302,6 @@ Here are some common scenarios and how to query them. Notice how these combine t
 
 ---
 
----
-
 ## 9. Troubleshooting
 
 If you're not getting what you need, try these:
