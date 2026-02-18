@@ -321,11 +321,6 @@ These queries demonstrate how to access this information through natural languag
 
 ---
 
-## Related Guides
-
-- [How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md) — The fundamentals: query dimensions, combining strategies, troubleshooting, and cheat sheets
-- [5 Essential Queries for 2+ Months](./5%20Queries%20To%20Ask%20Pieces%20LTM%20after%202%2B%20Months%20of%20Background%20Memory%20Formation.md) — Ready to go deeper? Strategic queries once you've built up a meaningful history
-
 ---
 
 <table width="100%"><tr>

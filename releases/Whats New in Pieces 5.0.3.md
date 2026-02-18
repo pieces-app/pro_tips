@@ -494,7 +494,6 @@ Thank you for being part of the Pieces community. We're excited to keep building
 ## Learn More
 
 - **[What's New in Pieces 5.0.0](./Whats%20New%20in%20Pieces%205.0.0.md)**—The foundation that powers these features
-- **[What's New in Pieces 5.0.1](./Whats%20New%20in%20Pieces%205.0.1.md)**—Time Breakdown and Timeline enhancements
 - **[Pieces MCP and LTM Tools Reference](../guides/MCP/Pieces%20MCP%20and%20LTM%20Tools%20Reference.md)**—Complete reference for all 39 Pieces MCP tools
 - **[Agent Setups & Integrations](../guides/MCP/Agent%20Setups%20%26%20Integrations/README.md)**—Step-by-step config guides for Cursor, Claude Code, Goose, VS Code, Windsurf, and 14 more
 - **[How to Query LTM in Pieces Copilot](../guides/How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md)**—Master the art of querying your Long-Term Memory

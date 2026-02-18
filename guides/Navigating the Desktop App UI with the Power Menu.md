@@ -112,10 +112,6 @@ Learn the Power Menu, and you'll navigate Pieces like a pro.
 
 ---
 
-## Related Guides
-
-- [How to Use the Workstream Activity Timeline](./How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md) — The primary destination you'll navigate to and from with the Power Menu
-
 ---
 
 <table width="100%"><tr>

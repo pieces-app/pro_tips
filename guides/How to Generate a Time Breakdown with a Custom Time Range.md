@@ -241,7 +241,6 @@ If you run into any issues or have questions, we're here to help:
 ## Related Guides
 
 - [How to Use the Workstream Activity Timeline](./How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md) — Browse your narrative work history alongside the structured billing view
-- [How to Create and Save Custom Summary Templates](./How%20to%20Create%20and%20Save%20Custom%20Summary%20Templates.md) — Save recurring summary configurations as one-click templates
 
 ---
 

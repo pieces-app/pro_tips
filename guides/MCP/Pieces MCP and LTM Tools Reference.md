@@ -1684,9 +1684,6 @@ All 39 Pieces MCP tools were tested with minimal valid inputs to confirm they re
 
 ## Related Guides
 
-- [MCP Guides Index](./README.md) — Overview of all Pieces MCP documentation
-- [Agent Setups & Integrations](./Agent%20Setups%20%26%20Integrations/README.md) — Per-tool setup guides for Cursor, Claude, Goose, and 16 more
-- [Connecting to PiecesOS via Ngrok](./Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) — Expose your local PiecesOS to cloud-based agents
 - [Bridging Local MCP Clients with mcp-remote](./Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md) — Connect stdio-only clients to the HTTP endpoint
 
 ---

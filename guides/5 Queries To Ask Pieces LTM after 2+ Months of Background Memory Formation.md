@@ -232,7 +232,6 @@ See [10 Queries To Ask After 24-48 Hours](./10%20Queries%20To%20Ask%20Pieces%20L
 ## Related Guides
 
 - [How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md) — The fundamentals: query dimensions, combining strategies, troubleshooting, and cheat sheets
-- [10 Queries To Ask After 24-48 Hours](./10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md) — Practical examples for daily standups, command recall, and context restoration
 
 ---
 

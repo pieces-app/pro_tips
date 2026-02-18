@@ -219,7 +219,6 @@ If you run into any issues or have questions, we're here to help:
 ## Related Guides
 
 - [How to Use the Workstream Activity Timeline](./How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md) — The visual timeline that templates draw their data from
-- [How to Generate a Time Breakdown with a Custom Time Range](./How%20to%20Generate%20a%20Time%20Breakdown%20with%20a%20Custom%20Time%20Range.md) — Structured billing output as a complement to narrative templates
 
 ---
 

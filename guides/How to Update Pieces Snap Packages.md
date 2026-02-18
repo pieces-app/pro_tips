@@ -80,10 +80,6 @@ pkill os_server
 
 ---
 
-## Related Guides
-
-- [How to Apply a Discount Code at Checkout](./How%20to%20Apply%20a%20Discount%20Code%20at%20Checkout%20for%20Pieces%20Pro%20or%20Enterprise.md) — Upgrade to Pieces Pro or Enterprise with a discount code
-
 ---
 
 <table width="100%"><tr>

@@ -140,10 +140,6 @@ If you run into any issues or have questions, we're here to help:
 
 ---
 
-## Related Guides
-
-- [How to Update Pieces Snap Packages (Linux)](./How%20to%20Update%20Pieces%20Snap%20Packages.md) — Keep both the Desktop App and PiecesOS up to date on Linux via Snap
-
 ---
 
 <table width="100%"><tr>

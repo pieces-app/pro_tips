@@ -156,10 +156,8 @@ mcp-proxy http://localhost:39300/model_context_protocol/2024-11-05/sse
 
 ## Related Guides
 
-- [MCP Guides Index](../README.md) — Overview of all Pieces MCP documentation
 - [Pieces MCP and LTM Tools Reference](../Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) — Complete reference for all 39 tools available to your agents
 - [Connecting to PiecesOS via Ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) — Expose your local Pieces server for remote access
-- [Bridging Local MCP Clients with mcp-remote](../Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md) — Connect stdio-only clients to the Pieces HTTP endpoint
 
 ---
 
