@@ -91,3 +91,7 @@ Everything becomes queryable through natural language—no need to remember exac
 | Connect Cursor or Claude Code to my memory | [Agent Setups & Integrations](./MCP/Agent%20Setups%20%26%20Integrations/README.md) |
 | Access Pieces from a remote machine or cloud agent | [Connecting to PiecesOS via Ngrok](./MCP/Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) |
 | Browse my work history visually | [Workstream Activity Timeline](./How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md) |
+
+---
+
+[← Back to Pro Tips](../README.md)

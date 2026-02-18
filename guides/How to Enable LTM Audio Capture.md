@@ -6,6 +6,8 @@ LTM Audio extends the Long-Term Memory Engine by capturing context from your spo
 
 Think of it as giving Pieces ears in addition to eyes. Instead of only remembering what you typed, browsed, and coded, Pieces can also remember what was said—turning verbal discussions into searchable, queryable context you can reference anytime.
 
+> **Introduced in [Pieces 5.0.3](../releases/Whats%20New%20in%20Pieces%205.0.3.md) (PiecesOS 12.3.8).** LTM Audio is currently available as a preview feature. Requires Pieces Desktop 5.0.3 or later.
+
 ## Why Enable LTM Audio?
 
 Without audio capture, Pieces can only build context from what happens on your screen. But a huge amount of your work happens verbally:
@@ -229,6 +231,10 @@ If you run into any issues or have questions, we're here to help:
 ---
 
 *Give Pieces ears—enable LTM Audio and make every conversation part of your Long-Term Memory.*
+
+---
+
+[← Back to Guides Index](./README.md)
 
 ---
 

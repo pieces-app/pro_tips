@@ -78,4 +78,4 @@ Covers: 19 tool-specific guides, transport support matrix, stdio-to-HTTP bridge 
 
 | | |
 |:---|---:|
-| [← Back to All Guides](../../README.md) | [Next: Pieces MCP and LTM Tools Reference →](./Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) |
+| [← Back to Guides Index](../README.md) | [Next: Pieces MCP and LTM Tools Reference →](./Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) |

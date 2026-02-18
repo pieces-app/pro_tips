@@ -193,7 +193,7 @@ What was discussed about the authentication module in yesterday's Teams call, an
 Summarize what was said in this morning's design review and what mockups I looked at in Figma afterward.
 ```
 
-For more on querying your Long-Term Memory, check out the [How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md) guide.
+For more on querying your Long-Term Memory, check out the [How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md) guide. To enable LTM Audio once permissions are granted, see [How to Enable LTM Audio Capture](./How%20to%20Enable%20LTM%20Audio%20Capture.md).
 
 ---
 
@@ -208,6 +208,10 @@ If you run into any issues or have questions, we're here to help:
 ---
 
 *Capture every conversation, decision, and insight — set up LTM Audio on macOS and let Pieces remember what you heard.*
+
+---
+
+[← Back to Guides Index](./README.md)
 
 ---
 

@@ -157,7 +157,7 @@ A simple 4-step process to update Pieces on Linux:
 
 ### 🔌 MCP Guides (`guides/MCP/`)
 
-Guides for connecting AI agents to your Pieces Long-Term Memory via the Model Context Protocol. The Pieces MCP server — expanded significantly in [Pieces 5.0.3](./releases/Whats%20New%20in%20Pieces%205.0.3.md#-expanded-mcp-server-richer-long-term-memory-access-in-cursor-claude-code--more) — exposes 39 tools covering full-text search, vector search, batch retrieval, temporal filtering, and cross-agent memory creation.
+Guides for connecting AI agents to your Pieces Long-Term Memory via the Model Context Protocol. The Pieces MCP server — expanded significantly in [Pieces 5.0.3](./releases/Whats%20New%20in%20Pieces%205.0.3.md#expanded-mcp-server-richer-long-term-memory-access-in-cursor-claude-code--more) — exposes 39 tools covering full-text search, vector search, batch retrieval, temporal filtering, and cross-agent memory creation.
 
 **[→ MCP Guides Index](./guides/MCP/README.md)** — Start here for an overview of all MCP documentation.
 

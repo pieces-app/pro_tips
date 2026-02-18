@@ -142,4 +142,6 @@ If you run into any issues or have questions, we're here to help:
 
 | | |
 |:---|---:|
+| [← Back to Guides Index](./README.md) | |
+
 | [← Previous: How to Create and Save Custom Summary Templates](./How%20to%20Create%20and%20Save%20Custom%20Summary%20Templates.md) | [Next: How to Update Pieces Snap Packages →](./How%20to%20Update%20Pieces%20Snap%20Packages.md) |

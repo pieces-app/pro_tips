@@ -243,6 +243,18 @@ Combine Workstream Activity's timeline view with chats and LTM queries, and you 
 
 ---
 
+## Related Guides
+
+- [How to Create and Save Custom Summary Templates](./How%20to%20Create%20and%20Save%20Custom%20Summary%20Templates.md) — Build reusable one-click summaries scoped to specific projects, apps, or time ranges
+- [How to Generate a Time Breakdown with a Custom Time Range](./How%20to%20Generate%20a%20Time%20Breakdown%20with%20a%20Custom%20Time%20Range.md) — Reconstruct billable hours from your captured workstream context
+- [How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md) — Go deeper than the Timeline: ask specific questions about your work history in natural language
+
+---
+
+[← Back to Guides Index](./README.md)
+
+---
+
 | | |
 |:---|---:|
 | [← Previous: 5 Queries To Ask Pieces LTM (2+ Months)](./5%20Queries%20To%20Ask%20Pieces%20LTM%20after%202%2B%20Months%20of%20Background%20Memory%20Formation.md) | [Next: Navigating the Desktop App UI with the Power Menu →](./Navigating%20the%20Desktop%20App%20UI%20with%20the%20Power%20Menu.md) |

@@ -390,4 +390,4 @@ For questions or support, reach out to your Pieces administrator or check out th
 
 | | |
 |:---|---:|
-| [← Back to All Guides](../README.md) | [Next: 10 Queries To Ask Pieces LTM (24-48 Hours) →](./10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md) |
+| [← Back to Guides Index](./README.md) | [Next: 10 Queries To Ask Pieces LTM (24-48 Hours) →](./10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md) |

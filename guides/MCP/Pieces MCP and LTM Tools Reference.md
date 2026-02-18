@@ -116,7 +116,7 @@ The Pieces MCP server exposes **39 tools** across six categories. These tools gi
 | ML Capabilities | 1 | AI-powered temporal extraction |
 | Batch Snapshot | 16 | Retrieve full objects by UUID (1-100 at a time) |
 
-> **Introduced in Pieces 5.0.3 (PiecesOS 12.3.8):** This release expanded the Pieces MCP server from the original `ask_pieces_ltm` and `create_pieces_memory` tools to the full suite documented here — adding 14 full-text search tools, 5 vector search tools, `material_identifiers`, `extract_temporal_range`, and 16 batch snapshot tools. See [What's New in Pieces 5.0.3](../../releases/Whats%20New%20in%20Pieces%205.0.3.md#-expanded-mcp-server-richer-long-term-memory-access-in-cursor-claude-code--more) for details.
+> **Introduced in Pieces 5.0.3 (PiecesOS 12.3.8):** This release expanded the Pieces MCP server from the original `ask_pieces_ltm` and `create_pieces_memory` tools to the full suite documented here — adding 14 full-text search tools, 5 vector search tools, `material_identifiers`, `extract_temporal_range`, and 16 batch snapshot tools. See [What's New in Pieces 5.0.3](../../releases/Whats%20New%20in%20Pieces%205.0.3.md#expanded-mcp-server-richer-long-term-memory-access-in-cursor-claude-code--more) for details.
 
 ---
 

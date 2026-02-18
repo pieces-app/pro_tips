@@ -8,6 +8,8 @@ Custom Summary Templates let you build your own single-click summaries. Define t
 
 Build it once, use it forever.
 
+> **Introduced in [Pieces 5.0.3](../releases/Whats%20New%20in%20Pieces%205.0.3.md) (PiecesOS 12.3.8).** Requires Pieces Desktop 5.0.3 or later.
+
 <video src="https://github.com/user-attachments/assets/53befb7b-1163-4c5c-8a95-65643ddc4fd2" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
@@ -211,6 +213,17 @@ If you run into any issues or have questions, we're here to help:
 ---
 
 *Your workflow, your templates, your way — create custom summary templates and generate the exact summaries you need with a single click.*
+
+---
+
+## Related Guides
+
+- [How to Use the Workstream Activity Timeline](./How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md) — The visual timeline that templates draw their data from
+- [How to Generate a Time Breakdown with a Custom Time Range](./How%20to%20Generate%20a%20Time%20Breakdown%20with%20a%20Custom%20Time%20Range.md) — Structured billing output as a complement to narrative templates
+
+---
+
+[← Back to Guides Index](./README.md)
 
 ---
 
