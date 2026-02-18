@@ -275,7 +275,7 @@ The most commonly used full-text search tools for agentic workflows:
 
 Search AI-generated work session summaries by keyword.
 
-**Availability:** Both (MCP and OpenCode)
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -304,7 +304,7 @@ Search AI-generated work session summaries by keyword.
 
 Hybrid search across Copilot conversation names, message content, and annotation summaries simultaneously.
 
-**Availability:** MCP only
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -333,7 +333,7 @@ Hybrid search across Copilot conversation names, message content, and annotation
 
 Search user-created labels and tags by keyword.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -361,7 +361,7 @@ Search user-created labels and tags by keyword.
 
 Search notes, summaries, comments, and other annotations by keyword, with optional type filtering.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -392,7 +392,7 @@ Search notes, summaries, comments, and other annotations by keyword, with option
 
 Search contacts and collaborators across six identity fields (email, name, username).
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -420,7 +420,7 @@ Search contacts and collaborators across six identity fields (email, name, usern
 
 Hybrid search across code bookmark names and their anchor point file paths simultaneously.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -448,7 +448,7 @@ Hybrid search across code bookmark names and their anchor point file paths simul
 
 Multi-field search across captured activity records (clipboard, screenshots/OCR, audio transcriptions) with application, window, URL, and context type filtering.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -484,7 +484,7 @@ Multi-field search across captured activity records (clipboard, screenshots/OCR,
 
 Dual-field search across saved URL addresses and their display names.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -512,7 +512,7 @@ Dual-field search across saved URL addresses and their display names.
 
 Search AI-generated follow-up suggestions by text content.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -540,7 +540,7 @@ Search AI-generated follow-up suggestions by text content.
 
 Multi-field search across AI/ML model configurations (name, provider, foundation, description, and AWS Bedrock fields).
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -568,7 +568,7 @@ Multi-field search across AI/ML model configurations (name, provider, foundation
 
 Search application sources extracted from workflow activity, across readable names and raw application/window/URL fields.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -596,7 +596,7 @@ Search application sources extracted from workflow activity, across readable nam
 
 Search window title contexts captured during workflow monitoring.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -624,7 +624,7 @@ Search window title contexts captured during workflow monitoring.
 
 Search organizations and teams by name.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -652,7 +652,7 @@ Search organizations and teams by name.
 
 Search individual Copilot chat messages by content.
 
-**Availability:** MCP only
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -695,7 +695,7 @@ These tools return **identifiers and similarity scores only** (not full objects)
 
 Generic semantic search across multiple material types. Requires specifying which type to search.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -728,7 +728,7 @@ Generic semantic search across multiple material types. Requires specifying whic
 
 Semantic search specifically for work session summaries.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -758,7 +758,7 @@ Semantic search specifically for work session summaries.
 
 Semantic search for AI-generated follow-up suggestions.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -787,7 +787,7 @@ Semantic search for AI-generated follow-up suggestions.
 
 Semantic search for user-created labels and categories.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -816,7 +816,7 @@ Semantic search for user-created labels and categories.
 
 Semantic search for captured workflow activity with optional context type filtering.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -857,7 +857,7 @@ While search tools require a query, `material_identifiers` lets agents enumerate
 
 List UUIDs for any of 16 material types using time-based and configuration filters. No search query required.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -939,7 +939,7 @@ Context types: `CLIPBOARD`, `VISION`, `AUDIO`
 
 Convert natural language time expressions into precise UTC ISO 8601 timestamp ranges using AI/ML models.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
@@ -992,7 +992,7 @@ Batch snapshot tools retrieve full material objects by UUID. They all follow the
 
 Retrieve full workstream summary objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1017,7 +1017,7 @@ Retrieve full workstream summary objects by UUID.
 
 Retrieve full conversation objects by UUID.
 
-**Availability:** MCP only
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1042,7 +1042,7 @@ Retrieve full conversation objects by UUID.
 
 Retrieve full tag objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1067,7 +1067,7 @@ Retrieve full tag objects by UUID.
 
 Retrieve full annotation objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1092,7 +1092,7 @@ Retrieve full annotation objects by UUID.
 
 Retrieve full person objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1117,7 +1117,7 @@ Retrieve full person objects by UUID.
 
 Retrieve full anchor (code bookmark) objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1142,7 +1142,7 @@ Retrieve full anchor (code bookmark) objects by UUID.
 
 Retrieve full anchor point (file path location) objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1167,7 +1167,7 @@ Retrieve full anchor point (file path location) objects by UUID.
 
 Retrieve full workstream event (activity capture) objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1192,7 +1192,7 @@ Retrieve full workstream event (activity capture) objects by UUID.
 
 Retrieve full hint (AI follow-up suggestion) objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1217,7 +1217,7 @@ Retrieve full hint (AI follow-up suggestion) objects by UUID.
 
 Retrieve full AI/ML model configuration objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1242,7 +1242,7 @@ Retrieve full AI/ML model configuration objects by UUID.
 
 Retrieve full temporal range objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1267,7 +1267,7 @@ Retrieve full temporal range objects by UUID.
 
 Retrieve full website objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1292,7 +1292,7 @@ Retrieve full website objects by UUID.
 
 Retrieve full entity (organization/team) objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1317,7 +1317,7 @@ Retrieve full entity (organization/team) objects by UUID.
 
 Retrieve full conversation message objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1342,7 +1342,7 @@ Retrieve full conversation message objects by UUID.
 
 Retrieve full WPE (Workstream Pattern Engine) application source objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1367,7 +1367,7 @@ Retrieve full WPE (Workstream Pattern Engine) application source objects by UUID
 
 Retrieve full WPE source window (window context) objects by UUID.
 
-**Availability:** Both
+**Availability:** MCP
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
@@ -1588,47 +1588,47 @@ This is how agents build on each other's work across time.
 
 ## Visibility Reference
 
-| Tool | MCP | OpenCode | Both |
-|------|-----|----------|------|
-| `ask_pieces_ltm` | Yes | - | - |
-| `create_pieces_memory` | Yes | - | - |
-| `conversations_full_text_search` | Yes | - | - |
-| `conversation_messages_full_text_search` | Yes | - | - |
-| `conversations_batch_snapshot` | Yes | - | - |
-| `workstream_summaries_full_text_search` | - | - | Yes |
-| `tags_full_text_search` | - | - | Yes |
-| `annotations_full_text_search` | - | - | Yes |
-| `persons_full_text_search` | - | - | Yes |
-| `anchors_full_text_search` | - | - | Yes |
-| `workstream_events_full_text_search` | - | - | Yes |
-| `websites_full_text_search` | - | - | Yes |
-| `hints_full_text_search` | - | - | Yes |
-| `models_full_text_search` | - | - | Yes |
-| `wpe_sources_full_text_search` | - | - | Yes |
-| `wpe_source_windows_full_text_search` | - | - | Yes |
-| `entities_full_text_search` | - | - | Yes |
-| `materials_vector_search` | - | - | Yes |
-| `workstream_summaries_vector_search` | - | - | Yes |
-| `hints_vector_search` | - | - | Yes |
-| `tags_vector_search` | - | - | Yes |
-| `workstream_events_vector_search` | - | - | Yes |
-| `material_identifiers` | - | - | Yes |
-| `extract_temporal_range` | - | - | Yes |
-| `workstream_summaries_batch_snapshot` | - | - | Yes |
-| `tags_batch_snapshot` | - | - | Yes |
-| `annotations_batch_snapshot` | - | - | Yes |
-| `persons_batch_snapshot` | - | - | Yes |
-| `anchors_batch_snapshot` | - | - | Yes |
-| `anchor_points_batch_snapshot` | - | - | Yes |
-| `workstream_events_batch_snapshot` | - | - | Yes |
-| `hints_batch_snapshot` | - | - | Yes |
-| `models_batch_snapshot` | - | - | Yes |
-| `ranges_batch_snapshot` | - | - | Yes |
-| `websites_batch_snapshot` | - | - | Yes |
-| `entities_batch_snapshot` | - | - | Yes |
-| `conversation_messages_batch_snapshot` | - | - | Yes |
-| `wpe_sources_batch_snapshot` | - | - | Yes |
-| `wpe_source_windows_batch_snapshot` | - | - | Yes |
+| Tool | Available via MCP |
+|------|-------------------|
+| `ask_pieces_ltm` | ✅ |
+| `create_pieces_memory` | ✅ |
+| `conversations_full_text_search` | ✅ |
+| `conversation_messages_full_text_search` | ✅ |
+| `conversations_batch_snapshot` | ✅ |
+| `workstream_summaries_full_text_search` | ✅ |
+| `tags_full_text_search` | ✅ |
+| `annotations_full_text_search` | ✅ |
+| `persons_full_text_search` | ✅ |
+| `anchors_full_text_search` | ✅ |
+| `workstream_events_full_text_search` | ✅ |
+| `websites_full_text_search` | ✅ |
+| `hints_full_text_search` | ✅ |
+| `models_full_text_search` | ✅ |
+| `wpe_sources_full_text_search` | ✅ |
+| `wpe_source_windows_full_text_search` | ✅ |
+| `entities_full_text_search` | ✅ |
+| `materials_vector_search` | ✅ |
+| `workstream_summaries_vector_search` | ✅ |
+| `hints_vector_search` | ✅ |
+| `tags_vector_search` | ✅ |
+| `workstream_events_vector_search` | ✅ |
+| `material_identifiers` | ✅ |
+| `extract_temporal_range` | ✅ |
+| `workstream_summaries_batch_snapshot` | ✅ |
+| `tags_batch_snapshot` | ✅ |
+| `annotations_batch_snapshot` | ✅ |
+| `persons_batch_snapshot` | ✅ |
+| `anchors_batch_snapshot` | ✅ |
+| `anchor_points_batch_snapshot` | ✅ |
+| `workstream_events_batch_snapshot` | ✅ |
+| `hints_batch_snapshot` | ✅ |
+| `models_batch_snapshot` | ✅ |
+| `ranges_batch_snapshot` | ✅ |
+| `websites_batch_snapshot` | ✅ |
+| `entities_batch_snapshot` | ✅ |
+| `conversation_messages_batch_snapshot` | ✅ |
+| `wpe_sources_batch_snapshot` | ✅ |
+| `wpe_source_windows_batch_snapshot` | ✅ |
 
 ---
 
