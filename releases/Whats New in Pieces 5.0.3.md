@@ -119,8 +119,6 @@ If your ideal summary isn't in the pre-set library, create your own: customize t
 <video src="https://github.com/user-attachments/assets/53befb7b-1163-4c5c-8a95-65643ddc4fd2" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
-![Create and save your own summary templates for one-click generation](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_custom_summary_templates.png)
-
 *Build it once, use it forever. Your workflow, your templates, your way.*
 
 ### Use Cases

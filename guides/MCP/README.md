@@ -60,15 +60,15 @@ Covers: transport strategy selection (`http-first`, `sse-only`, `http-only`), co
 
 ### [Agent Setups & Integrations](./Agent%20Setups%20%26%20Integrations/)
 
-Step-by-step setup guides for connecting **17 MCP-compatible tools** to your Pieces Long-Term Memory. Each guide covers local (localhost) and remote (ngrok HTTPS) configuration with exact JSON configs, file paths, and troubleshooting.
+Step-by-step setup guides for connecting **19 MCP-compatible tools** to your Pieces Long-Term Memory. Each guide covers local (localhost) and remote (ngrok HTTPS) configuration with exact JSON configs, file paths, and troubleshooting.
 
 **Use this guide when you need to:**
 
-- **Set up Pieces MCP in your tool** -- Individual guides for Cursor, Claude Desktop, Claude Code, VS Code, Windsurf, Goose, Cline, Continue.dev, JetBrains IDEs, Zed, GitHub Copilot, OpenAI Codex CLI, Google Gemini CLI, Amazon Q Developer, ChatGPT Developer Mode, Raycast, and Rovo Dev CLI.
+- **Set up Pieces MCP in your tool** -- Individual guides for Cursor, Claude Desktop, Claude Code, Claude Cowork, VS Code, Windsurf, Goose, Cline, Continue.dev, JetBrains IDEs, Zed, GitHub Copilot, OpenAI Codex CLI, Google Gemini CLI, Amazon Q Developer, ChatGPT Developer Mode, Raycast, Rovo Dev CLI, and OpenClaw.
 - **Know which transport your tool supports** -- A single matrix table shows stdio, SSE, and Streamable HTTP support for every tool, plus whether it can connect to remote URLs directly.
 - **Bridge stdio-only tools to Pieces** -- Tools like Zed, Raycast, and Claude Desktop (JSON config) only support stdio. The bridge section covers `mcp-remote`, `supergateway`, and `mcp-proxy` with ready-to-copy configs.
 
-Covers: 17 tool-specific guides, transport support matrix, stdio-to-HTTP bridge setup, local and remote (ngrok) configuration patterns.
+Covers: 19 tool-specific guides, transport support matrix, stdio-to-HTTP bridge setup, local and remote (ngrok) configuration patterns.
 
 ---
 

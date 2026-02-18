@@ -237,7 +237,7 @@ try {
 ### PowerShell: Minimal One-Liner
 
 ```powershell
-$p=(39300..39333|%{try{if((Invoke-WebRequest "http://localhost:$_/.well-known/version" -UseBasicParsing -TimeoutSec 1 -EA Stop).StatusCode -eq 200){$_}}catch{}}|Select -First 1); Start-Job { param($x) ngrok http $x } -Arg $p | Out-Null; Start-Sleep 3; $u=(Invoke-RestMethod http://localhost:4040/api/tunnels).tunnels[0].public_url; "Base: $u"; "MCP:  $u/model_context_protocol/2025-03-26/mcp"
+$p=(39300..39333|%{try{if((Invoke-WebRequest "http://localhost:$_/.well-known/version" -UseBasicParsing -TimeoutSec 1 -EA Stop).StatusCode -eq 200){$_}}catch{}}|Select -First 1); Start-Job { param($x) ngrok http $x } -ArgumentList $p | Out-Null; Start-Sleep 3; $u=(Invoke-RestMethod http://localhost:4040/api/tunnels).tunnels[0].public_url; "Base: $u"; "MCP:  $u/model_context_protocol/2025-03-26/mcp"
 ```
 
 ---
