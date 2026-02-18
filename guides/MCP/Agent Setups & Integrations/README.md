@@ -1,6 +1,6 @@
 # Connecting AI Agents to Pieces MCP
 
-Step-by-step setup guides for connecting 19 popular MCP-compatible tools to your Pieces Long-Term Memory server. These integrations connect to the expanded Pieces MCP server introduced in [Pieces 5.0.3](../../../releases/Whats%20New%20in%20Pieces%205.0.3.md#-expanded-mcp-server-richer-long-term-memory-access-in-cursor-claude-code--more), which brought the full suite of 39 LTM tools to every MCP-compatible client. For the complete list of tools available to your agents, see the [Pieces MCP and LTM Tools Reference](../Pieces%20MCP%20and%20LTM%20Tools%20Reference.md). Each guide covers local (localhost) and remote (ngrok HTTPS) configuration with verified, fact-checked config formats.
+Step-by-step setup guides for connecting 19 popular MCP-compatible tools to your Pieces Long-Term Memory server. These integrations connect to the expanded Pieces MCP server introduced in [Pieces 5.0.3](../../../releases/Whats%20New%20in%20Pieces%205.0.3.md#expanded-mcp-server-richer-long-term-memory-access-in-cursor-claude-code--more), which brought the full suite of 39 LTM tools to every MCP-compatible client. For the complete list of tools available to your agents, see the [Pieces MCP and LTM Tools Reference](../Pieces%20MCP%20and%20LTM%20Tools%20Reference.md). Each guide covers local (localhost) and remote (ngrok HTTPS) configuration with verified, fact-checked config formats.
 
 ---
 
@@ -151,6 +151,15 @@ mcp-proxy http://localhost:39300/model_context_protocol/2024-11-05/sse
 | [Raycast](./Raycast.md) | `mcp-config.json` file; stdio only; bridge required; macOS only |
 | [Rovo Dev CLI](./Rovo%20Dev%20CLI.md) | `~/.rovodev/mcp.json` with `servers` + `transport` key |
 | [OpenClaw](./OpenClaw.md) | MCPorter config at `~/.openclaw/workspace/config/mcporter.json` |
+
+---
+
+## Related Guides
+
+- [MCP Guides Index](../README.md) — Overview of all Pieces MCP documentation
+- [Pieces MCP and LTM Tools Reference](../Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) — Complete reference for all 39 tools available to your agents
+- [Connecting to PiecesOS via Ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) — Expose your local Pieces server for remote access
+- [Bridging Local MCP Clients with mcp-remote](../Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md) — Connect stdio-only clients to the Pieces HTTP endpoint
 
 ---
 
