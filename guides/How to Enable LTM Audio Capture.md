@@ -241,7 +241,6 @@ If you run into any issues or have questions, we're here to help:
 
 ---
 
-[← Back to Guides Index](./README.md)
 
 ---
 

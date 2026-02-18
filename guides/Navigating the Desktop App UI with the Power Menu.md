@@ -118,7 +118,6 @@ Learn the Power Menu, and you'll navigate Pieces like a pro.
 
 ---
 
-[← Back to Guides Index](./README.md)
 
 ---
 

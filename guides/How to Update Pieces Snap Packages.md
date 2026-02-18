@@ -86,7 +86,6 @@ pkill os_server
 
 ---
 
-[← Back to Guides Index](./README.md)
 
 ---
 

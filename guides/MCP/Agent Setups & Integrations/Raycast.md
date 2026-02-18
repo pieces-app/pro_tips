@@ -131,5 +131,4 @@ Edit `mcp-config.json` (found via "Show Config File in Finder"), update the URL 
 
 <table width="100%"><tr>
 <td>&nbsp;&nbsp;<a href="./README.md">← Back to All Agent Setup Guides</a>&nbsp;&nbsp;</td>
-<td>&nbsp;&nbsp;</td>
 </tr></table>

@@ -330,7 +330,6 @@ These queries demonstrate how to access this information through natural languag
 
 ---
 
-[← Back to Guides Index](./README.md)
 
 ---
 

@@ -90,5 +90,4 @@ To update the [ngrok](../Connecting%20to%20PiecesOS%20from%20the%20Outside%20Wor
 
 <table width="100%"><tr>
 <td>&nbsp;&nbsp;<a href="./README.md">← Back to All Agent Setup Guides</a>&nbsp;&nbsp;</td>
-<td>&nbsp;&nbsp;</td>
 </tr></table>

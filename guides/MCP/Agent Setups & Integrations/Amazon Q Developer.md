@@ -111,5 +111,4 @@ Edit `~/.aws/amazonq/default.json`, update the `url`, and restart Amazon Q or st
 
 <table width="100%"><tr>
 <td>&nbsp;&nbsp;<a href="./README.md">← Back to All Agent Setup Guides</a>&nbsp;&nbsp;</td>
-<td>&nbsp;&nbsp;</td>
 </tr></table>

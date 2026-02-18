@@ -22,5 +22,4 @@ See the full index at **[Agent Setups & Integrations/README.md](./Agent%20Setups
 
 <table width="100%"><tr>
 <td>&nbsp;&nbsp;<a href="./README.md">← Back to MCP Guides</a>&nbsp;&nbsp;</td>
-<td>&nbsp;&nbsp;</td>
 </tr></table>

@@ -251,7 +251,6 @@ Combine Workstream Activity's timeline view with chats and LTM queries, and you 
 
 ---
 
-[← Back to Guides Index](./README.md)
 
 ---
 

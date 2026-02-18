@@ -236,7 +236,6 @@ See [10 Queries To Ask After 24-48 Hours](./10%20Queries%20To%20Ask%20Pieces%20L
 
 ---
 
-[← Back to Guides Index](./README.md)
 
 ---
 
