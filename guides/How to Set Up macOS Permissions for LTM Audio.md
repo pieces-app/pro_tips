@@ -211,9 +211,7 @@ If you run into any issues or have questions, we're here to help:
 
 ---
 
-## Related Guides
-
-- [How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md) — Start asking questions about your audio memories once capture is active
+**See also:** [How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md) — Start asking questions about your audio memories once capture is active
 
 ---
 

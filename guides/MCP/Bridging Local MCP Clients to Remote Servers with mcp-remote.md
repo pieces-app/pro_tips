@@ -959,9 +959,7 @@ Then inspect: `~/.mcp-auth/{hash}_debug.log`
 
 ---
 
-## Related Guides
-
-- [Pieces MCP and LTM Tools Reference](./Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) — Complete reference for all 39 MCP tools your agents can use
+**See also:** [Pieces MCP and LTM Tools Reference](./Pieces%20MCP%20and%20LTM%20Tools%20Reference.md) — Complete reference for all 39 MCP tools your agents can use
 
 ---
 

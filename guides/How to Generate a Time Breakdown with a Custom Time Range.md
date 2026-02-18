@@ -238,9 +238,7 @@ If you run into any issues or have questions, we're here to help:
 
 ---
 
-## Related Guides
-
-- [How to Use the Workstream Activity Timeline](./How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md) — Browse your narrative work history alongside the structured billing view
+**See also:** [How to Use the Workstream Activity Timeline](./How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md) — Browse your narrative work history alongside the structured billing view
 
 ---
 

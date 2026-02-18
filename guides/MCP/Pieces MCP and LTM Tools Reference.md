@@ -1682,9 +1682,7 @@ All 39 Pieces MCP tools were tested with minimal valid inputs to confirm they re
 
 ---
 
-## Related Guides
-
-- [Bridging Local MCP Clients with mcp-remote](./Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md) — Connect stdio-only clients to the HTTP endpoint
+**See also:** [Bridging Local MCP Clients with mcp-remote](./Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md) — Connect stdio-only clients to the HTTP endpoint
 
 ---
 
