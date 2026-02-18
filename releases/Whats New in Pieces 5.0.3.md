@@ -33,7 +33,8 @@ This is particularly useful for capturing context from meetings, pair programmin
 - Enriches summaries with discussion points and decisions
 - Makes Copilot conversations more context-aware
 
-![LTM Audio captures microphone and system audio to enrich your Long-Term Memory](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_ltm_audio_preview.png)
+<video src="https://github.com/user-attachments/assets/52a759f6-34ae-4ae9-b566-c68b608ef0a2" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 *Capture context from meetings, calls, and sessions to make your memories richer and more complete.*
 
@@ -306,7 +307,8 @@ Previously, Time Breakdown analyzed a fixed period. Now you can choose from pres
 - Editable entries for refinement
 - Export-ready for billing systems
 
-![Time Breakdown now supports configurable time ranges for flexible reporting](https://storage.googleapis.com/pieces_static_resources/pro_tips/5_0_3_time_breakdown_time_range_configuration.png)
+<video src="https://github.com/user-attachments/assets/346c2d1e-7190-45a7-93a5-ed258bc04cfe" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 *Select your preferred range before generating a Time Breakdown and get audit-ready time logs scoped to the period you need.*
 
