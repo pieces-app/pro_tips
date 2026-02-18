@@ -968,7 +968,4 @@ Then inspect: `~/.mcp-auth/{hash}_debug.log`
 
 ---
 
-<table width="100%"><tr>
-<td>&nbsp;&nbsp;<a href="./Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md">← Previous: Connecting to PiecesOS via Ngrok</a>&nbsp;&nbsp;</td>
-<td align="right">&nbsp;&nbsp;<a href="./Agent%20Setups%20%26%20Integrations/README.md">Next: Agent Setups &amp; Integrations →</a>&nbsp;&nbsp;</td>
-</tr></table>
+[← Previous: Connecting to PiecesOS via Ngrok](./Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md) &nbsp;|&nbsp; [Next: Agent Setups & Integrations →](./Agent%20Setups%20%26%20Integrations/README.md)
