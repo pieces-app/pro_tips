@@ -197,7 +197,7 @@ LTM automatically captures context from:
 - Communication tools (Teams, Slack, Discord)
 - Documentation platforms (Notion, Confluence, GitHub)
 - Terminal and command line
-- **Microphone & system audio** — meetings, pair programming sessions, video calls, and presentations (enable via LTM Audio, introduced in 5.0.3)
+- **Microphone & system audio** — meetings, pair programming sessions, video calls, and presentations (enable via [LTM Audio](./guides/How%20to%20Enable%20LTM%20Audio%20Capture.md), introduced in [Pieces 5.0.3](./releases/Whats%20New%20in%20Pieces%205.0.3.md))
 
 All of this becomes searchable through natural language queries—no need to remember exact details or file names.
 
