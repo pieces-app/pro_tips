@@ -379,3 +379,16 @@ The best way to get good at this? Just start asking. Try different phrasings, ex
 For questions or support, reach out to your Pieces administrator or check out the Pieces documentation.
 
 ---
+
+## Related Guides
+
+- [10 Queries To Ask After 24-48 Hours](./10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md) — Copy-ready examples for your first day or two of LTM
+- [5 Queries To Ask After 2+ Months](./5%20Queries%20To%20Ask%20Pieces%20LTM%20after%202%2B%20Months%20of%20Background%20Memory%20Formation.md) — Strategic queries once you have a deep work history
+- [Workstream Activity Timeline](./How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md) — Visual, auto-generated view of your workday as a complement to direct LTM queries
+
+---
+
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./README.md">← Back to Guides Index</a>&nbsp;&nbsp;</td>
+<td align="right">&nbsp;&nbsp;<a href="./10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md">Next: 10 Queries To Ask Pieces LTM (24-48 Hours) →</a>&nbsp;&nbsp;</td>
+</tr></table>

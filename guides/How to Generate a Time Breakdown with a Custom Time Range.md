@@ -8,6 +8,8 @@ Think of it as your memory assistant for time tracking. Pieces captures context 
 
 **In this guide**, we'll walk through how to generate a Time Breakdown and configure a specific time range so you get exactly the reporting window you need.
 
+> **History:** Time Breakdown was introduced in [Pieces 5.0.1](../releases/Whats%20New%20in%20Pieces%205.0.1.md) (PiecesOS 12.3.6). Configurable time ranges were added in [Pieces 5.0.3](../releases/Whats%20New%20in%20Pieces%205.0.3.md) (PiecesOS 12.3.8). Requires Pieces Desktop 5.0.3 or later for time range selection.
+
 <video src="https://github.com/user-attachments/assets/346c2d1e-7190-45a7-93a5-ed258bc04cfe" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
@@ -233,3 +235,21 @@ If you run into any issues or have questions, we're here to help:
 ---
 
 *Reconstruct your billable hours with confidence—generate a Time Breakdown scoped to exactly the time range you need.*
+
+---
+
+## Related Guides
+
+- [How to Use the Workstream Activity Timeline](./How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md) — Browse your narrative work history alongside the structured billing view
+- [How to Create and Save Custom Summary Templates](./How%20to%20Create%20and%20Save%20Custom%20Summary%20Templates.md) — Save recurring summary configurations as one-click templates
+
+---
+
+[← Back to Guides Index](./README.md)
+
+---
+
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./How%20to%20Set%20Up%20macOS%20Permissions%20for%20LTM%20Audio.md">← Previous: How to Set Up macOS Permissions for LTM Audio</a>&nbsp;&nbsp;</td>
+<td align="right">&nbsp;&nbsp;<a href="./How%20to%20Create%20and%20Save%20Custom%20Summary%20Templates.md">Next: How to Create and Save Custom Summary Templates →</a>&nbsp;&nbsp;</td>
+</tr></table>

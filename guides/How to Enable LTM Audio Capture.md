@@ -6,6 +6,8 @@ LTM Audio extends the Long-Term Memory Engine by capturing context from your spo
 
 Think of it as giving Pieces ears in addition to eyes. Instead of only remembering what you typed, browsed, and coded, Pieces can also remember what was said—turning verbal discussions into searchable, queryable context you can reference anytime.
 
+> **Introduced in [Pieces 5.0.3](../releases/Whats%20New%20in%20Pieces%205.0.3.md) (PiecesOS 12.3.8).** LTM Audio is currently available as a preview feature. Requires Pieces Desktop 5.0.3 or later.
+
 ## Why Enable LTM Audio?
 
 Without audio capture, Pieces can only build context from what happens on your screen. But a huge amount of your work happens verbally:
@@ -229,3 +231,21 @@ If you run into any issues or have questions, we're here to help:
 ---
 
 *Give Pieces ears—enable LTM Audio and make every conversation part of your Long-Term Memory.*
+
+---
+
+## Related Guides
+
+- [How to Set Up macOS Permissions for LTM Audio](./How%20to%20Set%20Up%20macOS%20Permissions%20for%20LTM%20Audio.md) — Required first step for macOS users before audio capture will work
+- [How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md) — Ask questions about what was said in your meetings using natural language
+
+---
+
+[← Back to Guides Index](./README.md)
+
+---
+
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./Navigating%20the%20Desktop%20App%20UI%20with%20the%20Power%20Menu.md">← Previous: Navigating the Desktop App UI with the Power Menu</a>&nbsp;&nbsp;</td>
+<td align="right">&nbsp;&nbsp;<a href="./How%20to%20Set%20Up%20macOS%20Permissions%20for%20LTM%20Audio.md">Next: How to Set Up macOS Permissions for LTM Audio →</a>&nbsp;&nbsp;</td>
+</tr></table>

@@ -14,7 +14,7 @@ Pieces 5.0.3 fixes that. This release introduces **LTM Audio** in preview, letti
 
 LTM Audio is now available in preview. Activate LTM Audio to include both **microphone input and system audio output** as part of your Long-Term Memory formation.
 
-This is particularly useful for capturing context from meetings, pair programming sessions, video calls, and other audio-rich workflow moments. Pieces processes the audio locally to extract meaningful context, which then flows into your memory formation — making your summaries, Copilot chats, and Workstream Activity richer and more complete.
+This is particularly useful for capturing context from meetings, pair programming sessions, video calls, and other audio-rich workflow moments. Pieces processes the audio locally to extract meaningful context, which then flows into your memory formation — making your summaries, Pieces Chat conversations, and Workstream Activity richer and more complete.
 
 ### What's New
 
@@ -31,7 +31,7 @@ This is particularly useful for capturing context from meetings, pair programmin
 **Context Integration**
 - Audio context flows into your Long-Term Memory automatically
 - Enriches summaries with discussion points and decisions
-- Makes Copilot conversations more context-aware
+- Makes Pieces Chat more context-aware
 
 <video src="https://github.com/user-attachments/assets/52a759f6-34ae-4ae9-b566-c68b608ef0a2" controls="controls" autoplay muted style="max-width: 730px">
 </video>
@@ -51,6 +51,7 @@ This is particularly useful for capturing context from meetings, pair programmin
 - Capture decisions and action items from team meetings
 - Remember discussion points and follow-ups
 - Include meeting context in your daily summaries
+- Coming soon: a dedicated **Summarize Recent Meetings** single-click summary for instant call recaps
 
 **Pair Programming Sessions**
 - Capture technical discussions and problem-solving approaches
@@ -222,12 +223,16 @@ This expansion gives these tools much deeper access to your Long-Term Memory, en
 **If You're Already Using MCP**
 - New tools are available automatically—no action needed
 - Update your MCP client to the latest version for best results
-- Check the Pieces MCP documentation for new tool capabilities
+- See the **[Pieces MCP and LTM Tools Reference](../guides/MCP/Pieces%20MCP%20and%20LTM%20Tools%20Reference.md)** for the complete list of 39 tools now available to your agents
 
 **If You Haven't Connected Yet**
-- Head to our documentation to get set up—it only takes a minute
-- Connect Cursor, Claude Code, or any MCP-compatible client
+- See **[Agent Setups & Integrations](../guides/MCP/Agent%20Setups%20%26%20Integrations/README.md)** — step-by-step config guides for 19 tools (Cursor, Claude Code, Goose, VS Code, Windsurf, and more) with exact JSON configs and file paths
+- Connect Cursor, Claude Code, or any MCP-compatible client in minutes
 - Start asking questions about your work history immediately
+
+**Accessing Pieces from Cloud-Based Agents or Remote Machines**
+- See **[Connecting to PiecesOS via Ngrok](../guides/MCP/Connecting%20to%20PiecesOS%20from%20the%20Outside%20World%20via%20Ngrok.md)** — expose your local PiecesOS over HTTPS so Claude web, ChatGPT, GitHub Actions, or any remote agent can reach your Long-Term Memory
+- See **[Bridging Local MCP Clients with mcp-remote](../guides/MCP/Bridging%20Local%20MCP%20Clients%20to%20Remote%20Servers%20with%20mcp-remote.md)** — connect stdio-only clients like Claude Desktop (JSON config), Zed, and Raycast to the Pieces HTTP endpoint
 
 ### Example Queries
 
@@ -243,7 +248,7 @@ This expansion gives these tools much deeper access to your Long-Term Memory, en
 
 ### Why It Matters
 
-Your AI assistant should know your work history. When you're coding in Cursor or chatting with Claude Code, these tools should be able to reference your past work, decisions, and context. The expanded MCP Server makes this possible by giving these tools the same rich access to your Long-Term Memory that Pieces Copilot has. The result? More context-aware assistance, better code suggestions, and AI that actually understands your project history.
+Your AI assistant should know your work history. When you're coding in Cursor or chatting with Claude Code, these tools should be able to reference your past work, decisions, and context. The expanded MCP Server makes this possible by giving these tools the same rich access to your Long-Term Memory that Pieces Conversational Recall has. The result? More context-aware assistance, better code suggestions, and AI that actually understands your project history.
 
 ---
 
@@ -322,11 +327,11 @@ Time tracking shouldn't be one-size-fits-all. Different professionals have diffe
 
 ---
 
-## 📐 LaTeX Rendering in Summaries & Copilot Chats
+## 📐 LaTeX Rendering in Summaries & Pieces Chat
 
-You're discussing an ML algorithm with Copilot. It responds with `\frac{1}{n}\sum_{i=1}^{n}x_i`—raw LaTeX syntax that's hard to parse mid-conversation.
+You're discussing an ML algorithm in Pieces Chat. It responds with `\frac{1}{n}\sum_{i=1}^{n}x_i`—raw LaTeX syntax that's hard to parse mid-conversation.
 
-Not anymore. Mathematical expressions and scientific notation now render correctly across Pieces. Whether it's inline equations in a Copilot response or formulas embedded in your summaries, **LaTeX content is displayed with proper formatting** instead of raw syntax—making technical discussions clearer and more professional.
+Not anymore. Mathematical expressions and scientific notation now render correctly across Pieces. Whether it's inline equations in a Pieces Chat response or formulas embedded in your summaries, **LaTeX content is displayed with proper formatting** instead of raw syntax—making technical discussions clearer and more professional.
 
 ### What's New
 
@@ -343,7 +348,7 @@ Not anymore. Mathematical expressions and scientific notation now render correct
 - Professional presentation of mathematical content
 
 **Universal Support**
-- Works in Copilot chats and responses
+- Works in Pieces Chat responses
 - Renders in summaries and workstream activity
 - Displays correctly in saved materials
 - Consistent formatting across all Pieces views
@@ -399,36 +404,88 @@ Technical workflows involve mathematical notation. When you're discussing algori
 
 ---
 
+## ⚙️ Under the Hood — PiecesOS 12.3.8
+
+Alongside Pieces Desktop 5.0.3, we're shipping **PiecesOS 12.3.8** with significant engine upgrades that power the features above and improve the overall experience.
+
+### Audio Ingestion Engine
+
+- **Dual-stream audio capture** — Input (microphone) and output (speakers) captured simultaneously
+- **15-second recording intervals** — Frequent enough for context, efficient enough for performance
+- **WAV + metadata pairing** — Every audio clip includes structured metadata for accurate timeline placement
+- **Automatic transcription** — Audio is transcribed and indexed for full-text search and LTM retrieval
+
+### MCP & Tool Infrastructure
+
+- **Next-generation agentic runtime** — Early integration of the engine that will replace the Q&A architecture (more below in What's Next)
+- **MCP server presets** — Pre-configured server configurations for common integrations
+- **Cloudflare function tools** — Infrastructure for serverless tool execution
+- **Improved tool conformance** — Tools now fully conform to the MCP specification for cross-client compatibility
+
+### Reliability & Performance
+
+- **Batch atomicity improvements** — More reliable batch operations for summaries and events
+- **Deployment info async fix** — Resolved sync/async issues in deployment information handling
+- **Race condition fixes** — Addressed workstream summary annotation race conditions where annotations could be lost after creation due to competing timestamp sources
+- **Cascade delete improvements** — Smarter message cleanup logic for conversation management
+- **Better hyperlinking** — Improved link handling in single-click summary output
+
+---
+
 ## Getting Started with 5.0.3
 
 If you're upgrading to 5.0.3, here's how to make the most of these new features:
 
 1. **Enable LTM Audio (Preview)**—If you're in meetings or pair programming, enable audio capture to enrich your memories
 2. **Build Your First Custom Summary Template**—Create a template with the new scoping options for your daily standup or weekly client update
-4. **Explore MCP Integration**—If you use Cursor or Claude Code, connect the Pieces MCP Server for deeper context access
-5. **Configure Time Breakdown**—Set up Time Breakdown with your preferred time range for billing workflows
-6. **Test LaTeX Rendering**—Try asking Copilot about mathematical concepts or formulas to see LaTeX rendering in action
+3. **Explore MCP Integration**—If you use Cursor or Claude Code, connect the Pieces MCP Server for deeper context access
+4. **Configure Time Breakdown**—Set up Time Breakdown with your preferred time range for billing workflows
+5. **Test LaTeX Rendering**—Try asking a question in Pieces Chat about mathematical concepts or formulas to see LaTeX rendering in action
 
 ---
 
 ## What's Next
 
-We're continuing to build on the foundation established in 5.0.0 and enhanced in 5.0.1. Upcoming releases will bring:
+We're continuing to build on the foundation established in 5.0.0 and enhanced in 5.0.1. Here's what's on the horizon:
 
-- **Scheduled Summary Templates**
-  - Automatically generate summaries on a schedule
-  - Have summaries delivered straight to your inbox
-  - Schedule them to run automatically on a cron job
+- **Next-Generation Agentic Engine — Replacing the Q&A Architecture**
+
+  This is the biggest architectural shift in Pieces Conversational Recall since its inception. For nearly two years, Conversational Recall has been powered by a Question/Answering engine—you ask a question, it retrieves context, it responds. That model served us well, but it's fundamentally limited: it doesn't plan, it doesn't use tools, and it doesn't maintain state across multiple interactions.
+
+  We're migrating to a fully **agentic architecture** powered by a new runtime purpose-built for Pieces. The new engine doesn't just answer questions—it *reasons*, *acts*, and *remembers*:
+
+  - **Multi-turn stateful conversations** — The agent maintains context across many interactions, no more re-explaining where you left off
+  - **Tool use** — The agent can call MCP tools, query your LTM, search your codebase, and take actions on your behalf
+  - **Human-in-the-loop approval** — For sensitive operations, the agent asks before acting
+  - **Planning and reasoning** — Instead of single-shot Q&A, the agent breaks down complex tasks into steps and executes them
+
+  The foundation for this new engine is already being laid in PiecesOS 12.3.8. Over the coming releases, it will progressively replace the Q&A engine across Conversational Recall, summary generation, and context retrieval—making every interaction smarter, more capable, and more autonomous.
 
 - **Enhanced Audio Processing**
-  - Better transcription accuracy
-  - Improved speaker identification
+  - Ambient audio relevance filtering — reduce wasted processing on noise, TV, and music
+  - Better transcription accuracy with Voxtral and Moonshine ASR models
+  - Speaker identification and voice profiles
   - More granular privacy controls
 
-- **Next-Gen Agentic Chat**
-  - Advanced AI agent that provides more accurate responses
-  - Better context understanding for copilot queries and summaries
-  - Multi-turn conversations that maintain context across interactions
+- **Shared Memory & Team Context** *(LTM-3)*
+  - Create memory slices that teammates can access
+  - Query what colleagues worked on while you were out
+  - Organizational memory that spans across individual users
+
+- **Native Browser History Ingestion**
+  - Rust-based browser history extraction for Firefox, Chrome, Chromium, and Brave
+  - Searches, browsing history, and corrected URLs captured alongside your workstream
+  - Cross-platform support for Linux, macOS, and Windows
+
+- **Native Filesystem Ingestion**
+  - OS-level file path search and verification
+  - IO events captured as part of your workstream
+  - Proactive file surfacing based on current activity
+
+- **Scheduled Summary Templates**
+  - Custom summary templates running on cron schedules
+  - Summaries delivered straight to your inbox
+  - Automated reporting without opening the app
 
 Thank you for being part of the Pieces community. We're excited to keep building features that make your work more efficient and your memories more powerful! 🚀
 
@@ -438,9 +495,10 @@ Thank you for being part of the Pieces community. We're excited to keep building
 
 - **[What's New in Pieces 5.0.0](./Whats%20New%20in%20Pieces%205.0.0.md)**—The foundation that powers these features
 - **[What's New in Pieces 5.0.1](./Whats%20New%20in%20Pieces%205.0.1.md)**—Time Breakdown and Timeline enhancements
+- **[Pieces MCP and LTM Tools Reference](../guides/MCP/Pieces%20MCP%20and%20LTM%20Tools%20Reference.md)**—Complete reference for all 39 Pieces MCP tools
+- **[Agent Setups & Integrations](../guides/MCP/Agent%20Setups%20%26%20Integrations/README.md)**—Step-by-step config guides for Cursor, Claude Code, Goose, VS Code, Windsurf, and 14 more
 - **[How to Query LTM in Pieces Copilot](../guides/How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md)**—Master the art of querying your Long-Term Memory
 - **[How to Use the Workstream Activity Timeline](../guides/How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md)**—Understand your work patterns and history
-- **[10 Queries To Ask Pieces LTM after 24-48 Hours](../guides/10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md)**—Get started with powerful LTM queries
 - **[5 Essential Queries for 2+ Months of LTM](../guides/5%20Queries%20To%20Ask%20Pieces%20LTM%20after%202%2B%20Months%20of%20Background%20Memory%20Formation.md)**—Strategic queries for deeper insights and performance reflection
 
 ---
@@ -448,3 +506,5 @@ Thank you for being part of the Pieces community. We're excited to keep building
 **Questions or Feedback?**
 
 We'd love to hear what you think about 5.0.3! Join our community or reach out to our support team.
+
+← [Previous: What's New in Pieces 5.0.1](./Whats%20New%20in%20Pieces%205.0.1.md)

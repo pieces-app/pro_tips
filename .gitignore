@@ -1,3 +1,6 @@
 # macOS
 .DS_Store
 **/.DS_Store
+
+# Internal process docs
+Release Note Image Preparation.md

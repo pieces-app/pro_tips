@@ -225,6 +225,22 @@ These 5 queries demonstrate how to access practical search capabilities, strateg
 
 **Pro Tip:** Use 24-48 hour queries for daily work management, and 2+ month queries for strategic planning, performance management, and resurfacing forgotten information from your accumulated work history. Both complement each other—use daily queries for immediate needs and 2+ month queries for deeper insights and strategic analysis.
 
+See [10 Queries To Ask After 24-48 Hours](./10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md) for practical daily examples.
+
 ---
 
-*Want more query patterns? Ask Pieces: "Based on my work patterns over the past 2+ months, what other strategic queries might be useful for me?"*
+## Related Guides
+
+- [How to Query LTM in Pieces Copilot](./How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md) — The fundamentals: query dimensions, combining strategies, troubleshooting, and cheat sheets
+- [10 Queries To Ask After 24-48 Hours](./10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md) — Practical examples for daily standups, command recall, and context restoration
+
+---
+
+[← Back to Guides Index](./README.md)
+
+---
+
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./10%20Queries%20To%20Ask%20Pieces%20LTM%20after%2024-48%20Hours%20of%20Background%20Memory%20Formation.md">← Previous: 10 Queries To Ask Pieces LTM (24-48 Hours)</a>&nbsp;&nbsp;</td>
+<td align="right">&nbsp;&nbsp;<a href="./How%20to%20Use%20the%20Workstream%20Activity%20Timeline.md">Next: Workstream Activity Timeline →</a>&nbsp;&nbsp;</td>
+</tr></table>

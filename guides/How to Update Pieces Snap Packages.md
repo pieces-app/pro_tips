@@ -78,3 +78,20 @@ pkill os_server
 - Updates require `sudo` privileges
 - Wait times between steps ensure proper shutdown/startup
 
+---
+
+## Related Guides
+
+- [How to Apply a Discount Code at Checkout](./How%20to%20Apply%20a%20Discount%20Code%20at%20Checkout%20for%20Pieces%20Pro%20or%20Enterprise.md) — Upgrade to Pieces Pro or Enterprise with a discount code
+
+---
+
+[← Back to Guides Index](./README.md)
+
+---
+
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./How%20to%20Apply%20a%20Discount%20Code%20at%20Checkout%20for%20Pieces%20Pro%20or%20Enterprise.md">← Previous: How to Apply a Discount Code at Checkout</a>&nbsp;&nbsp;</td>
+<td align="right">&nbsp;&nbsp;<a href="./MCP/README.md">Next: MCP &amp; Agent Integrations →</a>&nbsp;&nbsp;</td>
+</tr></table>
+
