@@ -110,6 +110,25 @@ Finally, verify `mcp-remote` can be resolved:
 npx -y mcp-remote@latest --version
 ```
 
+> **Note:** If `mcp-remote` fails to resolve or you encounter errors, you may need to update Node.js and npm to the latest LTS version:
+>
+> **macOS (Homebrew):**
+> ```bash
+> brew upgrade node
+> ```
+>
+> **Windows (winget):**
+> ```powershell
+> winget upgrade OpenJS.NodeJS.LTS
+> ```
+>
+> **Linux (Ubuntu/Debian):**
+> ```bash
+> curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - && sudo apt-get install -y nodejs
+> ```
+>
+> After updating, restart your terminal and rerun the verification command above.
+
 ---
 
 ## Step 2 - Start Pieces Desktop
@@ -153,7 +172,7 @@ PORT=$(for p in $(seq 39300 39333); do curl -fsS "http://localhost:$p/.well-know
 ### Windows (PowerShell, stores result in `$PORT`)
 
 ```powershell
-$PORT = 39300..39333 | ForEach-Object { try { $r = Invoke-WebRequest -Uri "http://localhost:$($_)/.well-known/version" -UseBasicParsing -TimeoutSec 2; if ($r.StatusCode -eq 200) { "$($_)"; break } } catch {} }; Write-Host "Detected PORT=$PORT"
+$PORT = 39300..39333 | ForEach-Object { try { $r = Invoke-WebRequest -Uri "http://localhost:$($_)/.well-known/version" -UseBasicParsing -TimeoutSec 5 -ErrorAction Stop; if ($r.StatusCode -eq 200) { $_ } } catch {} } | Select-Object -First 1; Write-Host "Detected PORT=$PORT"
 ```
 
 If no port is detected, close/reopen Pieces Desktop and run again.
@@ -291,7 +310,7 @@ CFG="$HOME/.config/Claude/claude_desktop_config.json"; PORT="$(for p in $(seq 39
 ### Windows set/update (PowerShell)
 
 ```powershell
-$PORT = 39300..39333 | ForEach-Object { try { $r = Invoke-WebRequest -Uri "http://localhost:$($_)/.well-known/version" -UseBasicParsing -TimeoutSec 2; if ($r.StatusCode -eq 200) { "$($_)"; break } } catch {} }; if (-not $PORT) { throw "Could not detect PiecesOS port. Start Pieces Desktop and rerun Step 3." }; $cfg="$env:APPDATA\Claude\claude_desktop_config.json"; if (Test-Path $cfg) { $j=Get-Content $cfg -Raw | ConvertFrom-Json } else { $j=[pscustomobject]@{} }; if (-not $j.mcpServers) { $j | Add-Member -NotePropertyName mcpServers -NotePropertyValue ([ordered]@{}) -Force }; $j.mcpServers.pieces=[ordered]@{ command="npx"; args=@("-y","mcp-remote","http://localhost:$PORT/model_context_protocol/2024-11-05/sse","--allow-http","--transport","sse-only") }; $j | ConvertTo-Json -Depth 50 | Set-Content $cfg; Write-Host "Updated mcpServers.pieces using PORT=$PORT"
+$PORT = 39300..39333 | ForEach-Object { try { $r = Invoke-WebRequest -Uri "http://localhost:$($_)/.well-known/version" -UseBasicParsing -TimeoutSec 5 -ErrorAction Stop; if ($r.StatusCode -eq 200) { $_ } } catch {} } | Select-Object -First 1; if (-not $PORT) { throw "Could not detect PiecesOS port. Start Pieces Desktop and rerun Step 3." }; $cfg="$env:APPDATA\Claude\claude_desktop_config.json"; if (Test-Path $cfg) { $j=Get-Content $cfg -Raw | ConvertFrom-Json } else { $j=[pscustomobject]@{} }; if (-not $j.mcpServers) { $j | Add-Member -NotePropertyName mcpServers -NotePropertyValue ([pscustomobject]@{}) -Force }; $j.mcpServers | Add-Member -NotePropertyName pieces -NotePropertyValue ([pscustomobject]@{ command="npx"; args=@("-y","mcp-remote","http://localhost:$PORT/model_context_protocol/2024-11-05/sse","--allow-http","--transport","sse-only") }) -Force; $j | ConvertTo-Json -Depth 50 | Set-Content $cfg; Write-Host "Updated mcpServers.pieces using PORT=$PORT"
 ```
 
 ---
