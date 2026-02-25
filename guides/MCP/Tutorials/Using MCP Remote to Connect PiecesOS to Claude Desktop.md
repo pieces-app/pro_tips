@@ -45,7 +45,25 @@ command -v node >/dev/null 2>&1 && node --version || echo "Node.js is not instal
 ### macOS install (Terminal)
 
 ```bash
-command -v node >/dev/null 2>&1 || (command -v brew >/dev/null 2>&1 || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"; brew install node)
+command -v brew >/dev/null 2>&1 || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Follow the Homebrew prompts, then reload your shell environment so `brew` is available:
+
+```bash
+eval "$(/opt/homebrew/bin/brew shellenv 2>/dev/null || /usr/local/bin/brew shellenv)"
+```
+
+Now install Node.js:
+
+```bash
+brew install node
+```
+
+Then rerun the macOS check command from Step 1:
+
+```bash
+command -v node >/dev/null 2>&1 && node --version || echo "Node.js is not installed"
 ```
 
 ### Linux check (Ubuntu/Debian Terminal)
@@ -256,23 +274,24 @@ If you also added old Pieces entries in **Claude Desktop -> Settings -> Connecto
 ## Step 7 - Add/Update `mcpServers.pieces` (Safe Merge)
 
 This step **keeps your other MCP servers** and only updates `mcpServers.pieces`.
+It auto-detects the current PiecesOS port, so this step still works even if you opened a new terminal window.
 
 ### macOS set/update
 
 ```bash
-CFG="$HOME/Library/Application Support/Claude/claude_desktop_config.json"; node -e 'const fs=require("fs");const p=process.argv[1];const port=process.argv[2]||"39300";let j={};try{j=JSON.parse(fs.readFileSync(p,"utf8"));}catch{};if(!j||typeof j!=="object")j={};if(!j.mcpServers||typeof j.mcpServers!=="object")j.mcpServers={};j.mcpServers.pieces={command:"npx",args:["-y","mcp-remote",`http://localhost:${port}/model_context_protocol/2024-11-05/sse`,`--allow-http`,`--transport`,`sse-only`]};fs.writeFileSync(p,JSON.stringify(j,null,2)+"\n");console.log("Updated mcpServers.pieces using PORT="+port);' "$CFG" "$PORT"
+CFG="$HOME/Library/Application Support/Claude/claude_desktop_config.json"; PORT="$(for p in $(seq 39300 39333); do curl -fsS "http://localhost:$p/.well-known/version" >/dev/null 2>&1 && echo "$p" && break; done)"; [ -n "$PORT" ] || { echo "Could not detect PiecesOS port. Start Pieces Desktop and rerun Step 3."; exit 1; }; node -e 'const fs=require("fs");const p=process.argv[1];const port=process.argv[2];let j={};try{j=JSON.parse(fs.readFileSync(p,"utf8"));}catch{};if(!j||typeof j!=="object")j={};if(!j.mcpServers||typeof j.mcpServers!=="object")j.mcpServers={};j.mcpServers.pieces={command:"npx",args:["-y","mcp-remote",`http://localhost:${port}/model_context_protocol/2024-11-05/sse`,`--allow-http`,`--transport`,`sse-only`]};fs.writeFileSync(p,JSON.stringify(j,null,2)+"\n");console.log("Updated mcpServers.pieces using PORT="+port);' "$CFG" "$PORT"
 ```
 
 ### Linux set/update
 
 ```bash
-CFG="$HOME/.config/Claude/claude_desktop_config.json"; node -e 'const fs=require("fs");const p=process.argv[1];const port=process.argv[2]||"39300";let j={};try{j=JSON.parse(fs.readFileSync(p,"utf8"));}catch{};if(!j||typeof j!=="object")j={};if(!j.mcpServers||typeof j.mcpServers!=="object")j.mcpServers={};j.mcpServers.pieces={command:"npx",args:["-y","mcp-remote",`http://localhost:${port}/model_context_protocol/2024-11-05/sse`,`--allow-http`,`--transport`,`sse-only`]};fs.writeFileSync(p,JSON.stringify(j,null,2)+"\n");console.log("Updated mcpServers.pieces using PORT="+port);' "$CFG" "$PORT"
+CFG="$HOME/.config/Claude/claude_desktop_config.json"; PORT="$(for p in $(seq 39300 39333); do curl -fsS "http://localhost:$p/.well-known/version" >/dev/null 2>&1 && echo "$p" && break; done)"; [ -n "$PORT" ] || { echo "Could not detect PiecesOS port. Start Pieces Desktop and rerun Step 3."; exit 1; }; node -e 'const fs=require("fs");const p=process.argv[1];const port=process.argv[2];let j={};try{j=JSON.parse(fs.readFileSync(p,"utf8"));}catch{};if(!j||typeof j!=="object")j={};if(!j.mcpServers||typeof j.mcpServers!=="object")j.mcpServers={};j.mcpServers.pieces={command:"npx",args:["-y","mcp-remote",`http://localhost:${port}/model_context_protocol/2024-11-05/sse`,`--allow-http`,`--transport`,`sse-only`]};fs.writeFileSync(p,JSON.stringify(j,null,2)+"\n");console.log("Updated mcpServers.pieces using PORT="+port);' "$CFG" "$PORT"
 ```
 
 ### Windows set/update (PowerShell)
 
 ```powershell
-if (-not $PORT) { $PORT="39300" }; $cfg="$env:APPDATA\Claude\claude_desktop_config.json"; if (Test-Path $cfg) { $j=Get-Content $cfg -Raw | ConvertFrom-Json } else { $j=[pscustomobject]@{} }; if (-not $j.mcpServers) { $j | Add-Member -NotePropertyName mcpServers -NotePropertyValue ([ordered]@{}) -Force }; $j.mcpServers.pieces=[ordered]@{ command="npx"; args=@("-y","mcp-remote","http://localhost:$PORT/model_context_protocol/2024-11-05/sse","--allow-http","--transport","sse-only") }; $j | ConvertTo-Json -Depth 50 | Set-Content $cfg; Write-Host "Updated mcpServers.pieces using PORT=$PORT"
+$PORT = 39300..39333 | ForEach-Object { try { $r = Invoke-WebRequest -Uri "http://localhost:$($_)/.well-known/version" -UseBasicParsing -TimeoutSec 2; if ($r.StatusCode -eq 200) { "$($_)"; break } } catch {} }; if (-not $PORT) { throw "Could not detect PiecesOS port. Start Pieces Desktop and rerun Step 3." }; $cfg="$env:APPDATA\Claude\claude_desktop_config.json"; if (Test-Path $cfg) { $j=Get-Content $cfg -Raw | ConvertFrom-Json } else { $j=[pscustomobject]@{} }; if (-not $j.mcpServers) { $j | Add-Member -NotePropertyName mcpServers -NotePropertyValue ([ordered]@{}) -Force }; $j.mcpServers.pieces=[ordered]@{ command="npx"; args=@("-y","mcp-remote","http://localhost:$PORT/model_context_protocol/2024-11-05/sse","--allow-http","--transport","sse-only") }; $j | ConvertTo-Json -Depth 50 | Set-Content $cfg; Write-Host "Updated mcpServers.pieces using PORT=$PORT"
 ```
 
 ---
