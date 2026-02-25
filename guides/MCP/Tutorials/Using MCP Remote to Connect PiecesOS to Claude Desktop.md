@@ -96,7 +96,27 @@ npx -y mcp-remote@latest --version
 
 ## Step 2 - Start Pieces Desktop
 
-Open Pieces Desktop and keep it running in the background.
+Run the one-liner for your OS:
+
+### macOS
+
+```bash
+open "pieces://launch"
+```
+
+### Linux
+
+```bash
+xdg-open "pieces://launch"
+```
+
+### Windows (PowerShell)
+
+```powershell
+Start-Process "pieces://launch"
+```
+
+If nothing opens, launch Pieces Desktop manually once from your app launcher, then re-run the command.
 
 Expected result: PiecesOS is active.
 
