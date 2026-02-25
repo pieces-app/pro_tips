@@ -58,6 +58,20 @@ Covers: transport strategy selection (`http-first`, `sse-only`, `http-only`), co
 
 ---
 
+### [Tutorial: Connect PiecesOS to Claude Desktop with mcp-remote](./Tutorials/Using%20MCP%20Remote%20to%20Connect%20PiecesOS%20to%20Claude%20Desktop.md)
+
+A focused, copy-paste-first tutorial for the most common bridge setup: Claude Desktop JSON config -> `mcp-remote` -> PiecesOS SSE endpoint.
+
+**Use this guide when you need to:**
+
+- **Set up Claude Desktop quickly** -- Follow a single end-to-end path without the full multi-client transport deep-dive.
+- **Validate your local PiecesOS bridge** -- Includes port discovery, config placement, and tool verification steps.
+- **Configure remote access with the same pattern** -- Includes an optional ngrok + `mcp-remote` configuration block for remote PiecesOS.
+
+Covers: prerequisites, PiecesOS port discovery, Claude Desktop config file paths, working `mcp-remote` JSON examples for local and remote setups, verification checks, and troubleshooting.
+
+---
+
 ### [Agent Setups & Integrations](./Agent%20Setups%20%26%20Integrations/)
 
 Step-by-step setup guides for connecting **19 MCP-compatible tools** to your Pieces Long-Term Memory. Each guide covers local (localhost) and remote (ngrok HTTPS) configuration with exact JSON configs, file paths, and troubleshooting.
