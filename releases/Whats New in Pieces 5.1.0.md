@@ -35,8 +35,7 @@ Start every Friday with a weekly recap already waiting, or kick off each morning
 - Results are waiting for you when you open Pieces
 - Combine with Custom Summary Templates for fully automated workflows
 
-<!-- TODO: Replace with actual video asset -->
-<video src="PLACEHOLDER_SCHEDULED_SUMMARIES_VIDEO" controls="controls" autoplay muted style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/df8fc701-ab7e-40bf-9a5a-501f551bd142" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
 *Set it and forget it. Your summaries generate on schedule and are ready when you are.*
@@ -87,8 +86,8 @@ Two major models just landed in Pieces.
 - Use them for summaries, chats, and any Copilot interaction
 - Compare performance across models for your specific use cases
 
-<!-- TODO: Replace with actual image or video asset -->
-![New LLMs: Claude Opus 4.6 and Gemini 3.1 now available in Pieces](PLACEHOLDER_NEW_LLMS_IMAGE)
+<video src="https://github.com/user-attachments/assets/29ce5dd2-a4b3-41aa-a19b-a769967478cf" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 *The latest from Anthropic and Google — available now in your Copilot.*
 
@@ -367,8 +366,7 @@ Some summaries you run once. Others you keep coming back to. Now you can **star 
 
 Favorites pin to the top so you're not scrolling through the whole list every time. Tap the star on any summary to get started.
 
-<!-- TODO: Replace with actual video asset -->
-<video src="PLACEHOLDER_FAVORITE_SUMMARIES_VIDEO" controls="controls" autoplay muted style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/f9c99874-98ad-4ad6-ba05-f15800ee1e51" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
 *Star your most-used summaries and find them instantly at the top of the list.*
