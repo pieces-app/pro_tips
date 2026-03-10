@@ -116,6 +116,11 @@ Two major models just landed in Pieces.
 - Clear status indicators for each connected provider
 - Easy setup and rotation of keys
 
+<video src="https://github.com/user-attachments/assets/d16ad82b-c420-42d6-beb3-c05dc55678a3" controls="controls" autoplay muted style="max-width: 730px">
+</video>
+
+*Connect your org's API keys for OpenAI, Google AI Studio, and Anthropic — all managed from the Portal.*
+
 ### How to Configure
 
 1. **Open the Organization Portal** — navigate to Models → API Keys
@@ -152,8 +157,7 @@ The new engine is significantly more stable, with fewer of the setup and runtime
 - Better error handling and recovery
 - Consistent performance across extended sessions
 
-<!-- TODO: Replace with actual video asset -->
-<video src="PLACEHOLDER_LOCAL_LLM_VIDEO" controls="controls" autoplay muted style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/9aceab2e-0367-4eca-bac5-b9f00cd96530" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
 *Local LLMs that just work — no external dependencies, fewer setup headaches, more models to choose from.*
@@ -199,8 +203,7 @@ One tap and you've got a quick brief on topics tied to your projects, stack, and
 - Not a generic news feed — it knows what matters to you
 - Surfaces developments in tools, languages, and platforms you use
 /
-<!-- TODO: Replace with actual video asset -->
-<video src="PLACEHOLDER_TODAYS_HEADLINES_VIDEO" controls="controls" autoplay muted style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/8231ef2a-3403-42d8-8a0c-f0d59b74e5e3" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
 *One tap for a news brief that actually matters to your work. No noise, no irrelevant headlines.*
@@ -252,8 +255,7 @@ This is a small filter that makes a big difference when you know roughly *how* y
 - Combine with time ranges and topic filters for surgical precision
 - Reduce noise by excluding irrelevant capture types
 
-<!-- TODO: Replace with actual video asset -->
-<video src="PLACEHOLDER_MODALITY_FOCUS_VIDEO" controls="controls" autoplay muted style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/026b31e1-e13e-490f-a11f-757c93b48e34" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
 *Filter your queries by clipboard, audio, or vision to find exactly what you're looking for.*
@@ -310,8 +312,7 @@ No more copying things into a new message or over-explaining what you meant. Pie
 - No need to re-explain what you were discussing
 - Pieces understands the relationship between the original response and your follow-up
 
-<!-- TODO: Replace with actual video asset -->
-<video src="PLACEHOLDER_RESPONSE_FOLLOW_UP_VIDEO" controls="controls" autoplay muted style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/92395c84-8341-4118-9cc0-a1b68719430d" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
 *Highlight a line, tap follow-up, and go deeper — no copy-pasting or re-explaining required.*
@@ -351,8 +352,8 @@ The Organization Portal received significant attention this release with a focus
 - **Better model selection** — easier access to org-level model configuration
 - **Tidier layout** — the overall interface is cleaner and more organized
 
-<!-- TODO: Replace with actual image or video asset -->
-![Refreshed Organization Portal with cleaner navigation and streamlined management](PLACEHOLDER_ORG_PORTAL_IMAGE)
+<video src="https://github.com/user-attachments/assets/79c8852c-9013-4330-8ac3-65e56e173198" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 *A cleaner, more intuitive Organization Portal for managing your team and configuration.*
 
