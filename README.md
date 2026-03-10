@@ -10,6 +10,24 @@ Think of it like having a perfect memory of everything you've worked on, researc
 
 ## 🎉 Latest Release
 
+### [What's New in Pieces 5.1.0](./releases/Whats%20New%20in%20Pieces%205.1.0.md)
+
+**Released:** March 2026 | **Desktop:** 5.1.0 | **PiecesOS:** 12.3.9
+
+Removing friction from the workflows you already have:
+- ⏰ **Scheduled Summaries** — Put your summaries on autopilot with daily, weekly, or custom cadences
+- 🤖 **New Cloud LLMs** — Claude Opus 4.6 & Gemini 3.1 available now
+- 🔑 **Expanded BYOK Support** — Full support for OpenAI, Google AI Studio & Anthropic
+- 🔧 **Local LLM Overhaul** — Rebuilt from the ground up, no more Ollama dependency
+- 🧠 **Better Person Disambiguation** — Smarter people identification in memories
+- 🗞️ **Today's Headlines** — Personalized news summary in one click
+- 🔭 **Copilot Modality Focus** — Filter queries by clipboard, audio, or vision
+- ↩️ **Copilot Response Follow-Up** — Drill into any line of a response
+- 🏢 **Organization Portal Improvements** — Cleaner, more intuitive admin experience
+- ⭐ **Favorite Summaries** — Star and pin your most-used summaries
+
+[Read the full release notes →](./releases/Whats%20New%20in%20Pieces%205.1.0.md)
+
 ### [What's New in Pieces 5.0.3](./releases/Whats%20New%20in%20Pieces%205.0.3.md)
 
 **Released:** February 2026 | **Desktop:** 5.0.3 | **PiecesOS:** 12.3.8

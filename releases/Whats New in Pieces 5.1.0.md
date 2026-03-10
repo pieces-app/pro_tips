@@ -202,7 +202,7 @@ One tap and you've got a quick brief on topics tied to your projects, stack, and
 - Headlines are scoped to your actual work context
 - Not a generic news feed — it knows what matters to you
 - Surfaces developments in tools, languages, and platforms you use
-/
+
 <video src="https://github.com/user-attachments/assets/8231ef2a-3403-42d8-8a0c-f0d59b74e5e3" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
@@ -424,3 +424,7 @@ Thank you for being part of the Pieces community. We're excited to keep building
 **Questions or Feedback?**
 
 We'd love to hear what you think about 5.1.0! Join our community or reach out to our support team.
+
+<table width="100%"><tr>
+<td>&nbsp;&nbsp;<a href="./Whats%20New%20in%20Pieces%205.0.3.md">← Previous: What's New in Pieces 5.0.3</a>&nbsp;&nbsp;</td>
+</tr></table>
