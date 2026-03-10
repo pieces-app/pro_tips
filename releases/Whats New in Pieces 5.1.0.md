@@ -6,7 +6,7 @@
 
 You've got a summary you run every morning. A conversation where one line buried in a long response is the thing you actually want to dig into. A local model you've been meaning to try but the setup was never quite right.
 
-Pieces 5.1.0 is about removing friction from the workflows you already have. This release brings **Scheduled Summaries** so your briefings generate themselves, **Modality Focus** so you can query by *how* you captured something, **inline follow-ups** so you can drill into any line of a Copilot response, and a **completely rebuilt local LLM engine** that no longer depends on Ollama. Plus new cloud models, expanded BYOK support, and a smarter understanding of the people in your world.
+Pieces 5.1.0 is about removing friction from the workflows you already have. This release brings **Scheduled Summaries** so your briefings generate themselves, **Modality Focus** so you can query by *how* you captured something, **inline follow-ups** so you can drill into any line of a chat response, and a **completely rebuilt local LLM engine** that no longer depends on Ollama. Plus new cloud models, expanded BYOK support, and a smarter understanding of the people in your world.
 
 ---
 
@@ -81,22 +81,22 @@ Two major models just landed in Pieces.
 
 ### What's New
 
-- Both models available immediately in Copilot
+- Both models available immediately in Pieces Chat
 - Enable them in Settings under Model Management
-- Use them for summaries, chats, and any Copilot interaction
+- Use them for summaries, chats, and any chat interaction
 - Compare performance across models for your specific use cases
 
 <video src="https://github.com/user-attachments/assets/29ce5dd2-a4b3-41aa-a19b-a769967478cf" controls="controls" autoplay muted style="max-width: 730px">
 </video>
 
-*The latest from Anthropic and Google — available now in your Copilot.*
+*The latest from Anthropic and Google — available now in Pieces Chat.*
 
 ### How to Enable
 
 1. **Open Settings** — navigate to Model Management
 2. **Enable the models** — toggle on Claude Opus 4.6 and/or Gemini 3.1
-3. **Select in Copilot** — choose your preferred model from the model picker
-4. **Start using** — all Copilot features work with the new models
+3. **Select in chat** — choose your preferred model from the model picker
+4. **Start using** — all chat features work with the new models
 
 ---
 
@@ -167,7 +167,7 @@ The new engine is significantly more stable, with fewer of the setup and runtime
 1. **Open Settings** — navigate to Model Management
 2. **Browse local models** — explore the expanded library
 3. **Download and enable** — select a model and it downloads automatically
-4. **Use in Copilot** — select your local model from the model picker
+4. **Use in chat** — select your local model from the model picker
 
 ### Why It Matters
 
@@ -181,7 +181,7 @@ Pieces is getting much better at **distinguishing the people in your world**.
 
 Whether it's teammates, managers, collaborators, or external contacts — Pieces can now tell them apart more reliably across your workstream. That means summaries and chat responses reference the right people in the right context, instead of blurring them together.
 
-The more Pieces understands who's who, the more useful everything built on top of that becomes — from summaries that mention the right person to Copilot responses that accurately attribute decisions and discussions.
+The more Pieces understands who's who, the more useful everything built on top of that becomes — from summaries that mention the right person to chat responses that accurately attribute decisions and discussions.
 
 ---
 
@@ -229,7 +229,7 @@ One tap and you've got a quick brief on topics tied to your projects, stack, and
 
 1. **Find it on the home dashboard** — Today's Headlines appears alongside your other single-click summaries
 2. **Tap to generate** — one click and your personalized brief is ready
-3. **Read and follow up** — use Copilot to dig deeper on any headline
+3. **Read and follow up** — use chat to dig deeper on any headline
 
 ### Early Access Note
 
@@ -237,9 +237,9 @@ This is our first pass at Today's Headlines. We'll keep making it sharper — be
 
 ---
 
-## 🔭 Copilot Modality Focus: Query by How You Captured It
+## 🔭 Chat Modality Focus: Query by How You Captured It
 
-Your workflow happens in a few different ways — what you copy, what you say, and what you see. Now you can **filter a Copilot prompt by how that information was captured**: clipboard, audio, or vision.
+Your workflow happens in a few different ways — what you copy, what you say, and what you see. Now you can **filter a chat prompt by how that information was captured**: clipboard, audio, or vision.
 
 This is a small filter that makes a big difference when you know roughly *how* you encountered something.
 
@@ -287,23 +287,23 @@ This is a small filter that makes a big difference when you know roughly *how* y
 
 ### How to Use
 
-1. **Open Copilot** — start a new chat or continue an existing one
+1. **Open a chat** — start a new chat or continue an existing one
 2. **Select a modality filter** — choose clipboard, audio, or vision
 3. **Ask your question** — Pieces scopes the search to that capture type
 4. **Refine as needed** — combine with time and topic filters
 
 ---
 
-## ↩️ Copilot Response Follow-Up: Drill Into Any Line
+## ↩️ Chat Response Follow-Up: Drill Into Any Line
 
-Sometimes a Copilot response covers a lot of ground and you only want to go deeper on one part of it. Now you can **highlight any phrase or sentence in a response, tap follow-up, and a new prompt opens already tied to that exact text**.
+Sometimes a chat response covers a lot of ground and you only want to go deeper on one part of it. Now you can **highlight any phrase or sentence in a response, tap follow-up, and a new prompt opens already tied to that exact text**.
 
 No more copying things into a new message or over-explaining what you meant. Pieces knows exactly what you're pointing at.
 
 ### What's New
 
 **Inline Follow-Up**
-- Highlight any text in a Copilot response
+- Highlight any text in a chat response
 - Tap follow-up to open a new prompt pre-loaded with that context
 - Continue the conversation from exactly where you want to dig in
 
@@ -320,7 +320,7 @@ No more copying things into a new message or over-explaining what you meant. Pie
 ### Use Cases
 
 **Deep Dive on a Recommendation**
-- Copilot suggests five optimization strategies — follow up on the one that interests you most
+- Pieces suggests five optimization strategies — follow up on the one that interests you most
 - Get implementation details without wading through the rest
 
 **Clarify a Specific Point**
@@ -328,12 +328,12 @@ No more copying things into a new message or over-explaining what you meant. Pie
 - Ask "when did we decide this?" directly tied to that line
 
 **Expand on a Code Suggestion**
-- Copilot provides a solution with multiple approaches — follow up on one for full implementation
+- Pieces provides a solution with multiple approaches — follow up on one for full implementation
 - Get test cases, edge case handling, or alternative implementations for just that approach
 
 ### How to Use
 
-1. **Read a Copilot response** — find the line you want to explore
+1. **Read a chat response** — find the line you want to explore
 2. **Highlight the text** — select the phrase or sentence
 3. **Tap follow-up** — a new prompt opens with that text as context
 4. **Ask your question** — go deeper on exactly what you selected
@@ -379,8 +379,8 @@ Favorites pin to the top so you're not scrolling through the whole list every ti
 If you're upgrading to 5.1.0, here's how to make the most of these new features:
 
 1. **Schedule Your First Summary** — Pick your most-used summary and set it to run automatically every morning
-2. **Try Modality Focus** — Ask Copilot what you copied, heard, or saw — filter by how you captured it
-3. **Follow Up on a Response** — Next time Copilot gives a long answer, highlight one line and tap follow-up
+2. **Try Modality Focus** — Ask in chat what you copied, heard, or saw — filter by how you captured it
+3. **Follow Up on a Response** — Next time chat gives a long answer, highlight one line and tap follow-up
 4. **Check Out Today's Headlines** — Tap the new summary on your home dashboard and see what's relevant to your work
 5. **Try the New Cloud Models** — Enable Claude Opus 4.6 or Gemini 3.1 in Settings and compare them to your current model
 6. **Explore Local LLMs** — If you've been hesitant about local models, the rebuilt engine makes setup dramatically easier
