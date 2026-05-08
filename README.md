@@ -10,6 +10,25 @@ Think of it like having a perfect memory of everything you've worked on, researc
 
 ## 🎉 Latest Release
 
+### [What's New in Pieces 6.0.0](./releases/Whats%20New%20in%20Pieces%206.0.0.md)
+
+**Released:** May 2026 | **Desktop:** 6.0.0
+
+The biggest change to Pieces since we launched:
+- ⚡ **Agentic LTM** — Multi-turn reasoning across your memory powers Agentic Chats & Agentic Summaries
+- 🪷 **Reflection Mode** — Metacognition for the agent: self-correcting reasoning in real time
+- 📆 **Google Calendar Integration** — Calendar events become first-class context in your summaries
+- 📅 **Meeting Prep** — The first summary that takes action: structured pre-reads + scheduled prep time
+- 🧩 **Redesigned Model Picker** — Browse and switch models right inside chat
+- ✨ **Edit Summaries with AI** — Inline AI edits with clean diff review
+- 📊 **Token Usage per Conversation** — See the true cost of agentic work
+- ⏭️ **Queued Messages** — Type your next thought while the agent is still working
+- 🔐 **Granular LTM Data Management** — Clear by time, modality, or app
+- 🚫 **Proactive App Deny List** — Block apps before Pieces ever captures from them
+- 🔌 **One-Click MCP Setup** — Configure MCP for any editor in a single click
+
+[Read the full release notes →](./releases/Whats%20New%20in%20Pieces%206.0.0.md)
+
 ### [What's New in Pieces 5.1.0](./releases/Whats%20New%20in%20Pieces%205.1.0.md)
 
 **Released:** March 2026 | **Desktop:** 5.1.0 | **PiecesOS:** 12.3.9

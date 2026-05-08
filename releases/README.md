@@ -1,28 +1,24 @@
 # Pieces Release Notes
 
-Release notes for the Pieces 5.x series, mirrored here for easy access alongside the guides and pro tips in this repository.
-
-> **Note:** This is a recently established archive, currently covering the last three releases. New release notes will be added here as the 5.x series continues. For the full historical archive, see the [Pieces documentation site](https://docs.pieces.app).
+Release notes for the Pieces platform, mirrored here for easy access alongside the guides and pro tips in this repository.
 
 ---
 
-## The Arc of Pieces 5.x
+## The Arc from 5.0 to 6.0
 
-Three releases into the 5.x series, a clear story is emerging:
+The 5.x series built the foundation. **5.0.0** introduced a calm, unified UI, smarter personalization, and the first single-click summaries. **5.0.1** put it to work — Time Breakdown, Timeline Search, enterprise model governance. **5.0.3** expanded what Pieces can capture — LTM Audio, custom summary templates, and a 39-tool MCP server. **5.1.0** removed friction — Scheduled Summaries, Modality Focus, a rebuilt local LLM engine, and expanded BYOK support.
 
-**5.0.0** rebuilt the foundation — a calmer, more unified UI, smarter personalization engines, and the first single-click summaries.
+**6.0.0 changes the architecture.** Agentic Long-Term Memory replaces the single-shot Q&A engine with a multi-turn reasoning agent that follows threads, cross-references context, and builds toward complete answers. That foundation powers the first summary that takes action — Meeting Prep reads your calendar, assembles structured pre-reads, and can schedule prep time for you. The rest of the release sharpens control: Reflection Mode for metacognitive self-correction, inline AI editing for summaries, granular LTM data management, per-conversation token visibility, and one-click MCP setup.
 
-**5.0.1** put that foundation to work for professional workflows — Time Breakdown for reconstructing billable hours, a searchable Timeline, and enterprise model governance.
+Four themes run through the full arc:
 
-**5.0.3** expanded what Pieces can capture and where it integrates — audio from meetings and calls, fully customizable summary templates, and a dramatically expanded MCP server giving AI agents like Cursor and Claude Code their deepest access to your Long-Term Memory yet.
+**Your memory works harder.** Clipboard, screen, audio, and now calendar — Pieces captures across every modality, distinguishes your work from your colleagues', and retrieves the right context faster.
 
-Three themes run through all of it:
+**The agent reasons, not just retrieves.** Multi-turn agentic loops replace one-shot answers. The agent follows threads, gathers evidence from memory and beyond, and self-corrects with Reflection Mode.
 
-**Your memory works harder.** Pieces now captures clipboard, screen, and audio context simultaneously. It distinguishes your work from your colleagues', understands which projects are yours, and retrieves the right context faster—often before you know you need it.
+**Summaries become actions.** From Morning Brief to Meeting Prep, summaries don't just report — they take action on your behalf.
 
-**Summaries become your workflow.** From a single Morning Brief to a custom billable-hours reconstruction, Pieces generates structured, actionable output from captured context. These aren't static reports—they're starting points for deeper conversations with Pieces Chat.
-
-**Your tools plug in.** The Pieces MCP Server now exposes 39 tools to agents running in Cursor, Claude Code, Goose, and beyond—giving them the same access to your Long-Term Memory that you have from inside Pieces.
+**Your tools plug in.** One-click MCP setup, smarter MCP tools, and deeper integration with Cursor, Claude Code, and the wider agent ecosystem.
 
 ---
 
@@ -30,9 +26,91 @@ Three themes run through all of it:
 
 | Version | Released | Headline |
 |---------|----------|----------|
+| [**6.0.0**](#pieces-600--may-2026) | May 2026 | Agentic LTM, Meeting Prep, Reflection Mode, Google Calendar |
+| [**5.1.0**](#pieces-510--march-2026) | March 2026 | Scheduled Summaries, Modality Focus, Local LLM Overhaul, BYOK |
 | [**5.0.3**](#pieces-503--february-2026) | February 2026 | LTM Audio, Custom Templates, Expanded MCP (39 tools) |
 | [**5.0.1**](#pieces-501--january-27-2026) | January 27, 2026 | Time Breakdown, Timeline Search, Model Management |
 | [**5.0.0**](#pieces-500--december-23-2025) | December 23, 2025 | New Home Base, Personalization, Single-Click Summaries |
+
+---
+
+## Pieces 6.0.0 — May 2026
+
+**[→ Read the Full Release Notes](./Whats%20New%20in%20Pieces%206.0.0.md)**
+**Pieces Desktop:** 6.0.0
+
+The agentic era begins. 6.0.0 replaces the single-shot Q&A engine with a multi-turn reasoning agent, ships the first summary that takes action on your behalf, and gives you deeper control over your data, your models, and your workflow.
+
+### What you can do now that you couldn't before
+
+**Have real conversations with your memory**
+Agentic Long-Term Memory enables multi-turn reasoning across your summaries, events, people, and beyond. The agent follows threads, cross-references context, and builds toward complete answers — instead of guessing in one shot. A full toolbox (memory search, web search, calendar, filesystem, browser history) lets the agent actively gather evidence during any chat or summary.
+
+**Walk into every meeting prepared — automatically**
+Meeting Prep connects to your Google Calendar, looks ahead at upcoming meetings, cross-references each with your Long-Term Memories, and generates structured pre-reads. With your permission, it can schedule prep time on your calendar so the work to get ready is actually on your schedule.
+
+**Let the agent reflect and self-correct**
+Reflection Mode gives the agent metacognition — the ability to step back, evaluate its reasoning, and adjust course in real time. The result is better answers even from leaner models, and deeper insights when you ask Pieces to reflect on weeks, months, or quarters of work.
+
+**Edit summaries with AI, right inline**
+Select any text in a Workstream Summary, tap "Edit with AI," and review suggested changes in a clean diff view. Rework entire summaries with a single prompt — "make this shorter for Slack," "rewrite for an exec audience" — all grounded in the original memories.
+
+**See the true cost of agentic work**
+Per-conversation token usage tracks input, output, reasoning, and cache — including tool calls. BYOK and enterprise deployments get clean visibility into provider usage.
+
+**Surgically manage your LTM data**
+Clear data by time period, capture modality (vision, clipboard, audio), or specific application — or combine all three. Proactively block apps from capture before Pieces ever encounters them.
+
+**Set up MCP in one click**
+Configure the Pieces MCP Server for Cursor, VS Code, Claude Desktop, and more directly from Settings — no JSON editing required.
+
+### Who benefits most from 6.0.0
+
+| Feature | Who it's for |
+|---------|--------------|
+| Agentic LTM (Agentic Chats & Summaries) | Everyone — fundamentally better answers and summaries |
+| Meeting Prep | Anyone with a calendar full of meetings — PMs, managers, sales, consultants |
+| Reflection Mode | Anyone who wants deeper, more self-correcting analysis of their work |
+| Google Calendar Integration | Everyone — richer summaries, foundation for calendar-aware features |
+| Edit Summaries with AI | Anyone who shares summaries with teammates, clients, or stakeholders |
+| Token Usage Visibility | Teams managing API usage, BYOK and enterprise deployments |
+| Granular LTM Data Management | Privacy-conscious users, regulated industries |
+| One-Click MCP Setup | Developers using Cursor, VS Code, Claude Desktop, and other MCP clients |
+
+---
+
+## Pieces 5.1.0 — March 2026
+
+**[→ Read the Full Release Notes](./Whats%20New%20in%20Pieces%205.1.0.md)**
+**Pieces Desktop:** 5.1.0 | **PiecesOS:** 12.3.9
+
+The friction-removal release. 5.1.0 put summaries on autopilot with Scheduled Summaries, added Modality Focus for capture-aware querying, rebuilt the local LLM engine from the ground up (no more Ollama), expanded BYOK to OpenAI, Google AI Studio, and Anthropic, and shipped Claude Opus 4.6 and Gemini 3.1.
+
+### What you can do now that you couldn't before
+
+**Put summaries on autopilot**
+Schedule any summary to run automatically — daily, weekly, or custom cadence. Morning briefs generate before you open Pieces; weekly recaps arrive every Friday afternoon.
+
+**Query by how you captured it**
+Modality Focus lets you filter chat prompts by clipboard, audio, or vision — narrowing results to the right capture type when you remember *how* you encountered something but not the exact content.
+
+**Run local models without Ollama**
+A completely rebuilt local LLM engine removes the Ollama dependency, with fewer setup issues, better stability, and access to newer models.
+
+**Bring your own API keys**
+Full BYOK support for OpenAI, Google AI Studio, and Anthropic joins existing AWS Bedrock and Azure support.
+
+### Who benefits most from 5.1.0
+
+| Feature | Who it's for |
+|---------|--------------|
+| Scheduled Summaries | Anyone with recurring reporting needs — standups, sprint reviews, client updates |
+| Modality Focus | Anyone who wants precision in how they search their memory |
+| Local LLM Overhaul | Privacy-focused users and teams running models on-device |
+| Expanded BYOK | Enterprise teams with existing API agreements |
+| Today's Headlines | Anyone who wants a work-relevant news brief in one click |
+
+**Guides:** [Scheduled Summaries how-to in the release notes](./Whats%20New%20in%20Pieces%205.1.0.md#-scheduled-summaries-put-your-summaries-on-autopilot)
 
 ---
 
@@ -148,14 +226,13 @@ Morning Brief, Day Recap, Standup Update, and Week Recap generate from your capt
 
 ## What's Coming Next
 
-Each release's "What's Next" section previews capabilities in active development. Across 5.0.1 and 5.0.3, the following are on the roadmap:
+The agentic foundation in 6.0.0 unlocks the next wave of capabilities:
 
-- **Next-Generation Agentic Engine** — Replacing the Q&A architecture with a fully agentic runtime that reasons, plans, uses tools, and maintains state across multi-turn conversations. The foundation is already shipping in PiecesOS 12.3.8.
-- **Shared Memory (LTM-3)** — Memory slices accessible to teammates; query what colleagues worked on; organizational memory spanning individual users.
-- **Native Browser History Ingestion** — Firefox, Chrome, Chromium, and Brave history extracted and indexed alongside your workstream.
-- **Native Filesystem Ingestion** — OS-level file path tracking and proactive file surfacing based on current activity.
-- **Scheduled Summary Templates** — Cron-based templates that run automatically and deliver results to your inbox.
-- **Enhanced Audio Processing** — Ambient noise filtering, better transcription via Voxtral and Moonshine ASR models, speaker identification and voice profiles.
+- **More action-oriented summaries** — Meeting Prep is the first; expect more "Pieces does this for you" capabilities
+- **Deeper calendar awareness** — multi-calendar support and richer attendee context
+- **Even smarter agentic loops** — better tool use, more grounded reasoning, and tighter integration with the wider MCP ecosystem
+- **Shared Memory (LTM-3)** — Memory slices accessible to teammates; query what colleagues worked on; organizational memory spanning individual users
+- **Enhanced Audio Processing** — Ambient noise filtering, better transcription, speaker identification and voice profiles
 
 ---
 
