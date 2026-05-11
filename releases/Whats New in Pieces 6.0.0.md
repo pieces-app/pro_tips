@@ -3,8 +3,6 @@
 **Release Date:** May 2026
 **Pieces Desktop:** 6.0.0
 
-**Want to read this in your browser or explore past releases?** [View all release notes on GitHub](https://github.com/pieces-app/pro_tips/tree/main/releases)
-
 This is a big one.
 
 Pieces 6.0.0 introduces **Agentic Long-Term Memory** — the biggest change to Pieces since we launched — powering a new generation of **Agentic Chats** and **Agentic Summaries**. Instead of single-shot Q&A, the agent now reasons across your artificial memory in multiple turns: following threads, cross-referencing context, and building toward complete answers instead of best-guessing them.
