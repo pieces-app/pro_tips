@@ -3,6 +3,8 @@
 **Release Date:** May 2026
 **Pieces Desktop:** 6.0.0
 
+**Want to read this in your browser or explore past releases?** [View all release notes on GitHub](https://github.com/pieces-app/pro_tips/tree/main/releases)
+
 This is a big one.
 
 Pieces 6.0.0 introduces **Agentic Long-Term Memory** — the biggest change to Pieces since we launched — powering a new generation of **Agentic Chats** and **Agentic Summaries**. Instead of single-shot Q&A, the agent now reasons across your artificial memory in multiple turns: following threads, cross-referencing context, and building toward complete answers instead of best-guessing them.
@@ -17,15 +19,13 @@ Here's what's new.
 
 ## ⚡ Agentic LTM: Powering Agentic Chats & Agentic Summaries
 
+![Agentic LTM](../assets/6_0_0_native_agentic_engine_light.png)
+
 **This is the biggest change to Pieces since we launched.**
 
 **Agentic Long-Term Memory** fundamentally reimagines how Pieces interacts with your artificial memory, enabling both **Agentic Chats** and **Agentic Summaries**. Where prior versions answered a single question with a single look at your memory, the agent now operates across **multiple turns** — pursuing a question step by step, pulling new context as it discovers what's relevant, and building on previous responses instead of trying to one-shot everything.
 
 The result is dramatically more accurate and complete answers, especially on the kinds of questions where the truth is spread across your day, your projects, and the people you work with.
-
-![Agentic LTM](../assets/6_0_0_native_agentic_engine_light.png)
-
-*The agent reasons across your memory in multiple turns — following threads, cross-referencing context, and building toward complete answers.*
 
 ### What's New
 
@@ -43,7 +43,7 @@ The agent now has access to a rich set of tools it can call autonomously during 
 - **Google Calendar** — read, create, update, and delete calendar events
 - **Local Filesystem** — search file paths, grep file contents, and read files from your machine
 - **Browser History** — look up browsing history, bookmarks, and recent activity across your browsers
-- **User Persona** — retrieve your AI-generated profile for personalized responses
+- **User Persona** — your Pieces-generated profile that gives the agent context about who you are and the types of things you work on
 - **Time Computation** — parse and calculate time ranges for temporal reasoning
 
 These tools are what make Agentic Chats and Agentic Summaries meaningfully different from what came before — the agent doesn't just answer from memory, it actively gathers evidence from across your workstream and beyond.
@@ -62,45 +62,27 @@ The shift from "answer the question" to "reason about the question" is what unlo
 
 ## 🪷 Reflection Mode: Metacognition for the Agent
 
+![Reflection Mode](../assets/6_0_0_reflection_mode_metacognition_light.png)
+
 Reflection Mode is a new toggle that gives the agent **metacognition** — the ability to reflect on its own reasoning and self-correct in real time.
 
 Instead of charging straight from prompt to answer, the agent steps back at key moments to evaluate what it's doing, question its own assumptions, and adjust course if it's drifting. The result is **harder work, better responses, and more useful answers — even from leaner models** that wouldn't normally hold up under that kind of pressure.
 
-This is especially powerful when you're going deep on your Long-Term Memories: ask Pieces to reflect on your work over the past week, month, quarter, or any timeframe, and Reflection Mode helps it surface **patterns, connections, and insights that go beyond simple recall**.
+Reflection Mode works across short, medium, and long-term queries — anything from a quick factual lookup to a deep retrospective across months of work.
 
-![Reflection Mode](../assets/6_0_0_reflection_mode_metacognition_light.png)
+### When to Use It
 
-*Flip the switch and the agent slows down, thinks harder, and double-checks itself — without forcing you onto a heavier model.*
-
-### Use Cases
-
-**Performance Reflection**
-- "Where did I spend most of my time this quarter?" — get a real, evidence-based answer instead of a guess
-
-**Project Retrospectives**
-- Reflect on the arc of a launch from kickoff to ship, with the decisions, blockers, and pivots actually surfaced
-
-**Growth & Learning**
-- Look at the topics you've been researching most often, the people you collaborate with, and the patterns in how you work
-
-### How to Use
-
-1. **Open a chat** — start a new chat or continue an existing one
-2. **Toggle Reflection Mode** — flip the switch in the chat controls
-3. **Ask a reflective question** — the agent will reason more carefully, self-correct, and surface deeper insights
-4. **Combine with time ranges** — ask about the past week, month, or quarter for the best results
+Reflection Mode simply makes the model work harder. If you're seeing responses that feel shallow, incomplete, or off-target without it, try flipping Reflection Mode on — you should see noticeably better results. It's especially useful when you want the agent to slow down, think through a problem more carefully, and double-check itself — without forcing you onto a heavier model.
 
 ---
 
 ## 🧩 Redesigned Model Selection & Management
 
+![Model Inventory](../assets/6_0_0_model_inventory_refactoring_light.png)
+
 We've completely redesigned how you discover, enable, and switch between AI models in Pieces.
 
 The new **model inventory** replaces the old settings-driven approach with a cleaner, more intuitive selection experience right inside chat. Browse what's available, see what's enabled, and switch on the fly — all from where you're already working.
-
-![Model Inventory](../assets/6_0_0_model_inventory_refactoring_light.png)
-
-*Browse and switch between models from inside chat — no Settings detour required.*
 
 ### What's New
 
@@ -121,15 +103,13 @@ The number of models worth using has exploded over the last year. The old "open 
 
 ## 📆 Google Calendar Integration
 
+![Google Calendar Integration](../assets/6_0_0_google_calendar_integration_light.png)
+
 Pieces now connects directly to your Google Calendar — and it meaningfully changes how your summaries and the agent understand your day.
 
 Your calendar is one of the **noisiest visual environments** on your screen — overlapping events, color-coded blocks, half-truncated titles, declined-but-still-visible meetings — and that noise has occasionally tripped up vision-based memory formation when interpreting what's actually on your day. Connecting directly to Google Calendar solves that: instead of inferring your schedule from a chaotic visual, Pieces reads it straight from the source.
 
 When connected, calendar events flow into Morning Briefs, Standup Updates, Day Recaps, and more, so your summaries reflect what was actually scheduled — not just what happened to be on your screen. This is also the connector that powers Meeting Prep.
-
-![Google Calendar Integration](../assets/6_0_0_google_calendar_integration_light.png)
-
-*Calendar events become first-class context in your summaries — no more noisy visual inference.*
 
 ### What's New
 
@@ -151,13 +131,11 @@ A huge chunk of what your day actually *is* lives on your calendar — meetings,
 
 ## 📅 Meeting Prep: AI That Actually Takes Action
 
+![Meeting Prep](../assets/6_0_0_meeting_prep_summary_light.png)
+
 Meeting Prep is a brand-new single-click summary — and **the first one that takes action on your behalf**.
 
 When connected to Google Calendar, Meeting Prep looks ahead at your upcoming meetings, cross-references each event with your Long-Term Memories, and generates a structured preparation plan: who's attending, what you've discussed before, what artifacts and decisions are relevant, and what you should walk in already knowing. With your permission, it can even **create prep events on your calendar** so the work to get ready is actually scheduled — not floating in your head.
-
-![Meeting Prep](../assets/6_0_0_meeting_prep_summary_light.png)
-
-*One click and you've got a structured pre-read for every upcoming meeting — with the option to schedule prep time on your calendar.*
 
 ### What's New
 
@@ -182,6 +160,8 @@ When connected to Google Calendar, Meeting Prep looks ahead at your upcoming mee
 **Make 1:1s Actually Productive**
 - Pull a prep before any 1:1 — Pieces surfaces topics you've been meaning to follow up on, decisions in progress, and recent work the other person has touched
 
+This is the beginning of Pieces moving from *answering questions about your work* to *actively helping you do it*.
+
 ### How to Use
 
 1. **Connect Google Calendar** — head to Settings → Connectors if you haven't already
@@ -193,17 +173,17 @@ When connected to Google Calendar, Meeting Prep looks ahead at your upcoming mee
 
 ## 💬 A Refreshed Chat Empty State with Recent Chats Front and Center
 
+![Refreshed Chat Empty State](../assets/6_0_0_updated_copilot_empty_state_light.png)
+
 We've refreshed the chat empty state — the screen you see when you start a new chat — to put your **recent conversations front and center**.
 
 Pick up an open thread, jump back into the question you were working on five minutes ago, or kick off a fresh chat with the right context already in view. It's a small change that makes getting back into your flow significantly faster, especially when you're juggling multiple threads at once.
 
-![Refreshed Chat Empty State](../assets/6_0_0_updated_copilot_empty_state_light.png)
-
-*Your recent conversations are front and center — pick up where you left off without hunting through the sidebar.*
-
 ---
 
 ## ⏭️ Queue Up Your Next Message While the Agent Is Responding
+
+![Queued Messages](../assets/6_0_0_copilot_queued_messages_light.png)
 
 Don't wait on the agent to finish — **line up your next thought right now**.
 
@@ -211,39 +191,33 @@ While the agent is generating a response, you can type and queue up the next mes
 
 Changed your mind mid-response? Hit the send button on a queued message to **stop the in-flight response and immediately send the new one instead**. It's a faster, more conversational way to steer the agent — especially during deeper Agentic Chats where Pieces is doing real work between turns.
 
-![Queued Messages](../assets/6_0_0_copilot_queued_messages_light.png)
-
-*Type your next thought while the agent is working — it picks up the moment the current turn finishes.*
-
 ---
 
 ## 📊 See Token Usage per Conversation
+
+![Token Usage](../assets/6_0_0_conversation_usage_and_cost_tracking_light.png)
 
 Ever wonder how many tokens a conversation has actually burned through? Now you can see it — per conversation, in real time.
 
 Each chat tracks cumulative token usage broken down by **input, output, reasoning, and cache**. **LLM calls and tool calls are both counted**, so you see the true footprint of agentic work — not just the surface chat tokens.
 
-![Token Usage](../assets/6_0_0_conversation_usage_and_cost_tracking_light.png)
-
-*Per-conversation token visibility — input, output, reasoning, and cache — so you know the true cost of agentic work.*
-
-### Why It Matters
+### Why it matters
 
 - **For teams managing API usage** — know which conversations and patterns are actually moving the needle
 - **For BYOK and enterprise deployments** — get clean per-conversation visibility into your own provider's usage
 - **For everyone** — make informed choices about when to reach for a heavy reasoning model vs. a leaner, faster one
 
+It's the visibility layer the agentic era needs.
+
 ---
 
 ## ✨ Edit Summaries with AI — Inline Suggestions & Clean Diff Review
 
+![Edit Summaries with AI](../assets/6_0_0_summary_copilot_experience_light.png)
+
 Your Workstream Summaries just got a powerful upgrade — you can now **edit them with AI, right inline**.
 
 Select any text in a summary and tap "Edit with AI" to get suggested changes presented in a clean diff view. Accept, reject, or refine — all without leaving the summary editor. Want to overhaul the whole thing? You can also ask AI to rework the entire summary with a single prompt.
-
-![Edit Summaries with AI](../assets/6_0_0_summary_copilot_experience_light.png)
-
-*Highlight any text, tap "Edit with AI," and review the suggested changes in a clean diff view.*
 
 ### What's New
 
@@ -274,17 +248,17 @@ Select any text in a summary and tap "Edit with AI" to get suggested changes pre
 3. **Tap "Edit with AI"** — review the suggested changes in a diff view
 4. **Accept or reject** — keep what you like, push back on the rest
 
+Your summaries, polished your way ✨
+
 ---
 
 ## 🔐 Granular Control Over Your Long-Term Memory Data
 
+![LTM Data Management](../assets/6_0_0_ltm_data_management_light.png)
+
 You now have **full, granular control** over the data Pieces captures in your Long-Term Memory.
 
 Clear data by specific time periods — the last hour, today, this week, or a custom range. Filter by *how* it was captured: vision (screenshots), clipboard, or audio. And scope deletions to specific application sources, so you can wipe everything from one app while leaving the rest of your memory intact.
-
-![LTM Data Management](../assets/6_0_0_ltm_data_management_light.png)
-
-*Clear data by time, modality, or application — surgically manage exactly what Pieces remembers.*
 
 ### What's New
 
@@ -301,45 +275,33 @@ Clear data by specific time periods — the last hour, today, this week, or a cu
 4. **Scope to an application** — select a specific app (optional)
 5. **Confirm** — review and confirm the deletion
 
+This gives you confidence in exactly what data Pieces has, and the power to manage it on your terms.
+
 ---
 
 ## 🚫 Proactively Block Apps from Long-Term Memory
+
+![Proactive App Deny List](../assets/6_0_0_proactive_application_deny_list_light.png)
 
 You can now **proactively add applications to the LTM deny list** — even before Pieces has come into contact with them.
 
 Previously, you could only block apps that Pieces had already captured context from. Now you can preemptively block any app on your system, so Pieces never captures data from it in the first place.
 
-This is especially useful for applications that handle sensitive information — password managers, banking apps, healthcare and HR portals, anything you don't want represented in your artificial memory.
-
-![Proactive App Deny List](../assets/6_0_0_proactive_application_deny_list_light.png)
-
-*Block apps before Pieces ever captures context from them — especially useful for sensitive applications.*
-
-### How to Use
-
-1. **Open Settings** — navigate to Long-Term Memory → Application Sources
-2. **Add to deny list** — search for any application on your system
-3. **Block** — Pieces will never capture data from that application
+This is especially useful for applications that handle sensitive information — password managers, banking apps, healthcare and HR portals, anything you don't want represented in your artificial memory. Head to **Settings → Long-Term Memory → Application Sources** to manage your deny list.
 
 ---
 
 ## 🔌 One-Click MCP Setup from Desktop App Settings
 
+![One-Click MCP Setup](../assets/6_0_0_mcp_one_click_setup_light.png)
+
 Setting up the Pieces MCP Server just got dramatically easier. You can now configure MCP for your favorite editor — Cursor, VS Code, Claude Desktop, and more — **directly from the Desktop App settings with a single click**.
 
 No more hand-editing JSON config files. No more hunting for the right server URL. Pick your editor, click connect, and you're done. Pieces handles the rest.
 
-![One-Click MCP Setup](../assets/6_0_0_mcp_one_click_setup_light.png)
+Head to **Settings → MCP** to get started 🔌
 
-*Pick your editor, click connect, done. No more hand-editing JSON config files.*
-
-### How to Use
-
-1. **Open Settings** — navigate to MCP
-2. **Pick your editor** — Cursor, VS Code, Claude Desktop, and more
-3. **Click connect** — Pieces handles the configuration automatically
-
-Want to go deeper on what MCP unlocks? Check out the [MCP Guides Index](../guides/MCP/README.md) for a tour of every supported client and the full LTM tool reference.
+Want to go deeper on what MCP unlocks? Check out the [MCP Guides Index](https://github.com/pieces-app/pro_tips/blob/main/guides/MCP/README.md) in our pro_tips repo for a tour of every supported client and the full LTM tool reference.
 
 ---
 
@@ -374,9 +336,11 @@ If you're upgrading to 6.0.0, here's how to make the most of these new features:
 
 We're just getting started with the agentic era of Pieces. Upcoming releases will continue to build on this foundation:
 
-- **More action-oriented summaries** — Meeting Prep is the first; expect more "Pieces does this for you" capabilities
-- **Deeper calendar awareness** — multi-calendar support and richer attendee context
-- **Even smarter agentic loops** — better tool use, more grounded reasoning, and tighter integration with the wider MCP ecosystem
+- **Cross-Device Real-Time Sync** — Seamless sync across all your devices so your memories, conversations, and settings are always up to date — no matter where you're working
+- **Shared Artificial Memories** — Share your Long-Term Memories with teammates so the context you capture benefits your entire team — collaborative memory for collaborative work
+- **Outlook Calendar Integration** — Bringing the same calendar-aware intelligence to Microsoft Outlook users — Meeting Prep, richer summaries, and schedule-aware context for everyone
+
+Thanks for being part of the Pieces community. We're genuinely pumped about this release — and even more pumped about what comes next.
 
 ---
 
@@ -384,10 +348,8 @@ We're just getting started with the agentic era of Pieces. Upcoming releases wil
 
 - **[Pieces Documentation](https://docs.pieces.app/)** — The official home for guides, references, and how-tos across the entire Pieces platform
 - **[What's New in Pieces 5.1.0](./Whats%20New%20in%20Pieces%205.1.0.md)** — Scheduled Summaries, Modality Focus, BYOK expansion, and the local LLM rebuild
-- **[What's New in Pieces 5.0.3](./Whats%20New%20in%20Pieces%205.0.3.md)** — LTM Audio, Custom Summary Templates, MCP Server expansion
 - **[How to Query LTM in Pieces Copilot](../guides/How%20to%20Query%20LTM%20in%20Pieces%20Copilot.md)** — Master the art of querying your artificial memory
 - **[Pieces MCP and LTM Tools Reference](../guides/MCP/Pieces%20MCP%20and%20LTM%20Tools%20Reference.md)** — Full reference for every MCP tool the Pieces server exposes
-- **[MCP Guides Index](../guides/MCP/README.md)** — Tour of every supported client and the full LTM tool reference
 
 ---
 

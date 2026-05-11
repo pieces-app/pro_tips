@@ -228,11 +228,9 @@ Morning Brief, Day Recap, Standup Update, and Week Recap generate from your capt
 
 The agentic foundation in 6.0.0 unlocks the next wave of capabilities:
 
-- **More action-oriented summaries** — Meeting Prep is the first; expect more "Pieces does this for you" capabilities
-- **Deeper calendar awareness** — multi-calendar support and richer attendee context
-- **Even smarter agentic loops** — better tool use, more grounded reasoning, and tighter integration with the wider MCP ecosystem
-- **Shared Memory (LTM-3)** — Memory slices accessible to teammates; query what colleagues worked on; organizational memory spanning individual users
-- **Enhanced Audio Processing** — Ambient noise filtering, better transcription, speaker identification and voice profiles
+- **Cross-Device Real-Time Sync** — Seamless sync across all your devices so your memories, conversations, and settings are always up to date — no matter where you're working
+- **Shared Artificial Memories** — Share your Long-Term Memories with teammates so the context you capture benefits your entire team — collaborative memory for collaborative work
+- **Outlook Calendar Integration** — Bringing the same calendar-aware intelligence to Microsoft Outlook users — Meeting Prep, richer summaries, and schedule-aware context for everyone
 
 ---
 
