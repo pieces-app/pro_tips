@@ -36,32 +36,32 @@ Four themes run through the full arc:
 
 ## Pieces 6.0.0 — May 2026
 
-**[→ Read the Full Release Notes](./Whats%20New%20in%20Pieces%206.0.0.md)**
+**[→ Read the Full Release Notes](./Whats%20New%20in%20Pieces%206.0.0.md)**  
 **Pieces Desktop:** 6.0.0
 
 The agentic era begins. 6.0.0 replaces the single-shot Q&A engine with a multi-turn reasoning agent, ships the first summary that takes action on your behalf, and gives you deeper control over your data, your models, and your workflow.
 
 ### What you can do now that you couldn't before
 
-**Have real conversations with your memory**
+**Have real conversations with your memory**  
 Agentic Long-Term Memory enables multi-turn reasoning across your summaries, events, people, and beyond. The agent follows threads, cross-references context, and builds toward complete answers — instead of guessing in one shot. A full toolbox (memory search, web search, calendar, filesystem, browser history) lets the agent actively gather evidence during any chat or summary.
 
-**Walk into every meeting prepared — automatically**
+**Walk into every meeting prepared — automatically**  
 Meeting Prep connects to your Google Calendar, looks ahead at upcoming meetings, cross-references each with your Long-Term Memories, and generates structured pre-reads. With your permission, it can schedule prep time on your calendar so the work to get ready is actually on your schedule.
 
-**Let the agent reflect and self-correct**
+**Let the agent reflect and self-correct**  
 Reflection Mode gives the agent metacognition — the ability to step back, evaluate its reasoning, and adjust course in real time. The result is better answers even from leaner models, and deeper insights when you ask Pieces to reflect on weeks, months, or quarters of work.
 
-**Edit summaries with AI, right inline**
+**Edit summaries with AI, right inline**  
 Select any text in a Workstream Summary, tap "Edit with AI," and review suggested changes in a clean diff view. Rework entire summaries with a single prompt — "make this shorter for Slack," "rewrite for an exec audience" — all grounded in the original memories.
 
-**See the true cost of agentic work**
+**See the true cost of agentic work**  
 Per-conversation token usage tracks input, output, reasoning, and cache — including tool calls. BYOK and enterprise deployments get clean visibility into provider usage.
 
-**Surgically manage your LTM data**
+**Surgically manage your LTM data**  
 Clear data by time period, capture modality (vision, clipboard, audio), or specific application — or combine all three. Proactively block apps from capture before Pieces ever encounters them.
 
-**Set up MCP in one click**
+**Set up MCP in one click**  
 Configure the Pieces MCP Server for Cursor, VS Code, Claude Desktop, and more directly from Settings — no JSON editing required.
 
 ### Who benefits most from 6.0.0
@@ -81,23 +81,23 @@ Configure the Pieces MCP Server for Cursor, VS Code, Claude Desktop, and more di
 
 ## Pieces 5.1.0 — March 2026
 
-**[→ Read the Full Release Notes](./Whats%20New%20in%20Pieces%205.1.0.md)**
+**[→ Read the Full Release Notes](./Whats%20New%20in%20Pieces%205.1.0.md)**  
 **Pieces Desktop:** 5.1.0 | **PiecesOS:** 12.3.9
 
 The friction-removal release. 5.1.0 put summaries on autopilot with Scheduled Summaries, added Modality Focus for capture-aware querying, rebuilt the local LLM engine from the ground up (no more Ollama), expanded BYOK to OpenAI, Google AI Studio, and Anthropic, and shipped Claude Opus 4.6 and Gemini 3.1.
 
 ### What you can do now that you couldn't before
 
-**Put summaries on autopilot**
+**Put summaries on autopilot**  
 Schedule any summary to run automatically — daily, weekly, or custom cadence. Morning briefs generate before you open Pieces; weekly recaps arrive every Friday afternoon.
 
-**Query by how you captured it**
+**Query by how you captured it**  
 Modality Focus lets you filter chat prompts by clipboard, audio, or vision — narrowing results to the right capture type when you remember *how* you encountered something but not the exact content.
 
-**Run local models without Ollama**
+**Run local models without Ollama**  
 A completely rebuilt local LLM engine removes the Ollama dependency, with fewer setup issues, better stability, and access to newer models.
 
-**Bring your own API keys**
+**Bring your own API keys**  
 Full BYOK support for OpenAI, Google AI Studio, and Anthropic joins existing AWS Bedrock and Azure support.
 
 ### Who benefits most from 5.1.0
