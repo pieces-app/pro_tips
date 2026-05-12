@@ -17,7 +17,8 @@ Here's what's new.
 
 ## ⚡ Agentic LTM: Powering Agentic Chats & Agentic Summaries
 
-![Agentic LTM](../assets/6_0_0_native_agentic_engine_light.png)
+<video src="https://github.com/user-attachments/assets/68277699-0463-4912-9393-67e614bc28ed" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 **This is the biggest change to Pieces since we launched.**
 
@@ -60,7 +61,8 @@ The shift from "answer the question" to "reason about the question" is what unlo
 
 ## 🪷 Reflection Mode: Metacognition for the Agent
 
-![Reflection Mode](../assets/6_0_0_reflection_mode_metacognition_light.png)
+<video src="https://github.com/user-attachments/assets/1e5cf919-fe1e-4338-8102-9c90fdaf3dc2" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 Reflection Mode is a new toggle that gives the agent **metacognition** — the ability to reflect on its own reasoning and self-correct in real time.
 
@@ -76,7 +78,8 @@ Reflection Mode simply makes the model work harder. If you're seeing responses t
 
 ## 🧩 Redesigned Model Selection & Management
 
-![Model Inventory](../assets/6_0_0_model_inventory_refactoring_light.png)
+<video src="https://github.com/user-attachments/assets/ab94185f-80bc-44c8-80a8-ba6f2700ca65" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 We've completely redesigned how you discover, enable, and switch between AI models in Pieces.
 
@@ -101,7 +104,8 @@ The number of models worth using has exploded over the last year. The old "open 
 
 ## 📆 Google Calendar Integration
 
-![Google Calendar Integration](../assets/6_0_0_google_calendar_integration_light.png)
+<video src="https://github.com/user-attachments/assets/941f52d4-2fa2-4352-b383-2bb786b4d44d" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 Pieces now connects directly to your Google Calendar — and it meaningfully changes how your summaries and the agent understand your day.
 
@@ -129,7 +133,8 @@ A huge chunk of what your day actually *is* lives on your calendar — meetings,
 
 ## 📅 Meeting Prep: AI That Actually Takes Action
 
-![Meeting Prep](../assets/6_0_0_meeting_prep_summary_light.png)
+<video src="https://github.com/user-attachments/assets/91241196-528b-46d9-935f-f8b8b837c34d" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 Meeting Prep is a brand-new single-click summary — and **the first one that takes action on your behalf**.
 
@@ -171,7 +176,8 @@ This is the beginning of Pieces moving from *answering questions about your work
 
 ## 💬 A Refreshed Chat Empty State with Recent Chats Front and Center
 
-![Refreshed Chat Empty State](../assets/6_0_0_updated_copilot_empty_state_light.png)
+<video src="https://github.com/user-attachments/assets/a90a18ca-d038-4972-834c-d7d00adc539c" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 We've refreshed the chat empty state — the screen you see when you start a new chat — to put your **recent conversations front and center**.
 
@@ -181,7 +187,8 @@ Pick up an open thread, jump back into the question you were working on five min
 
 ## ⏭️ Queue Up Your Next Message While the Agent Is Responding
 
-![Queued Messages](../assets/6_0_0_copilot_queued_messages_light.png)
+<video src="https://github.com/user-attachments/assets/69ea43fa-5137-4e3c-9e2d-f18b1b67fd7b" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 Don't wait on the agent to finish — **line up your next thought right now**.
 
@@ -193,7 +200,8 @@ Changed your mind mid-response? Hit the send button on a queued message to **sto
 
 ## 📊 See Token Usage per Conversation
 
-![Token Usage](../assets/6_0_0_conversation_usage_and_cost_tracking_light.png)
+<video src="https://github.com/user-attachments/assets/c85d5aea-d62e-4057-9fa6-88a4c0c93667" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 Ever wonder how many tokens a conversation has actually burned through? Now you can see it — per conversation, in real time.
 
@@ -211,7 +219,8 @@ It's the visibility layer the agentic era needs.
 
 ## ✨ Edit Summaries with AI — Inline Suggestions & Clean Diff Review
 
-![Edit Summaries with AI](../assets/6_0_0_summary_copilot_experience_light.png)
+<video src="https://github.com/user-attachments/assets/7f952ca6-8812-4216-8c99-ade510519b0e" controls="controls" autoplay muted style="max-width: 730px">
+</video>
 
 Your Workstream Summaries just got a powerful upgrade — you can now **edit them with AI, right inline**.
 
