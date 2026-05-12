@@ -21,6 +21,8 @@ Here's what's new.
 Agentic LTM
 </video>
 
+*The agent reasons across multiple turns — following threads, cross-referencing context, and building complete answers from your memory.*
+
 **This is the biggest change to Pieces since we launched.**
 
 **Agentic Long-Term Memory** fundamentally reimagines how Pieces interacts with your artificial memory, enabling both **Agentic Chats** and **Agentic Summaries**. Where prior versions answered a single question with a single look at your memory, the agent now operates across **multiple turns** — pursuing a question step by step, pulling new context as it discovers what's relevant, and building on previous responses instead of trying to one-shot everything.
@@ -66,6 +68,8 @@ The shift from "answer the question" to "reason about the question" is what unlo
 Reflection Mode
 </video>
 
+*Flip on Reflection Mode and the agent self-corrects in real time — deeper reasoning, better answers, even from leaner models.*
+
 Reflection Mode is a new toggle that gives the agent **metacognition** — the ability to reflect on its own reasoning and self-correct in real time.
 
 Instead of charging straight from prompt to answer, the agent steps back at key moments to evaluate what it's doing, question its own assumptions, and adjust course if it's drifting. The result is **harder work, better responses, and more useful answers — even from leaner models** that wouldn't normally hold up under that kind of pressure.
@@ -83,6 +87,8 @@ Reflection Mode simply makes the model work harder. If you're seeing responses t
 <video src="https://github.com/user-attachments/assets/a90a18ca-d038-4972-834c-d7d00adc539c" controls="controls" autoplay muted style="max-width: 730px">
 Model Picker Updates
 </video>
+
+*Browse, compare, and switch models right from chat — no Settings detour required.*
 
 We've completely redesigned how you discover, enable, and switch between AI models in Pieces.
 
@@ -110,6 +116,8 @@ The number of models worth using has exploded over the last year. The old "open 
 <video src="https://github.com/user-attachments/assets/941f52d4-2fa2-4352-b383-2bb786b4d44d" controls="controls" autoplay muted style="max-width: 730px">
 Google Calendar Integration
 </video>
+
+*Connect your calendar in one click and your summaries instantly get richer, more accurate context.*
 
 Pieces now connects directly to your Google Calendar — and it meaningfully changes how your summaries and the agent understand your day.
 
@@ -140,6 +148,8 @@ A huge chunk of what your day actually *is* lives on your calendar — meetings,
 <video src="https://github.com/user-attachments/assets/f3abc832-e7e6-4494-ac28-612e1b8f1b4b" controls="controls" autoplay muted style="max-width: 730px">
 Meeting Prep
 </video>
+
+*One click to a structured pre-read — who's attending, what you've discussed, and what to walk in knowing.*
 
 Meeting Prep is a brand-new single-click summary — and **the first one that takes action on your behalf**.
 
@@ -195,6 +205,8 @@ Pick up an open thread, jump back into the question you were working on five min
 Queued Messages
 </video>
 
+*Type your next thought while the agent is working — it picks up right where you left off.*
+
 Don't wait on the agent to finish — **line up your next thought right now**.
 
 While the agent is generating a response, you can type and queue up the next message to send the moment the current turn wraps up. No more sitting on your hands waiting for the agent to finish working through a long, multi-step task before you can react.
@@ -208,6 +220,8 @@ Changed your mind mid-response? Hit the send button on a queued message to **sto
 <video src="https://github.com/user-attachments/assets/1e5cf919-fe1e-4338-8102-9c90fdaf3dc2" controls="controls" autoplay muted style="max-width: 730px">
 Chat Token Usage
 </video>
+
+*See exactly how many tokens each conversation burns — input, output, reasoning, and cache all broken out.*
 
 Ever wonder how many tokens a conversation has actually burned through? Now you can see it — per conversation, in real time.
 
@@ -270,6 +284,8 @@ Your summaries, polished your way ✨
 Clear LTM Data
 </video>
 
+*Surgically clear your memory by time range, modality, or app — full control over what Pieces captures.*
+
 You now have **full, granular control** over the data Pieces captures in your Long-Term Memory.
 
 Clear data by specific time periods — the last hour, today, this week, or a custom range. Filter by *how* it was captured: vision (screenshots), clipboard, or audio. And scope deletions to specific application sources, so you can wipe everything from one app while leaving the rest of your memory intact.
@@ -310,6 +326,8 @@ This is especially useful for applications that handle sensitive information —
 <video src="https://github.com/user-attachments/assets/91241196-528b-46d9-935f-f8b8b837c34d" controls="controls" autoplay muted style="max-width: 730px">
 MCP Installation
 </video>
+
+*Pick your editor, click connect, done. No more hand-editing JSON config files.*
 
 Setting up the Pieces MCP Server just got dramatically easier. You can now configure MCP for your favorite editor — Cursor, VS Code, Claude Desktop, and more — **directly from the Desktop App settings with a single click**.
 
