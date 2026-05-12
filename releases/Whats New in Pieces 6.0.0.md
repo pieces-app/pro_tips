@@ -18,6 +18,7 @@ Here's what's new.
 ## ⚡ Agentic LTM: Powering Agentic Chats & Agentic Summaries
 
 <video src="https://github.com/user-attachments/assets/68277699-0463-4912-9393-67e614bc28ed" controls="controls" autoplay muted style="max-width: 730px">
+Agentic LTM
 </video>
 
 **This is the biggest change to Pieces since we launched.**
@@ -61,7 +62,8 @@ The shift from "answer the question" to "reason about the question" is what unlo
 
 ## 🪷 Reflection Mode: Metacognition for the Agent
 
-<video src="https://github.com/user-attachments/assets/1e5cf919-fe1e-4338-8102-9c90fdaf3dc2" controls="controls" autoplay muted style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/69ea43fa-5137-4e3c-9e2d-f18b1b67fd7b" controls="controls" autoplay muted style="max-width: 730px">
+Reflection Mode
 </video>
 
 Reflection Mode is a new toggle that gives the agent **metacognition** — the ability to reflect on its own reasoning and self-correct in real time.
@@ -78,7 +80,8 @@ Reflection Mode simply makes the model work harder. If you're seeing responses t
 
 ## 🧩 Redesigned Model Selection & Management
 
-<video src="https://github.com/user-attachments/assets/ab94185f-80bc-44c8-80a8-ba6f2700ca65" controls="controls" autoplay muted style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/a90a18ca-d038-4972-834c-d7d00adc539c" controls="controls" autoplay muted style="max-width: 730px">
+Model Picker Updates
 </video>
 
 We've completely redesigned how you discover, enable, and switch between AI models in Pieces.
@@ -105,6 +108,7 @@ The number of models worth using has exploded over the last year. The old "open 
 ## 📆 Google Calendar Integration
 
 <video src="https://github.com/user-attachments/assets/941f52d4-2fa2-4352-b383-2bb786b4d44d" controls="controls" autoplay muted style="max-width: 730px">
+Google Calendar Integration
 </video>
 
 Pieces now connects directly to your Google Calendar — and it meaningfully changes how your summaries and the agent understand your day.
@@ -133,7 +137,8 @@ A huge chunk of what your day actually *is* lives on your calendar — meetings,
 
 ## 📅 Meeting Prep: AI That Actually Takes Action
 
-<video src="https://github.com/user-attachments/assets/91241196-528b-46d9-935f-f8b8b837c34d" controls="controls" autoplay muted style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/7f952ca6-8812-4216-8c99-ade510519b0e" controls="controls" autoplay muted style="max-width: 730px">
+Meeting Prep
 </video>
 
 Meeting Prep is a brand-new single-click summary — and **the first one that takes action on your behalf**.
@@ -176,8 +181,7 @@ This is the beginning of Pieces moving from *answering questions about your work
 
 ## 💬 A Refreshed Chat Empty State with Recent Chats Front and Center
 
-<video src="https://github.com/user-attachments/assets/a90a18ca-d038-4972-834c-d7d00adc539c" controls="controls" autoplay muted style="max-width: 730px">
-</video>
+![Refreshed Chat Empty State](../assets/6_0_0_updated_copilot_empty_state_light.png)
 
 We've refreshed the chat empty state — the screen you see when you start a new chat — to put your **recent conversations front and center**.
 
@@ -187,7 +191,8 @@ Pick up an open thread, jump back into the question you were working on five min
 
 ## ⏭️ Queue Up Your Next Message While the Agent Is Responding
 
-<video src="https://github.com/user-attachments/assets/69ea43fa-5137-4e3c-9e2d-f18b1b67fd7b" controls="controls" autoplay muted style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/c85d5aea-d62e-4057-9fa6-88a4c0c93667" controls="controls" autoplay muted style="max-width: 730px">
+Queued Messages
 </video>
 
 Don't wait on the agent to finish — **line up your next thought right now**.
@@ -200,7 +205,8 @@ Changed your mind mid-response? Hit the send button on a queued message to **sto
 
 ## 📊 See Token Usage per Conversation
 
-<video src="https://github.com/user-attachments/assets/c85d5aea-d62e-4057-9fa6-88a4c0c93667" controls="controls" autoplay muted style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/1e5cf919-fe1e-4338-8102-9c90fdaf3dc2" controls="controls" autoplay muted style="max-width: 730px">
+Chat Token Usage
 </video>
 
 Ever wonder how many tokens a conversation has actually burned through? Now you can see it — per conversation, in real time.
@@ -219,8 +225,7 @@ It's the visibility layer the agentic era needs.
 
 ## ✨ Edit Summaries with AI — Inline Suggestions & Clean Diff Review
 
-<video src="https://github.com/user-attachments/assets/7f952ca6-8812-4216-8c99-ade510519b0e" controls="controls" autoplay muted style="max-width: 730px">
-</video>
+![Edit Summaries with AI](../assets/6_0_0_summary_copilot_experience_light.png)
 
 Your Workstream Summaries just got a powerful upgrade — you can now **edit them with AI, right inline**.
 
@@ -261,7 +266,9 @@ Your summaries, polished your way ✨
 
 ## 🔐 Granular Control Over Your Long-Term Memory Data
 
-![LTM Data Management](../assets/6_0_0_ltm_data_management_light.png)
+<video src="https://github.com/user-attachments/assets/ab94185f-80bc-44c8-80a8-ba6f2700ca65" controls="controls" autoplay muted style="max-width: 730px">
+Clear LTM Data
+</video>
 
 You now have **full, granular control** over the data Pieces captures in your Long-Term Memory.
 
@@ -300,7 +307,9 @@ This is especially useful for applications that handle sensitive information —
 
 ## 🔌 One-Click MCP Setup from Desktop App Settings
 
-![One-Click MCP Setup](../assets/6_0_0_mcp_one_click_setup_light.png)
+<video src="https://github.com/user-attachments/assets/91241196-528b-46d9-935f-f8b8b837c34d" controls="controls" autoplay muted style="max-width: 730px">
+MCP Installation
+</video>
 
 Setting up the Pieces MCP Server just got dramatically easier. You can now configure MCP for your favorite editor — Cursor, VS Code, Claude Desktop, and more — **directly from the Desktop App settings with a single click**.
 
