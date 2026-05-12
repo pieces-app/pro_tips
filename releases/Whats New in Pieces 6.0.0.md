@@ -137,7 +137,7 @@ A huge chunk of what your day actually *is* lives on your calendar — meetings,
 
 ## 📅 Meeting Prep: AI That Actually Takes Action
 
-<video src="https://github.com/user-attachments/assets/7f952ca6-8812-4216-8c99-ade510519b0e" controls="controls" autoplay muted style="max-width: 730px">
+<video src="https://github.com/user-attachments/assets/f3abc832-e7e6-4494-ac28-612e1b8f1b4b" controls="controls" autoplay muted style="max-width: 730px">
 Meeting Prep
 </video>
 
