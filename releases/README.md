@@ -10,7 +10,7 @@ The 5.x series built the foundation. **5.0.0** introduced a calm, unified UI, sm
 
 **6.0.0 changes the architecture.** Agentic Long-Term Memory replaces the single-shot Q&A engine with a multi-turn reasoning agent that follows threads, cross-references context, and builds toward complete answers. That foundation powers the first summary that takes action — Meeting Prep reads your calendar, assembles structured pre-reads, and can schedule prep time for you. The rest of the release sharpens control: Reflection Mode for metacognitive self-correction, inline AI editing for summaries, granular LTM data management, per-conversation token visibility, and one-click MCP setup.
 
-**6.1.0 grounds that reasoning in better signals.** Summaries now use the files you actually had open and the sites you visited, with clickable citations back to the source. People mentioned in summaries become hoverable persona cards. Managed MCP setup covers Cursor, Claude, Codex, Gemini CLI, GitHub Copilot, and more; Claude Desktop connects without Node.js through a bundled bridge. Parallel summaries, custom pause durations, and lighter capture reduce everyday friction.
+**6.1.0 grounds that reasoning in better signals.** Summaries now use the files you actually had open and the sites you visited, with clickable citations back to the source. People mentioned in summaries become hoverable persona cards. Managed MCP setup covers Cursor, Claude, Codex, Gemini CLI, GitHub Copilot, and more; Claude Desktop connects without Node.js through a bundled bridge. PiecesOS 12.6.0 adds more durable account and organization synchronization, stronger formation and temporal search, and safer MCP recovery. PiecesOS also reads OpenRouter's live listing and applies compatibility and tier-selection rules for Claude, Gemini, GPT, and Grok routes.
 
 Four themes run through the full arc:
 
@@ -26,24 +26,24 @@ Four themes run through the full arc:
 
 ## Release Index
 
-| Version | Released | Headline |
-|---------|----------|----------|
-| [**6.1.0**](#pieces-610--july-29-2026) | July 29, 2026 | Managed MCP Setup, Grounded Summaries, Person Intelligence |
-| [**6.0.0**](#pieces-600--may-2026) | May 2026 | Agentic LTM, Meeting Prep, Reflection Mode, Google Calendar |
-| [**5.1.0**](#pieces-510--march-2026) | March 2026 | Scheduled Summaries, Modality Focus, Local LLM Overhaul, BYOK |
-| [**5.0.3**](#pieces-503--february-2026) | February 2026 | LTM Audio, Custom Templates, Expanded MCP (39 tools) |
-| [**5.0.1**](#pieces-501--january-27-2026) | January 27, 2026 | Time Breakdown, Timeline Search, Model Management |
-| [**5.0.0**](#pieces-500--december-23-2025) | December 23, 2025 | New Home Base, Personalization, Single-Click Summaries |
+| Version | Status / Date | Headline |
+|---------|---------------|----------|
+| [**6.1.0**](#pieces-610--tagged-july-29-2026) | Tagged July 29, 2026; awaiting re-tag | Managed MCP Setup, Grounded Summaries, PiecesOS 12.6.0 |
+| [**6.0.0**](#pieces-600--may-2026) | Released May 2026 | Agentic LTM, Meeting Prep, Reflection Mode, Google Calendar |
+| [**5.1.0**](#pieces-510--march-2026) | Released March 2026 | Scheduled Summaries, Modality Focus, Local LLM Overhaul, BYOK |
+| [**5.0.3**](#pieces-503--february-2026) | Released February 2026 | LTM Audio, Custom Templates, Expanded MCP (39 tools) |
+| [**5.0.1**](#pieces-501--january-27-2026) | Released January 27, 2026 | Time Breakdown, Timeline Search, Model Management |
+| [**5.0.0**](#pieces-500--december-23-2025) | Released December 23, 2025 | New Home Base, Personalization, Single-Click Summaries |
 
 ---
 
-## Pieces 6.1.0 — July 29, 2026
+## Pieces 6.1.0 — Tagged July 29, 2026
 
 **[→ Read the Full Release Notes](./Whats%20New%20in%20Pieces%206.1.0.md)**
 
-**Pieces Desktop:** 6.1.0
+**Status:** Awaiting re-tag before launch | **Pieces Desktop:** 6.1.0 | **PiecesOS:** 12.6.0
 
-The grounding and friction-removal release. 6.1.0 manages MCP setup for popular agents, removes the Node.js prerequisite from Claude Desktop, grounds summaries in real files and browsing activity, turns names into live person references, runs single-click summaries in parallel, and gives capture smarter pause and idle behavior.
+The grounding and friction-removal release. 6.1.0 manages MCP setup for popular agents, removes the Node.js prerequisite from Claude Desktop, grounds summaries in real files and browsing activity, turns names into live person references, runs single-click summaries in parallel, and gives capture smarter pause and idle behavior. PiecesOS 12.6.0 adds durable account and organization streams, two-pass summary formation, temporal recall before roll-up, and restart-safe MCP recovery. Its runtime inventory uses OpenRouter's live listing to choose compatible Claude, Gemini, GPT, and Grok models for the picker tiers.
 
 ### What you can do now that you couldn't before
 
@@ -71,6 +71,14 @@ Pause Long-Term Memory and LTM Audio for minutes, hours, or days. Pieces shows w
 
 Capture stops when the screen is locked and progressively backs off while the machine is idle, alongside lower-cost screen and audio processing.
 
+**Keep account and organization state current**
+
+PiecesOS receives reflected user, organization-membership, subscription, and migration-offer state through authenticated Firestore listeners. Reconnect snapshots and a durable outbox provide ordering, retries, deletion recovery, and reconciliation.
+
+**Use current models with task-specific planning**
+
+PiecesOS reads OpenRouter's live model listing, applies compatibility rules, and selects Claude, Gemini, GPT, and Grok options for Fast, Balanced, and Extra Thinking tiers. RouteAdvisor plans tool use separately under normal operation, while scenario-aware evaluation judges whether memory retrieval found enough evidence.
+
 ### Who benefits most from 6.1.0
 
 | Feature | Who it's for |
@@ -81,6 +89,8 @@ Capture stops when the screen is locked and progressively backs off while the ma
 | Parallel single-click summaries | Anyone generating several recurring reports at once |
 | Custom LTM pause durations | Privacy-conscious users and anyone stepping into confidential work |
 | Idle and lock-aware capture | Laptop users who want lower battery and resource use |
+| Durable account and organization sync | Enterprise deployments that need safer state propagation and reconnect recovery |
+| Live model routes and smarter planning | Anyone using Agentic Chat across different providers and task types |
 
 ---
 

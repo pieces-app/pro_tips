@@ -12,7 +12,7 @@ Think of it like having a perfect memory of everything you've worked on, researc
 
 ### [What's New in Pieces 6.1.0](./releases/Whats%20New%20in%20Pieces%206.1.0.md)
 
-**Released:** July 29, 2026 | **Desktop:** 6.1.0
+**Tagged:** July 29, 2026 | **Status:** Awaiting re-tag before launch | **Desktop:** 6.1.0 | **PiecesOS:** 12.6.0
 
 Grounding summaries in real activity and removing setup friction:
 - 🔗 **Managed MCP Setup** — Connect Cursor, Claude, Codex, Gemini CLI, GitHub Copilot, and more; Claude Desktop no longer needs Node.js or npx
@@ -21,6 +21,8 @@ Grounding summaries in real activity and removing setup friction:
 - 🔀 **Parallel Single-Click Summaries** — Generate several summaries at the same time
 - ⏸️ **Custom LTM Pause Durations** — Pause capture for minutes, hours, or days
 - 🔋 **Lighter Capture** — Lower resource use that stops on lock and backs off while idle
+- 🏗️ **Durable Account & Organization Sync** — Reconnect reconciliation and safer propagation from portal services to clients
+- 🤖 **Live Model Routes** — PiecesOS uses OpenRouter's live listing to select compatible Claude, Gemini, GPT, and Grok options
 
 [Read the full release notes →](./releases/Whats%20New%20in%20Pieces%206.1.0.md)
 

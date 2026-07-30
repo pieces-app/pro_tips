@@ -135,6 +135,82 @@ Less CPU, less memory, longer battery, and less captured noise from moments you 
 
 ---
 
+## 🏗️ More Durable Real-Time Account and Organization Sync
+
+Pieces Desktop 6.1.0 pairs with **PiecesOS 12.6.0**, which introduces a more durable path for account and organization state to move from the User/Team Portal and backend services into running clients.
+
+PiecesOS 12.6.0 now receives reflected user data, organization membership, subscription state, and migration-offer state through authenticated Firestore listeners. Organization reads are scoped to the signed-in user's memberships; other account streams listen to user-specific documents. On reconnect, PiecesOS receives current snapshots and explicitly reconciles organization membership, removing organizations left while the client was offline.
+
+The backend reflection service adds a durable outbox, per-document ordering, retries, deletion recovery, bounded delivery concurrency, and scheduled reconciliation jobs. Separately, User/Team Portal reconnect handling refreshes authentication and refetches organization membership.
+
+### Infrastructure for What Comes Next
+
+This establishes a reusable transport for future account and organization controls. Fleet presence and client-version inventory, scheduled team or organization reports, working-hours administration, and broader policy controls are separate future work and are not included in Pieces Desktop 6.1.0 or PiecesOS 12.6.0.
+
+---
+
+## ⚙️ PiecesOS 12.6.0: Better Formation, Search, and Recovery
+
+### Better-Grounded Summary Formation
+
+Workstream Summary formation now defaults to a two-call multipass pipeline. A fast structured pass produces the title, description, tags, hints, and outline; a second pass writes prose grounded in selected events and validated person and website evidence.
+
+This replaces roughly five sequential model calls with two and adds deterministic validation for links and person references.
+
+### Time-Based Recall Before a Summary Exists
+
+Temporal searches can now find relevant Workstream Events before those events have been folded into a Workstream Summary. Questions such as "what happened between 7 and 8?" no longer depend on the summary roll-up having completed first.
+
+Direct temporal phrases are also parsed more reliably, giving memory search a clearer window before retrieval begins.
+
+### MCP Sessions Recover More Safely
+
+The bundled MCP bridge can launch PiecesOS when it is unavailable, replay the MCP `initialize` handshake after reconnecting to a restarted PiecesOS, and return retryable errors for interrupted calls without replaying potentially side-effecting requests. Windows App Execution Alias handling and Flatpak bridge paths were also hardened.
+
+### Stronger Capture-Time Privacy
+
+For vision capture, website restrictions now prefer the URL captured with the same frame. If that URL is unavailable, Pieces uses focus history from the capture window and fails closed when the matching page is organization-blocked.
+
+---
+
+## 🤖 Live Model Routes and Smarter Agent Planning
+
+Agentic Chat groups the built-in Claude, Gemini, GPT, and Grok options into **Fast**, **Balanced**, and **Extra Thinking** picker tiers. PiecesOS reads OpenRouter's live model listing, enriches it with catalog metadata, and applies compatibility and tier-selection rules. Compatible models can therefore move into these slots without another Desktop release, but the displayed names are runtime selections, not a roster pinned to 6.1.0.
+
+<p>
+  <img src="../assets/6_1_0_model_picker_claude.png" alt="Claude model routes showing Claude Haiku 4.5 for Fast and Claude Sonnet 5 for Balanced and Extra Thinking." width="49%">
+  <img src="../assets/6_1_0_model_picker_gemini.png" alt="Gemini model routes showing Gemini 3.5 Flash Lite for Fast and Gemini 3.6 Flash for Balanced and Extra Thinking." width="49%">
+</p>
+<p>
+  <img src="../assets/6_1_0_model_picker_gpt.png" alt="GPT model routes showing GPT-5.4 nano for Fast, GPT-5.4 mini for Balanced, and GPT-5.2 for Extra Thinking." width="49%">
+  <img src="../assets/6_1_0_model_picker_grok.png" alt="Grok model routes showing Grok 4.5 for Fast, Balanced, and Extra Thinking." width="49%">
+</p>
+
+In the runtime captured for these screenshots, the picker displayed:
+
+| Provider | Fast | Balanced | Extra Thinking |
+|----------|------|----------|----------------|
+| Claude | **Claude Haiku 4.5 (latest)** | **Claude Sonnet 5** | **Claude Sonnet 5** |
+| Gemini | **Gemini 3.5 Flash Lite** | **Gemini 3.6 Flash** | **Gemini 3.6 Flash** |
+| GPT | **GPT-5.4 nano** | **GPT-5.4 mini** | **GPT-5.2** |
+| Grok | **Grok 4.5** | **Grok 4.5** | **Grok 4.5** |
+
+These selections can change as PiecesOS refreshes its cached catalog and as model availability, credentials, validation results, and fallback behavior change. "Live" does not mean OpenRouter assigns the tiers or that every menu open performs a fresh catalog request; Pieces selects each tier from its current runtime inventory.
+
+### Planning Before the First Response
+
+Before the first worker response, RouteAdvisor runs a planning pass that selects and orders a task-specific tool set. PiecesOS normally resolves the planner through the system's accurate-tier model, independently of the conversation model selected in the picker. If that separate lookup fails, the released configuration can fall back to runtime model slots that may carry the selected conversation model.
+
+Core memory, time, persona, and filesystem tools remain pinned into every plan while RouteAdvisor curates the larger catalog. Under a healthy plan, unselected tools are hidden. For recoverable planner failures handled by the configured fallback, Pieces exposes the full registered catalog for one worker completion; unrecoverable dispatch errors can still terminate before the first worker response.
+
+### Scenario-Aware Evaluation for Memory Questions
+
+The agent's evaluation layer now distinguishes temporal recall, entity lookup, contextual topic search, multi-source questions, and questions where a negative answer may be correct. It uses that classification to judge whether the worker retrieved enough evidence without pushing it to fabricate results when memory is genuinely empty.
+
+The model inventory also keeps coding, safety, OCR, embedding, speech, image, video, and other specialized models out of general text-chat slots. OpenRouter empty completions are retried instead of becoming silent blank turns. Separately, pure-LLM calls encountering a deprecated model prefer a same-provider, same-tier replacement before widening to another provider in the same tier.
+
+---
+
 ## Getting Started with 6.1.0
 
 1. **Reconnect Claude Desktop** — head to Settings → MCP and connect it, especially if you gave up on it before
