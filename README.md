@@ -10,6 +10,20 @@ Think of it like having a perfect memory of everything you've worked on, researc
 
 ## 🎉 Latest Release
 
+### [What's New in Pieces 6.1.0](./releases/Whats%20New%20in%20Pieces%206.1.0.md)
+
+**Released:** July 29, 2026 | **Desktop:** 6.1.0
+
+Grounding summaries in real activity and removing setup friction:
+- 🔗 **Claude Desktop MCP without Node.js** — Pieces ships a code-signed stdio bridge and writes the configuration for you
+- 🗂️ **Grounded Summaries** — Real open files and browsing activity, with clickable file citations
+- 👤 **Inline Person Intelligence** — Hover names in summaries for live persona cards and relationship context
+- 🔀 **Parallel Single-Click Summaries** — Generate several summaries at the same time
+- ⏸️ **Custom LTM Pause Durations** — Pause capture for minutes, hours, or days
+- 🔋 **Lighter Capture** — Lower resource use that stops on lock and backs off while idle
+
+[Read the full release notes →](./releases/Whats%20New%20in%20Pieces%206.1.0.md)
+
 ### [What's New in Pieces 6.0.0](./releases/Whats%20New%20in%20Pieces%206.0.0.md)
 
 **Released:** May 2026 | **Desktop:** 6.0.0

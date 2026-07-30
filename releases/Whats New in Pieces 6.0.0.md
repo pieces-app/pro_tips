@@ -393,4 +393,5 @@ We'd love to hear what you think about 6.0.0! Join our community or reach out to
 
 <table width="100%"><tr>
 <td>&nbsp;&nbsp;<a href="./Whats%20New%20in%20Pieces%205.1.0.md">← Previous: What's New in Pieces 5.1.0</a>&nbsp;&nbsp;</td>
+<td align="right">&nbsp;&nbsp;<a href="./Whats%20New%20in%20Pieces%206.1.0.md">Next: What's New in Pieces 6.1.0 →</a>&nbsp;&nbsp;</td>
 </tr></table>
