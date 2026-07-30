@@ -15,7 +15,7 @@ Think of it like having a perfect memory of everything you've worked on, researc
 **Released:** July 29, 2026 | **Desktop:** 6.1.0
 
 Grounding summaries in real activity and removing setup friction:
-- 🔗 **Claude Desktop MCP without Node.js** — Pieces ships a code-signed stdio bridge and writes the configuration for you
+- 🔗 **Managed MCP Setup** — Connect Cursor, Claude, Codex, Gemini CLI, GitHub Copilot, and more; Claude Desktop no longer needs Node.js or npx
 - 🗂️ **Grounded Summaries** — Real open files and browsing activity, with clickable file citations
 - 👤 **Inline Person Intelligence** — Hover names in summaries for live persona cards and relationship context
 - 🔀 **Parallel Single-Click Summaries** — Generate several summaries at the same time

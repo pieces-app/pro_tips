@@ -10,7 +10,7 @@ The 5.x series built the foundation. **5.0.0** introduced a calm, unified UI, sm
 
 **6.0.0 changes the architecture.** Agentic Long-Term Memory replaces the single-shot Q&A engine with a multi-turn reasoning agent that follows threads, cross-references context, and builds toward complete answers. That foundation powers the first summary that takes action — Meeting Prep reads your calendar, assembles structured pre-reads, and can schedule prep time for you. The rest of the release sharpens control: Reflection Mode for metacognitive self-correction, inline AI editing for summaries, granular LTM data management, per-conversation token visibility, and one-click MCP setup.
 
-**6.1.0 grounds that reasoning in better signals.** Summaries now use the files you actually had open and the sites you visited, with clickable citations back to the source. People mentioned in summaries become hoverable persona cards. Claude Desktop connects without Node.js through a bundled, code-signed bridge, while parallel summaries, custom pause durations, and lighter capture reduce everyday friction.
+**6.1.0 grounds that reasoning in better signals.** Summaries now use the files you actually had open and the sites you visited, with clickable citations back to the source. People mentioned in summaries become hoverable persona cards. Managed MCP setup covers Cursor, Claude, Codex, Gemini CLI, GitHub Copilot, and more; Claude Desktop connects without Node.js through a bundled bridge. Parallel summaries, custom pause durations, and lighter capture reduce everyday friction.
 
 Four themes run through the full arc:
 
@@ -28,7 +28,7 @@ Four themes run through the full arc:
 
 | Version | Released | Headline |
 |---------|----------|----------|
-| [**6.1.0**](#pieces-610--july-29-2026) | July 29, 2026 | Bundled Claude Desktop MCP, Grounded Summaries, Person Intelligence |
+| [**6.1.0**](#pieces-610--july-29-2026) | July 29, 2026 | Managed MCP Setup, Grounded Summaries, Person Intelligence |
 | [**6.0.0**](#pieces-600--may-2026) | May 2026 | Agentic LTM, Meeting Prep, Reflection Mode, Google Calendar |
 | [**5.1.0**](#pieces-510--march-2026) | March 2026 | Scheduled Summaries, Modality Focus, Local LLM Overhaul, BYOK |
 | [**5.0.3**](#pieces-503--february-2026) | February 2026 | LTM Audio, Custom Templates, Expanded MCP (39 tools) |
@@ -43,13 +43,13 @@ Four themes run through the full arc:
 
 **Pieces Desktop:** 6.1.0
 
-The grounding and friction-removal release. 6.1.0 connects Claude Desktop without a Node.js prerequisite, grounds summaries in real files and browsing activity, turns names into live person references, runs single-click summaries in parallel, and gives capture smarter pause and idle behavior.
+The grounding and friction-removal release. 6.1.0 manages MCP setup for popular agents, removes the Node.js prerequisite from Claude Desktop, grounds summaries in real files and browsing activity, turns names into live person references, runs single-click summaries in parallel, and gives capture smarter pause and idle behavior.
 
 ### What you can do now that you couldn't before
 
-**Connect Claude Desktop without installing Node.js**
+**Connect the agents you already use**
 
-Pieces now bundles and code-signs the stdio bridge Claude Desktop needs on macOS, Windows, and Linux. Pick Claude Desktop in Settings, click connect, and Pieces writes the configuration for you.
+Pieces manages setup for Cursor, Claude Code, Claude Desktop, GitHub Copilot in VS Code, Codex, Gemini CLI, and Antigravity. Claude Desktop now uses a bundled bridge with no separate Node.js, npx, or `mcp-remote` installation.
 
 **Open the evidence behind a summary**
 
@@ -75,7 +75,7 @@ Capture stops when the screen is locked and progressively backs off while the ma
 
 | Feature | Who it's for |
 |---------|--------------|
-| Bundled Claude Desktop MCP setup | Claude Desktop users, especially anyone blocked by Node.js or npx setup |
+| Managed MCP setup | Users connecting Cursor, Claude, Codex, Gemini CLI, GitHub Copilot, and other supported agents |
 | Grounded file and browsing summaries | Anyone who needs summaries tied to real, openable source material |
 | Inline person intelligence | Teams, managers, sales, and anyone preparing for meetings |
 | Parallel single-click summaries | Anyone generating several recurring reports at once |

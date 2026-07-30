@@ -1,146 +1,147 @@
-# What's New in Pieces 6.1.0
+# What's new in Pieces 6.1.0
 
-**Release Date:** July 29, 2026
+**Release date:** July 29, 2026
 **Pieces Desktop:** 6.1.0
 
-6.0.0 rebuilt how the agent reasons about your memory. 6.1.0 is about what that reasoning is standing on.
+Pieces 6.0.0 changed how the agent reasons across your memory. Pieces 6.1.0 improves the source material behind that reasoning. Summaries now use open-file signals and browser activity, while the people, tags, and anchors they mention appear as live references instead of plain text. This extends the grounding introduced with Google Calendar in 6.0.0 to more of your workstream.
 
-Two themes run through this release. The first is **grounding** — summaries now read the real signals instead of interpreting a noisy picture of your day. The actual files you had open. Your actual browsing activity. The real people you interact with, as live references rather than plain text. It is the same idea behind connecting your calendar in 6.0.0, applied to the rest of your workstream.
-
-The second is **getting out of your way**. Claude Desktop finally connects without a Node.js prerequisite. Single-click summaries run in parallel instead of queuing. You can pause Long-Term Memory for any duration you like. And capture itself got meaningfully lighter, with Pieces backing off when you are not at your desk.
-
-Here is what is new.
+The release also removes several points of friction. Pieces provides managed MCP setup for seven clients shown in Settings, while OpenClaw links to setup documentation. Claude Desktop no longer needs Node.js, npx, or a separate bridge installation. Single-click summaries can run concurrently, Long-Term Memory can pause for a custom duration, and capture uses fewer resources when your computer is idle or locked.
 
 ---
 
-## 🔗 Connect Claude Desktop Without Installing Anything
+## 🔗 MCP setup for the agents you already use
 
-![Claude Desktop MCP Setup](../assets/6_1_0_claude_desktop_mcp_setup_light.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/6_1_0_claude_desktop_mcp_setup_dark.png">
+  <img src="../assets/6_1_0_claude_desktop_mcp_setup_light.png" alt="Pieces MCP settings showing Claude Code, Claude Desktop, and Cursor connected to Pieces.">
+</picture>
 
-Connecting Claude Desktop to Pieces no longer requires installing anything.
+The **Settings → MCP** page is the central place to connect Pieces to the agents you use every day. Pieces 6.1.0 presents eight clients and provides managed setup for seven of them.
 
-Unlike editors that connect over HTTP, Claude Desktop talks to Pieces through a **stdio bridge** — and until now that bridge needed Node.js and npx on your machine, which is exactly where most setups fell apart. Pieces now ships that bridge itself, **code-signed**, on macOS, Windows, and Linux. Pick Claude Desktop, click connect, and Pieces writes the config for you.
+| Client | How Pieces connects it |
+|--------|-------------------------|
+| Claude Code | Managed Streamable HTTP connection, plus a Pieces skill |
+| Claude Desktop | Managed stdio connection through the bundled Pieces MCP bridge |
+| Cursor | Managed Streamable HTTP connection, plus a Pieces rule |
+| GitHub Copilot in VS Code | Managed connection through the VS Code user-profile `mcp.json` |
+| Codex CLI and IDE extension | Managed connection through the shared Codex configuration |
+| Google Gemini CLI | Managed connection through Gemini's settings file |
+| Antigravity | Managed connection through its Gemini configuration directory |
+| OpenClaw | Setup documentation from the MCP catalog |
 
-### What is better
+Available clients appear first. If a client is not installed or cannot be detected, Pieces keeps it in the catalog but hides the connect action until it becomes available.
 
-- **No Node.js or npx prerequisite** — the bridge comes bundled with Pieces
-- A clear prompt when Claude Desktop needs to restart to pick up the change, with a button that does it for you
-- On **Linux**, Pieces now notices Claude Desktop is already running and walks you through quitting first, instead of silently writing a config Claude would immediately overwrite
-- **Snap and Flatpak** installs work — sandboxed bridge paths finally resolve correctly
+### Claude Desktop no longer needs Node.js or npx
 
-### Why it matters
+The MCP catalog and one-click setup arrived in Pieces 6.0.0. In 6.1.0, Claude Desktop's setup no longer depends on Node.js, npx, or `mcp-remote`.
 
-One-click MCP setup shipped in 6.0.0, but Claude Desktop was the client most likely to leave you hand-editing JSON anyway. If it is the one client you could never quite get connected, this is the release that fixes it.
+Claude Desktop is different from HTTP-native clients such as Cursor, Claude Code, Codex, and Gemini CLI. It communicates over stdio, so earlier versions of Pieces relied on Node.js, npx, and `mcp-remote` to bridge Claude Desktop to PiecesOS.
 
-Head to **Settings → MCP** to connect.
+PiecesOS now bundles `pieces-mcp-bridge`, and the desktop app writes the correct Claude Desktop configuration automatically. You no longer need to install Node.js, run npx, install `mcp-remote`, or edit Claude's JSON configuration by hand.
 
----
+The setup also handles the details around the connection:
 
-## 🗂️ Summaries Grounded in the Files and Sites You Actually Used
+- On macOS and Windows, Pieces can tell you when Claude Desktop needs to restart and relaunch it for you.
+- On Linux, where Claude Desktop has no official build, Pieces checks its Electron lock files and, when it appears to be running, guides you through quitting and reopening it manually. Automatic relaunch is not available.
+- PiecesOS installations distributed through Snap or Flatpak resolve the bundled bridge through stable, host-visible paths.
+- The bridge is signed as part of the macOS package and Authenticode-signed for Windows releases.
 
-Your summaries now know **which files you actually had open** and **which sites you actually visited**.
-
-Previously Pieces inferred a lot of this from what happened to be on screen. Now it reads the real signals: the files you had open during the window being summarized — including ones your OS never registered as "recently used" — and your actual browsing activity, instead of guessing from focus events.
-
-### What is new
-
-- Real open-file signals, not focus-event approximations
-- Actual browsing activity feeding summary context
-- **Files cited in a summary are clickable** — jump straight from "here is what you worked on" to the thing you worked on
-
-### Why it matters
-
-It is the same idea behind connecting your calendar: stop interpreting a noisy picture of your day and read from the source instead. The result is summaries that point at real artifacts you can open, not approximations of them.
-
----
-
-## 👤 Hover Anyone in a Summary to See Who They Are
-
-The people in your summaries are now **people you can actually learn about**.
-
-Pieces detects who gets mentioned across your workstream and turns each one into a rich, hoverable reference. Hover any name in a summary and you will get a **persona card** — who they are, how to reach them, their role, and a running picture of how you two actually work together, built from your real interactions over time rather than a static contact record.
-
-Tags and anchors work the same way, so the entities in your summaries are live references instead of plain text.
-
-### When it helps
-
-- A summary mentions someone you have met once and cannot quite place
-- You are walking into a meeting and want context on an attendee without leaving the page
-- You need to recall what you and a teammate last decided together
-
-### Why it matters
-
-6.0.0 improved how well Pieces tells people apart. This release puts that understanding somewhere you can actually use it. The better Pieces understands who is who, the more useful every summary, brief, and chat built on top of that becomes.
+Keep PiecesOS running while you connect Claude Desktop so the desktop app can locate and validate the bundled bridge. Then open **Settings → MCP**, choose **Claude Desktop**, and connect it.
 
 ---
 
-## 🔀 Run Several Single-Click Summaries at Once
+## 🗂️ Ground summaries in open files and browser activity
 
-![Parallel Single-Click Summaries](../assets/6_1_0_parallel_single_click_summaries_light.png)
+Pieces now uses the files open during a summary's time window and your browser activity as source context. Earlier versions inferred much of this from screen captures and focus events.
 
-Single-click summaries no longer wait in line.
+The open-file signal includes files that your operating system never marked as recently used.
 
-You can now run several at once instead of waiting for each one to finish before kicking off the next. Start a **Day Recap**, a **Standup Update**, and a **Meeting Prep** together and let them generate side by side.
+Browser activity now contributes directly to the same summary context. When a summary references a source file, the citation is clickable, so you can move from the summary back to the artifact without searching for it again.
 
-The timeline stays smooth while they work, too — generating rows no longer force the whole list to rebuild, so scrolling and reading stay responsive even with several summaries in flight.
-
----
-
-## ⏸️ Pause Long-Term Memory for Exactly as Long as You Want
-
-![Custom Duration LTM Pause](../assets/6_1_0_custom_duration_ltm_pause_light.png)
-
-Pausing Long-Term Memory is no longer limited to the presets.
-
-You can now pause **LTM-2.7 and LTM Audio for any duration you like** — minutes, hours, or days — and Pieces shows a clear "Paused until" label so you always know exactly when capture picks back up. No more pausing indefinitely and forgetting, or wondering whether you are still paused.
-
-Handy for a confidential call, a stretch of personal browsing, or a few days off.
-
-### Why it matters
-
-This rounds out your memory controls. You could already manage what Pieces has captured and which apps it is allowed to see — now you control exactly **when** it is paying attention.
-
-Available from the user popover, or **Settings → Long-Term Memory**.
+This follows the approach introduced with Google Calendar in 6.0.0. Pieces reads from the underlying source instead of reconstructing the entire activity from visual evidence. The result is a summary tied to the files and sites involved in the work it describes.
 
 ---
 
-## 🔋 Lighter on Your Battery, and Paused When You Step Away
+## 👤 See person context from a summary
 
-Pieces got noticeably lighter on your machine — and it now knows when to stop watching.
+Pieces detects people mentioned across your workstream and makes their names hoverable in summaries. Hovering a name opens a persona card with the person's identity, contact information, role, and an evolving picture of how you work together.
 
-Memory capture went through a real efficiency pass. Change detection runs against a much smaller frame, macOS captures at nominal instead of full Retina resolution, and Windows moved to an **event-driven wait instead of constant polling**. Audio transcription now shares a single model across workers rather than loading a separate copy for each one.
+The relationship context comes from your interactions over time rather than a static contact record. Tags and anchors also appear as live references, so the entities in a summary can carry context of their own.
 
-Just as importantly, capture now pays attention to whether you are actually there. When your **screen is locked**, Pieces stops capturing entirely. When you go **idle**, it backs off progressively instead of sampling at full rate — so an unattended laptop is not burning battery recording a screen nobody is looking at.
+This helps when you need to place someone you met once, review an attendee before a meeting without leaving the page, or return to the last decision you made with a teammate.
 
-Less CPU, less memory, longer battery, and less captured noise from moments you were not even at your desk.
-
----
-
-## Getting Started with 6.1.0
-
-1. **Reconnect Claude Desktop** — head to Settings → MCP and connect it, especially if you gave up on it before
-2. **Generate a Day Recap** — look for the cited files and click straight through to one
-3. **Hover a name** — open any recent summary and hover someone mentioned in it to see their persona card
-4. **Kick off two summaries at once** — start a Standup Update without waiting for your Day Recap to finish
-5. **Try a custom pause** — pause Long-Term Memory for a specific stretch from the user popover and watch for the "Paused until" label
+Pieces 6.0.0 improved how the product distinguishes people. Pieces 6.1.0 exposes that understanding inside summaries, briefs, and chats.
 
 ---
 
-## What is Next
+## 🔀 Run several single-click summaries at once
 
-- **Cross-Device Real-Time Sync** — seamless sync so your memories, conversations, and settings are current wherever you work
-- **Shared Artificial Memories** — share Long-Term Memories with teammates so captured context benefits the whole team
-- **Outlook Calendar Integration** — the same calendar-aware intelligence for Microsoft Outlook users
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/6_1_0_parallel_single_click_summaries_dark.png">
+  <img src="../assets/6_1_0_parallel_single_click_summaries_light.png" alt="Morning Brief, Standup Update, and Meeting Prep generating simultaneously with independent progress bars." width="730">
+</picture>
 
-Thanks for being part of the Pieces community.
+Single-click summaries can now run concurrently. You can start a **Day Recap**, **Standup Update**, and **Meeting Prep** without waiting for each one to finish.
+
+Rows showing generation progress update without rebuilding the entire timeline. Scrolling and reading remain responsive while several summaries are running.
 
 ---
 
-## Learn More
+## ⏸️ Pause Long-Term Memory for a custom duration
 
-- **[Pieces Documentation](https://docs.pieces.app/)** — Guides, references, and how-tos across the entire Pieces platform
-- **[What's New in Pieces 6.0.0](./Whats%20New%20in%20Pieces%206.0.0.md)** — Agentic LTM, Meeting Prep, Google Calendar, and Reflection Mode
-- **[Pieces MCP and LTM Tools Reference](../guides/MCP/Pieces%20MCP%20and%20LTM%20Tools%20Reference.md)** — Full reference for every MCP tool the Pieces server exposes
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/6_1_0_custom_duration_ltm_pause_dark.png">
+  <img src="../assets/6_1_0_custom_duration_ltm_pause_light.png" alt="Pieces dialog for pausing LTM Audio for a custom number of minutes, hours, or days.">
+</picture>
+
+You can now pause **LTM-2.7** and **LTM Audio** for a custom number of minutes, hours, or days instead of choosing only from presets.
+
+Pieces displays a clear "Paused until" label with the time capture will resume. This makes it easier to pause for a confidential call, personal browsing, or time away without leaving capture disabled indefinitely.
+
+The custom duration complements the existing controls for captured data and allowed applications by adding control over when capture runs. Set it from the user popover or **Settings → Long-Term Memory**.
+
+---
+
+## 🔋 Use fewer resources when you step away
+
+Memory capture now performs less work across several parts of the pipeline:
+
+- Change detection runs against a smaller frame.
+- macOS captures at nominal resolution instead of full Retina resolution.
+- Windows uses an event-driven wait instead of constant polling.
+- Audio transcription workers share one model instead of loading a separate copy for each worker.
+
+Capture also responds to whether you are present. It stops when the screen is locked and progressively lowers its sampling rate when the computer is idle.
+
+Together, these changes reduce CPU, memory, and battery use while avoiding capture noise from periods when you are away from the computer.
+
+---
+
+## Try Pieces 6.1.0
+
+1. If Claude Desktop did not connect before, go to **Settings → MCP** and reconnect it.
+2. Connect another agent you use, such as Cursor, Claude Code, Codex, or Gemini CLI.
+3. Generate a **Day Recap**, find a cited file, and open it from the summary.
+4. Open a recent summary and hover a person's name to view the persona card.
+5. Start a **Standup Update** while a **Day Recap** is still running.
+6. Pause Long-Term Memory for a specific duration and confirm the "Paused until" time.
+
+---
+
+## What's next
+
+- Cross-device real-time sync to keep memories, conversations, and settings current across your devices
+- Shared Artificial Memories so teammates can use captured context together
+- Outlook Calendar integration for calendar-aware context from Microsoft Outlook
+
+---
+
+## Learn more
+
+- [Pieces Documentation](https://docs.pieces.app/): Guides, references, and how-tos for the Pieces platform
+- [What's New in Pieces 6.0.0](./Whats%20New%20in%20Pieces%206.0.0.md): Agentic LTM, Meeting Prep, Google Calendar, and Reflection Mode
+- [Pieces MCP and LTM Tools Reference](../guides/MCP/Pieces%20MCP%20and%20LTM%20Tools%20Reference.md): Reference for the tools exposed by the Pieces MCP server
+- [All Pieces release notes](https://github.com/pieces-app/pro_tips/tree/main/releases)
 
 ---
 
